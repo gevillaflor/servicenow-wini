@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">7d9572776930121060a3b22171567211</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">7d957277cd301210244dcf635635410e</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-09-29 12:16:32</sys_created_on>
+        <sys_id>f9957277c0301210ddff33627cd30a0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_f9957277c0301210ddff33627cd30a0d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-29 12:16:32</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

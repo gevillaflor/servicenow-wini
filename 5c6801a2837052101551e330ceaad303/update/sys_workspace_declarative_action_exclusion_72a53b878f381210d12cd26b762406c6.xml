@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE">
+        <action_assignment display_value="open_record">172e2043534310108135ddeeff7b12dd</action_assignment>
+        <exclude_all_child_tables>false</exclude_all_child_tables>
+        <exclude_self>false</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-09-27 09:01:09</sys_created_on>
+        <sys_id>72a53b878f381210d12cd26b762406c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_72a53b878f381210d12cd26b762406c6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-27 09:01:09</sys_updated_on>
+        <table/>
+        <view display_value="2_custom_portal_approval_x_1540355_reserv_0" name="2_custom_portal_approval_x_1540355_reserv_0">c7a57b875038121083bda6adf0f12b1a</view>
+    </sys_workspace_declarative_action_exclusion>
+</record_update>

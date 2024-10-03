@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Order success">a766739869451210f6c7061a8685d00c</macroponent>
+        <name>confirmation_message_1_caption</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Reference Number : ",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    const label = helpers.translateSync("Reference Number : ")
+    return `${label} ${api.state.successNumber}`;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-10-01 06:16:49</sys_created_on>
+        <sys_id>a36673984945121087f8f1ef2d55b80a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>confirmation_message_1_caption</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_client_script_a36673984945121087f8f1ef2d55b80a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:16:49</sys_updated_on>
+        <target/>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

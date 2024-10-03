@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Custom Portal App Config">aea53b87833812101551e330ceaad337</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Test Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>test-page</route_type>
+        <screen_type display_value="Test Page">fd1703fb837012101551e330ceaad395</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 13:32:59</sys_created_on>
+        <sys_id>861787fb837012101551e330ceaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Page</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_app_route_861787fb837012101551e330ceaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-29 13:32:59</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=861787fb837012101551e330ceaad386"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sys_ux_app_route_861787fb837012101551e330ceaad386</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Custom Portal App Config">aea53b87833812101551e330ceaad337</app_config><description/><extension_point/><fields/><icon/><name>Test Page</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>test-page</route_type><screen_type display_value="Test Page">fd1703fb837012101551e330ceaad395</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-29 13:32:59</sys_created_on><sys_id>861787fb837012101551e330ceaad386</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Page</sys_name><sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sys_ux_app_route_861787fb837012101551e330ceaad386</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-29 13:32:59</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=861787fb837012101551e330ceaad386"/></record_update>]]></payload>
+        <payload_hash>1467849595</payload_hash>
+        <record_name>Test Page</record_name>
+        <reverted_from/>
+        <source>146801a2837052101551e330ceaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 13:32:59</sys_created_on>
+        <sys_id>8a1787fb837012101551e330ceaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1923dfc04ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-29 13:32:59</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>8e1787fb917012100aed33ebe2763b87</update_guid>
+        <update_guid_history>8e1787fb917012100aed33ebe2763b87:1467849595</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 13:37:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>60aaa31f95f3461d9f4c770314f5fbe1</sys_id>
+        <sys_metadata>861787fb837012101551e330ceaad386</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Page</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_861787fb837012101551e330ceaad386</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_861787fb837012101551e330ceaad386">8a1787fb837012101551e330ceaad388</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-29 13:37:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_1540355_reserv_0_reservation_system">res_state=null^ORres_state=available^NQres_reservation_dateNOTON{{|bindings|eyJiaW5kaW5nIjp7ImFkZHJlc3MiOlsiZGF0ZSJdLCJjYXRlZ29yeSI6InByb3BzIn0sInR5cGUiOiJDT05URVhUX0JJTkRJTkcifQ==}}</filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 05:43:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>87ee6710834512101551e330ceaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MeetingRoomListFilter</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_filter_87ee6710834512101551e330ceaad357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 05:43:58</sys_updated_on>
+        <table>x_1540355_reserv_0_reservation_system</table>
+        <title>MeetingRoomListFilter</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=87ee6710834512101551e330ceaad357"/>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>POPULAR_ARTICLES</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Popular articles</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-09-27 09:01:08</sys_created_on>
+        <sys_id>83a57b87b338121009dec112ad038919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_event_83a57b87b338121009dec112ad038919</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-27 09:01:08</sys_updated_on>
+    </sys_ux_event>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sys_ux_event_83a57b87b338121009dec112ad038919</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>POPULAR_ARTICLES</event_name><explicit_api_name/><interfaces/><label>Popular articles</label><props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props><required_translations/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-09-27 09:01:08</sys_created_on><sys_id>83a57b87b338121009dec112ad038919</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Popular articles</sys_name><sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sys_ux_event_83a57b87b338121009dec112ad038919</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-09-27 09:01:08</sys_updated_on></sys_ux_event></record_update>]]></payload>
+        <payload_hash>1314371394</payload_hash>
+        <record_name>Popular articles</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 09:04:14</sys_created_on>
+        <sys_id>e9667fc7833812101551e330ceaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19232b93ff00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 09:04:14</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>a9667fc7f13812100c8c199c52bc8c2f</update_guid>
+        <update_guid_history>a9667fc7f13812100c8c199c52bc8c2f:1314371394</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-09-29 13:51:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>21d5c2c2524340388a364430658298e1</sys_id>
+        <sys_metadata>83a57b87b338121009dec112ad038919</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_ux_event_83a57b87b338121009dec112ad038919</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_83a57b87b338121009dec112ad038919">e9667fc7833812101551e330ceaad32f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-29 13:51:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

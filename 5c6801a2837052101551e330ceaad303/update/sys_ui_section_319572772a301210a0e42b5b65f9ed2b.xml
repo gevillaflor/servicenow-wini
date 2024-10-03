@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="319572772a301210a0e42b5b65f9ed2b" sys_domain="global" table="sys_user" version="3" view="3_custom_portal_settings_x_1540355_reserv_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-09-29 12:16:35</sys_created_on>
+            <sys_id>b595727726301210b81858d48232682b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f1957277b830121066c7e621f433292b">319572772a301210a0e42b5b65f9ed2b</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-09-29 12:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-09-29 12:16:35</sys_created_on>
+            <sys_id>799572775c301210bbc1f44598fc532b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f1957277b830121066c7e621f433292b">319572772a301210a0e42b5b65f9ed2b</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-09-29 12:16:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-09-29 12:16:35</sys_created_on>
+            <sys_id>b9957277953012108ebcd72b08710029</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f1957277b830121066c7e621f433292b">319572772a301210a0e42b5b65f9ed2b</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-09-29 12:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-09-29 12:16:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>319572772a301210a0e42b5b65f9ed2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+            <sys_update_name>sys_ui_section_319572772a301210a0e42b5b65f9ed2b</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-09-29 12:16:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="3_custom_portal_settings_x_1540355_reserv_0" name="3_custom_portal_settings_x_1540355_reserv_0">f1957277b830121066c7e621f433292b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

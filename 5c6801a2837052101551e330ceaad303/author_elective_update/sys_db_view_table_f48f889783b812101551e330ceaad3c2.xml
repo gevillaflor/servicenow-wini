@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>200</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 10:54:10</sys_created_on>
+        <sys_id>f48f889783b812101551e330ceaad3c2</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>x_1540355_reserv_0_reservation</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_db_view_table_f48f889783b812101551e330ceaad3c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 11:13:49</sys_updated_on>
+        <table>x_1540355_reserv_0_reservation</table>
+        <variable_prefix>rese</variable_prefix>
+        <view display_value="x_1540355_reserv_0_reservation_system">0d3980df837812101551e330ceaad342</view>
+        <where_clause>mee_number!=rese_meeting_number</where_clause>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sys_db_view_table_f48f889783b812101551e330ceaad3c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>false</left_join><order>200</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 10:54:10</sys_created_on><sys_id>f48f889783b812101551e330ceaad3c2</sys_id><sys_mod_count>17</sys_mod_count><sys_name>x_1540355_reserv_0_reservation</sys_name><sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sys_db_view_table_f48f889783b812101551e330ceaad3c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 11:13:49</sys_updated_on><table>x_1540355_reserv_0_reservation</table><variable_prefix>rese</variable_prefix><view display_value="x_1540355_reserv_0_reservation_system">0d3980df837812101551e330ceaad342</view><where_clause>mee_number!=rese_meeting_number</where_clause></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>2112560007</payload_hash>
+        <record_name>x_1540355_reserv_0_reservation</record_name>
+        <reverted_from/>
+        <source>146801a2837052101551e330ceaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 11:13:49</sys_created_on>
+        <sys_id>f304d85f83b812101551e330ceaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192332fe24e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 11:13:49</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>bb04d85f97b81210abe2a634f11be444</update_guid>
+        <update_guid_history>bb04d85f97b81210abe2a634f11be444:2112560007,63f3985fc4b81210bc9ceb8f7009a80f:-1014349171,cde3945f46b812104f13251158e8c9dc:-1964134114,a5c3545fcdb81210ddb705e83efb51b7:1110340591,1373dc1fdeb8121001a1e582fdf1fc9a:-1964134114,fd335c9bc2b81210abbdcf87b36c01dc:-146720059,2e23581fd6b81210260535167d5aa113:-894293900,8b1310db22b81210619dc4a0617f766f:-1060787914,51e2901f6db81210677f9f539d5b13f8:1110340591,37f1d09b49b81210201176af0953238e:54311384,31e1989b5eb81210b67fdf553c2f5e7c:2063971527,e1c19c5b00b81210b29234c4a171f97c:54311384,7b21985bf8b81210a6e58fa726a9ffac:1146684183,a9c0145b86b812105a2c78709b20ac86:-413352378,36805c1b5db8121064017be0c7004d5b:1146684183,cd70181b22b81210b01952d33d3a285b:-1138622970,5740541b16b812107f34faac9fa6bb4c:1146684183,c89f88d72db81210001338dbaa942701:-1747324388</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 11:14:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>1210873377b34a2e89311bdb94a3a4c4</sys_id>
+        <sys_metadata>f48f889783b812101551e330ceaad3c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540355_reserv_0_reservation</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent display_value="x_1540355_reserv_0_reservation_system">0d3980df837812101551e330ceaad342</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_f48f889783b812101551e330ceaad3c2</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_f48f889783b812101551e330ceaad3c2">f304d85f83b812101551e330ceaad345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 11:14:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

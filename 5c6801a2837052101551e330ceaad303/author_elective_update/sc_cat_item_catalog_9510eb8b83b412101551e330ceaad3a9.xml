@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Reservation System">e62fd74b83b412101551e330ceaad31a</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 07:26:44</sys_created_on>
+        <sys_id>9510eb8b83b412101551e330ceaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Reservation System</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9510eb8b83b412101551e330ceaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 07:26:44</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sc_cat_item_catalog_9510eb8b83b412101551e330ceaad3a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Reservation System">e62fd74b83b412101551e330ceaad31a</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 07:26:44</sys_created_on><sys_id>9510eb8b83b412101551e330ceaad3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Reservation System</sys_name><sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sc_cat_item_catalog_9510eb8b83b412101551e330ceaad3a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 07:26:44</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1315197332</payload_hash>
+        <record_name>Service Catalog.Reservation System</record_name>
+        <reverted_from/>
+        <source>146801a2837052101551e330ceaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 07:26:44</sys_created_on>
+        <sys_id>1d10eb8b83b412101551e330ceaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192325ffd110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 07:26:44</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5d10eb8ba8b41210a959db1859cc8fab</update_guid>
+        <update_guid_history>5d10eb8ba8b41210a959db1859cc8fab:-1315197332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Reservation System">0834bfc3833812101551e330ceaad35d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 08:54:34</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>18456ab0f7ce4a9a84f87c72dbd21244</sys_id>
+        <sys_metadata>9510eb8b83b412101551e330ceaad3a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Reservation System</sys_name>
+        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent display_value="">e62fd74b83b412101551e330ceaad31a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_9510eb8b83b412101551e330ceaad3a9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_9510eb8b83b412101551e330ceaad3a9">1d10eb8b83b412101551e330ceaad3ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 08:54:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
