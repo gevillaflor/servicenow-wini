@@ -41,7 +41,7 @@
         <update_guid_history>69f5ccf8c4011210b26e766c296136b6:401171239</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">bc16803c830112101551e330ceaad303</sys_audit_delete>
+        <sys_audit_delete display_value="Services.Meeting Room Catalog">bc16803c830112101551e330ceaad303</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-02 02:03:37</sys_created_on>

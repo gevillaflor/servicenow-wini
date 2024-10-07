@@ -41,7 +41,7 @@
         <update_guid_history>368cd5bedc3012106adcf81f7042c62e:-107148208</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">7e7e1d32837012101551e330ceaad350</sys_audit_delete>
+        <sys_audit_delete display_value="Service Catalog.Reservation System">7e7e1d32837012101551e330ceaad350</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-26 03:22:01</sys_created_on>

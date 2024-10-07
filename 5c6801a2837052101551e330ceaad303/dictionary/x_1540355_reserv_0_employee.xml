@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="33aa0d26837052101551e330ceaad3ff" label="Employee" max_length="40" name="x_1540355_reserv_0_employee" type="collection">
+        <element label="Surname" max_length="40" name="surname" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Employee ID" max_length="10" name="employee_id" type="string"/>
+        <element label="Dept Manager" max_length="40" name="dept_manager" type="integer"/>
         <element choice="1" label="Gender" max_length="1" name="gender" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Male" sequence="0" value="M"/>
                 <element inactive_on_update="false" label="Female" sequence="1" value="F"/>
             </choice>
         </element>
-        <element label="Department" max_length="40" name="department" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Employee ID" max_length="10" name="employee_id" type="string"/>
         <element label="Forename" max_length="40" name="forename" type="string"/>
         <element label="Manager ID" max_length="40" name="manager_id" type="string"/>
-        <element label="Surname" max_length="40" name="surname" type="string"/>
-        <element label="Dept Manager" max_length="40" name="dept_manager" type="integer"/>
     </element>
 </database>
