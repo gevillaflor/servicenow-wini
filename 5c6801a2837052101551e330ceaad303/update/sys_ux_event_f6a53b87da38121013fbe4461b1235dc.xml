@@ -78,9 +78,9 @@
         <sys_id>f6a53b87da38121013fbe4461b1235dc</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Open or close modal dialog Relay (Landing Page Default)</sys_name>
-        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_event_f6a53b87da38121013fbe4461b1235dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-27 09:04:14</sys_updated_on>

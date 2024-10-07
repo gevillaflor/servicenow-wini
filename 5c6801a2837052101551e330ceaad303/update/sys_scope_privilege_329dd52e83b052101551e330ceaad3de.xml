@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
     <sys_scope_privilege action="INSERT_OR_UPDATE">
         <operation>execute</operation>
-        <source_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</source_scope>
+        <source_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</source_scope>
         <status>allowed</status>
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -9,9 +9,9 @@
         <sys_id>329dd52e83b052101551e330ceaad3de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ResourceSupport</sys_name>
-        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_scope_privilege_329dd52e83b052101551e330ceaad3de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-25 08:39:42</sys_updated_on>

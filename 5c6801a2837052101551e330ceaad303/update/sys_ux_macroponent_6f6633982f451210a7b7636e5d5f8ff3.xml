@@ -172,9 +172,9 @@
         <sys_id>6f6633982f451210a7b7636e5d5f8ff3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Attachment</sys_name>
-        <sys_package display_value="Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_6f6633982f451210a7b7636e5d5f8ff3</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2024-10-01 06:16:51</sys_updated_on>
