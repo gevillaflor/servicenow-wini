@@ -41,7 +41,7 @@
         <update_guid_history>768cd5be3d301210790d7fe30b93a83b:-2092691414</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Reservation System">b27e1d32837012101551e330ceaad38e</sys_audit_delete>
+        <sys_audit_delete display_value="">b27e1d32837012101551e330ceaad38e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-26 03:22:01</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>b68cd5be6630121041bf93d4bbe4b340:841871185</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation System.Any User">877e1d32837012101551e330ceaad39b</sys_audit_delete>
+        <sys_audit_delete display_value="">877e1d32837012101551e330ceaad39b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-26 03:22:01</sys_created_on>
