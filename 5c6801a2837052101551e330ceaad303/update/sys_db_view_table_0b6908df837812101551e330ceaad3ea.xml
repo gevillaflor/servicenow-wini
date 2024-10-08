@@ -17,7 +17,7 @@
         <sys_updated_on>2024-10-01 04:15:23</sys_updated_on>
         <table>x_1540355_reserv_0_meeting_room</table>
         <variable_prefix>mee</variable_prefix>
-        <view display_value="x_1540355_reserv_0_reservation_system">0d3980df837812101551e330ceaad342</view>
+        <view display_value="x_1540355_reserv_0_meeting_room_reservation">0d3980df837812101551e330ceaad342</view>
         <where_clause/>
     </sys_db_view_table>
 </record_update>

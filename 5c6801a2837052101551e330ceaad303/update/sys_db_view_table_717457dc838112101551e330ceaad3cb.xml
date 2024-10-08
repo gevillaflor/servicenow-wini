@@ -17,7 +17,7 @@
         <sys_updated_on>2024-10-02 03:27:45</sys_updated_on>
         <table>x_1540355_reserv_0_reservation_2</table>
         <variable_prefix>rev</variable_prefix>
-        <view display_value="x_1540355_reserv_0_reservation_system">0d3980df837812101551e330ceaad342</view>
+        <view display_value="x_1540355_reserv_0_meeting_room_reservation">0d3980df837812101551e330ceaad342</view>
         <where_clause>rev_meeting_number=mee_sys_id</where_clause>
     </sys_db_view_table>
 </record_update>

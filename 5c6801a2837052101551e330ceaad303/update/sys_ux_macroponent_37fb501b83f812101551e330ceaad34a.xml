@@ -833,7 +833,7 @@
             },
             "isContextMenuHidden": {
                 "type": "JSON_LITERAL",
-                "value": false
+                "value": true
             },
             "isFormOptionsHidden": {
                 "type": "JSON_LITERAL",
@@ -1228,82 +1228,11 @@
     },
     {
         "definition": {
-            "id": "d37ce8abca89d02905fed903c8e34d8e",
+            "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
-        "elementId": "button_1",
-        "elementLabel": "Button 1",
-        "eventMappings": [
-            {
-                "eventMappingId": "clzsrogmbaaaacceehggjjwiiffjgddtsg",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_button.NOW_BUTTON#CLICKED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "clientScript": null,
-                        "conditional": null,
-                        "declarativeAction": null,
-                        "event": null,
-                        "operation": {
-                            "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
-                            "operationName": "CTRL_RECORD#SAVE_FORM",
-                            "parentResourceId": "record",
-                            "payload": {
-                                "type": "JSON_LITERAL",
-                                "value": {}
-                            }
-                        },
-                        "targetId": "cmbbsvggshhoaajmmddjhhupcciffnfgz",
-                        "type": "DATABROKER_OP"
-                    }
-                ]
-            }
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "preset": {
-            "controllerElementId": "record",
-            "disabledEventTargetIds": [
-                
-            ],
-            "id": "2c9b775ba59d59482acacfd67c793517"
-        },
-        "propertyValues": {
-            "configAria": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "disabled": null,
-            "label": {
-                "type": "TRANSLATION_LITERAL",
-                "value": {
-                    "code": null,
-                    "comment": "",
-                    "message": "Submit"
-                }
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "definition": {
-            "id": "afeef20635001010f877265d86f080df",
-            "type": "MACROPONENT"
-        },
-        "elementId": "catalog_item_1",
-        "elementLabel": "Catalog Item 1",
+        "elementId": "container_3",
+        "elementLabel": "Container 3",
         "eventMappings": [
             
         ],
@@ -1311,33 +1240,116 @@
             "type": "JSON_LITERAL",
             "value": null
         },
-        "preset": null,
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d37ce8abca89d02905fed903c8e34d8e",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "button_1",
+                    "elementLabel": "Button 1",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "clzsrogmbaaaacceehggjjwiiffjgddtsg",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": null,
+                                    "operation": {
+                                        "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
+                                        "operationName": "CTRL_RECORD#SAVE_FORM",
+                                        "parentResourceId": "record",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {}
+                                        }
+                                    },
+                                    "targetId": "cmbbsvggshhoaajmmddjhhupcciffnfgz",
+                                    "type": "DATABROKER_OP"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": {
+                        "controllerElementId": "record",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "2c9b775ba59d59482acacfd67c793517"
+                    },
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "disabled": null,
+                        "label": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Submit"
+                            }
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "button_1",
+                            "styles": {
+                                "align-self": "flex-end",
+                                "margin-right": "var(--now-scalable-space--xl)"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "padding-bottom": "var(--now-scalable-space--lg)",
+                        "padding-right": "var(--now-scalable-space--lg)",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
         "propertyValues": {
-            "bare": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "engagementChannel": {
-                "type": "JSON_LITERAL",
-                "value": "seismic"
-            },
-            "headerLevel": {
+            "ariaRegionHeadingLevel": {
                 "type": "JSON_LITERAL",
                 "value": "1"
             },
-            "headingOnlyVisibleToScreenReaders": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "hideOptionsLabel": {
-                "type": "JSON_LITERAL",
-                "value": "false"
-            },
-            "interceptNotifications": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "label": {
+            "ariaRegionName": {
                 "type": "TRANSLATION_LITERAL",
                 "value": {
                     "code": null,
@@ -1345,33 +1357,25 @@
                     "message": ""
                 }
             },
-            "propagateNotifications": {
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
                 "type": "JSON_LITERAL",
                 "value": false
             },
-            "referrer": {
+            "slotWrapperBehavior": {
                 "type": "JSON_LITERAL",
-                "value": "default"
+                "value": "fullheight"
             },
-            "requestedForId": {
+            "type": {
                 "type": "JSON_LITERAL",
-                "value": null
-            },
-            "scrollable": {
-                "type": "JSON_LITERAL",
-                "value": "y"
-            },
-            "showRequestForHeader": {
-                "type": "JSON_LITERAL",
-                "value": "true"
-            },
-            "submitPosition": {
-                "type": "JSON_LITERAL",
-                "value": "right"
-            },
-            "sysId": {
-                "type": "JSON_LITERAL",
-                "value": "f0a30c38830112101551e330ceaad3b7"
+                "value": "section"
             }
         },
         "slot": null,
@@ -1793,11 +1797,7 @@
                 "styles": {}
             },
             {
-                "element_id": "button_1",
-                "styles": {}
-            },
-            {
-                "element_id": "catalog_item_1",
+                "element_id": "container_3",
                 "styles": {}
             }
         ],
@@ -1893,14 +1893,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-27 11:48:30</sys_created_on>
         <sys_id>37fb501b83f812101551e330ceaad34a</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Meeting Room Details page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_37fb501b83f812101551e330ceaad34a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 05:37:40</sys_updated_on>
+        <sys_updated_on>2024-10-08 04:18:56</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=37fb501b83f812101551e330ceaad34a"/>
 </record_update>

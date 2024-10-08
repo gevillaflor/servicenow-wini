@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "2b1c080881e05dc63b917044290b233f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "list___simple_1",
+        "elementLabel": "List - Simple 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "columnPreferenceKey": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "columns": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fixedQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "groupByField": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideColumnFiltering": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnGrouping": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnReorder": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnResizing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnSorting": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDotwalk": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideEmptyStateImage": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHighlightContent": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHighlightedValues": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideInlineEditing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLastRefreshedText": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLinks": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePersonalization": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRefreshButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRowSelector": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTitle": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTitleRowCount": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideViewAll": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "highlightContent": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "color": "",
+                    "patterns": [
+                        
+                    ]
+                }
+            },
+            "highlightedValueConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "listTitle": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "All Active Tasks"
+                }
+            },
+            "maxCharLimit": {
+                "type": "JSON_LITERAL",
+                "value": 4000
+            },
+            "maxColumns": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "nrlLandmark": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "overrideWordWrapUserPref": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": "active=true"
+            },
+            "refreshRequested": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1540355_reserv_0_restaurant"
+            },
+            "wordWrap": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "list___simple_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "padding": "var(--now-scalable-space--xl)",
+            "padding-bottom": "var(--now-scalable-space--xl)",
+            "padding-left": "var(--now-scalable-space--xl)",
+            "padding-right": "var(--now-scalable-space--xl)",
+            "padding-top": "var(--now-scalable-space--xl)"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Restaurant List Page</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 04:15:55</sys_created_on>
+        <sys_id>d5ed93a6834d52101551e330ceaad3c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Restaurant List Page</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_macroponent_d5ed93a6834d52101551e330ceaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 04:16:35</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5ed93a6834d52101551e330ceaad3c0"/>
+</record_update>

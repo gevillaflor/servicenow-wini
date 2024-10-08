@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Reserv 0 reservation system" language="en" table="x_1540355_reserv_0_reservation_system">
+    <sys_documentation element="" label="Reserv 0 vehicles reservation" language="en" table="x_1540355_reserv_0_vehicles_reservation">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Reserv 0 reservation system</label>
+            <label>Reserv 0 vehicles reservation</label>
             <language>en</language>
-            <name>x_1540355_reserv_0_reservation_system</name>
-            <plural>Reserv 0 reservation systems</plural>
+            <name>x_1540355_reserv_0_vehicles_reservation</name>
+            <plural>Reserv 0 vehicles reservations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-27 10:26:35</sys_created_on>
+            <sys_created_on>2024-10-08 03:20:46</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Reserv 0 reservation system</sys_name>
+            <sys_name>Reserv 0 vehicles reservation</sys_name>
             <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
             <sys_policy/>
             <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-            <sys_update_name>sys_documentation_x_1540355_reserv_0_reservation_system__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1540355_reserv_0_vehicles_reservation__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-27 10:26:35</sys_updated_on>
+            <sys_updated_on>2024-10-08 03:20:46</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

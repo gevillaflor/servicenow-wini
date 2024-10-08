@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="x_1540355_reserv_0_reservation_system">mee_building!={{|bindings|eyJ0eXBlIjoiQ09OVEVYVF9CSU5ESU5HIiwiYmluZGluZyI6eyJhZGRyZXNzIjpbImRhdGUiXSwiY2F0ZWdvcnkiOiJwcm9wcyJ9fQ==}}<item endquery="false" field="mee_building" goto="false" newquery="false" operator="!=" or="false" value="{{|bindings|eyJ0eXBlIjoiQ09OVEVYVF9CSU5ESU5HIiwiYmluZGluZyI6eyJhZGRyZXNzIjpbImRhdGUiXSwiY2F0ZWdvcnkiOiJwcm9wcyJ9fQ==}}"/>
-        </filter>
+        <filter table="x_1540355_reserv_0_reservation_system">mee_building!={{|bindings|eyJ0eXBlIjoiQ09OVEVYVF9CSU5ESU5HIiwiYmluZGluZyI6eyJhZGRyZXNzIjpbImRhdGUiXSwiY2F0ZWdvcnkiOiJwcm9wcyJ9fQ==}}</filter>
         <group/>
         <last_used/>
         <mobile>false</mobile>

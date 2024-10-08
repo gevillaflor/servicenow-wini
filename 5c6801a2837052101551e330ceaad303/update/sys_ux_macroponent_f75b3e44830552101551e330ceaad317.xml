@@ -13,7 +13,114 @@
         "elementId": "list_1",
         "elementLabel": "List 1",
         "eventMappings": [
-            
+            {
+                "eventMappingId": "cmbbzwwdcccaadiiyddjhhvggsfrziieee",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1540355_reserv_0.NAV_ITEM_SELECTED_RELAY_f75b3e44830552101551e330ceaad317",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "fields": {
+                                        "container": {
+                                            "date": {
+                                                "binding": {
+                                                    "address": [
+                                                        "date"
+                                                    ],
+                                                    "category": "props"
+                                                },
+                                                "type": "CONTEXT_BINDING"
+                                            },
+                                            "sysId": {
+                                                "binding": {
+                                                    "address": [
+                                                        "sys_id"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            },
+                                            "table": {
+                                                "binding": {
+                                                    "address": [
+                                                        "table"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            },
+                                            "time": {
+                                                "binding": {
+                                                    "address": [
+                                                        "time"
+                                                    ],
+                                                    "category": "props"
+                                                },
+                                                "type": "CONTEXT_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "navigationOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "vehicle-details-page"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "29c713aa830d52101551e330ceaad349"
+                        },
+                        "operation": null,
+                        "targetId": "cmbbzwwdcccaadiizddjhhvemjjreggddff",
+                        "type": "EVENT"
+                    }
+                ]
+            }
         ],
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -328,7 +435,7 @@
             },
             "table": {
                 "type": "JSON_LITERAL",
-                "value": "x_1540355_reserv_0_reservation_system"
+                "value": "x_1540355_reserv_0_vehicles_reservation"
             },
             "tiny": {
                 "type": "JSON_LITERAL",
@@ -352,7 +459,7 @@
     
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>29c713aa830d52101551e330ceaad349</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -372,7 +479,12 @@
         "root": null,
         "rules": null,
         "styles": {
-            "flex-direction": "column"
+            "flex-direction": "column",
+            "padding": "var(--now-scalable-space--lg)",
+            "padding-bottom": "var(--now-scalable-space--lg)",
+            "padding-left": "var(--now-scalable-space--lg)",
+            "padding-right": "var(--now-scalable-space--lg)",
+            "padding-top": "var(--now-scalable-space--lg)"
         },
         "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
         "type": "flex"
@@ -414,7 +526,7 @@
         "fieldType": "string",
         "id": "cmbbpxwddhjjaaggjvddjhhvmszydbbvgg",
         "inherited": false,
-        "label": "date",
+        "label": "Date",
         "mandatory": false,
         "name": "date",
         "readOnly": false,
@@ -427,7 +539,7 @@
         "fieldType": "string",
         "id": "cmbbpxwddhjjaaggjwddjhhvhbbeeddccaaaf",
         "inherited": false,
-        "label": "time",
+        "label": "Time",
         "mandatory": false,
         "name": "time",
         "readOnly": false,
@@ -449,14 +561,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 07:20:16</sys_created_on>
         <sys_id>f75b3e44830552101551e330ceaad317</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Vehicle List Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_f75b3e44830552101551e330ceaad317</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 04:29:43</sys_updated_on>
+        <sys_updated_on>2024-10-08 04:00:19</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=f75b3e44830552101551e330ceaad317"/>
 </record_update>

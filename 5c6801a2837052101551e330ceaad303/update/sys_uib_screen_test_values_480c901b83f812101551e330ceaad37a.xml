@@ -13,32 +13,20 @@
         "table": "x_1540355_reserv_0_reservation_system",
         "view": ""
     },
-    "029f04e053610110ac9bddeeff7b1294": {
-        "activityLogs": "",
-        "detailsContext": "",
-        "fields": "",
-        "forcedViewName": "",
-        "inputExtraParams": "",
-        "inputQuery": "",
-        "inputSysId": "8de39db64094121087de8045c806ff6c",
-        "inputTable": "task",
-        "screen": "",
-        "selectedTabIndex": "",
-        "userPrefs": ""
-    }
+    "029f04e053610110ac9bddeeff7b1294": {}
 }</macroponent_config>
         <screen display_value="Meeting Room Details page">73fb501b83f812101551e330ceaad34d</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-27 11:48:30</sys_created_on>
         <sys_id>480c901b83f812101551e330ceaad37a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_480c901b83f812101551e330ceaad37a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 05:37:40</sys_updated_on>
+        <sys_updated_on>2024-10-08 03:39:58</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

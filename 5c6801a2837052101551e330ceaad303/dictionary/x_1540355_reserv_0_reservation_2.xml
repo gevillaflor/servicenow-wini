@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ab07dc70838112101551e330ceaad312" label="Reservation_2" max_length="40" name="x_1540355_reserv_0_reservation_2" type="collection">
-        <element attributes="encode_utf8=false" label="Meeting Number" max_length="32" name="meeting_number" reference="x_1540355_reserv_0_meeting_room" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Car Model" max_length="40" name="car_model" type="string"/>
-        <element label="Driver’s Contact" max_length="40" name="driver_s_contact" type="phone_number_e164"/>
-        <element attributes="edge_encryption_enabled=true" label="Driver" max_length="40" name="driver" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Transaction ID" max_length="40" name="transaction_id" type="string"/>
-        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="available" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Denied" value="denied"/>
-                <element inactive_on_update="false" label="Pending" value="pending"/>
-                <element inactive_on_update="false" label="Approved" value="approved"/>
-                <element inactive_on_update="false" label="Available" value="available"/>
-            </choice>
-        </element>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Plate No" max_length="40" name="plate_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Car Model" max_length="40" name="car_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transaction ID" max_length="40" name="transaction_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="mtgrm" label="Type of Reservation" max_length="40" name="type_of_reservation" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Accommodation" value="accomm"/>
@@ -25,10 +12,23 @@
                 <element inactive_on_update="false" label="Vehicles" value="vehicle"/>
             </choice>
         </element>
-        <element label="Reservation Time" max_length="40" name="reservation_time" type="glide_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Reservation Date" max_length="40" name="reservation_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Plate No" max_length="40" name="plate_no" type="string"/>
         <element attributes="encode_utf8=false" label="Vehicle Number" max_length="32" name="vehicle_number" reference="x_1540355_reserv_0_vehicles" type="reference"/>
+        <element label="Driver’s Contact" max_length="40" name="driver_s_contact" type="phone_number_e164"/>
+        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="available" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" value="available"/>
+                <element inactive_on_update="false" label="Denied" value="denied"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+            </choice>
+        </element>
+        <element label="Reservation Time" max_length="40" name="reservation_time" type="glide_time"/>
+        <element attributes="encode_utf8=false" label="Meeting Number" max_length="32" name="meeting_number" reference="x_1540355_reserv_0_meeting_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Driver" max_length="40" name="driver" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reservation Date" max_length="40" name="reservation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="meeting_number"/>
         </index>

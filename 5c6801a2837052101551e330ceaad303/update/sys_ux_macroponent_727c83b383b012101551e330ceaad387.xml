@@ -371,28 +371,8 @@
                 ]
             },
             "fixedQuery": {
-                "transform": {
-                    "operands": {
-                        "container": [
-                            {
-                                "type": "JSON_LITERAL",
-                                "value": "rev_reservation_dateNOTON"
-                            },
-                            {
-                                "binding": {
-                                    "address": [
-                                        "time"
-                                    ],
-                                    "category": "props"
-                                },
-                                "type": "CONTEXT_BINDING"
-                            }
-                        ],
-                        "type": "LIST_CONTAINER"
-                    },
-                    "operator": "CONCAT"
-                },
-                "type": "CLIENT_TRANSFORM"
+                "type": "JSON_LITERAL",
+                "value": ""
             },
             "groupByField": {
                 "type": "JSON_LITERAL",
@@ -629,7 +609,7 @@
             },
             "query": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "active=true"
             },
             "recordSelectedQuery": {
                 "type": "JSON_LITERAL",
@@ -663,7 +643,7 @@
             },
             "table": {
                 "type": "JSON_LITERAL",
-                "value": "x_1540355_reserv_0_reservation_system"
+                "value": "x_1540355_reserv_0_meeting_room_reservation"
             },
             "tiny": {
                 "type": "JSON_LITERAL",
@@ -676,372 +656,6 @@
             "wordWrap": {
                 "type": "JSON_LITERAL",
                 "value": false
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "definition": {
-            "id": "d55a7d371eb1cb0b10c4be0e368a6352",
-            "type": "MACROPONENT"
-        },
-        "elementId": "date_time_2",
-        "elementLabel": "Date-Time 2",
-        "eventMappings": [
-            
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "preset": null,
-        "propertyValues": {
-            "autofocus": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "configAria": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "disableWeekends": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "disabled": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "disabledItems": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "firstDayOfWeek": {
-                "type": "JSON_LITERAL",
-                "value": "0"
-            },
-            "footerActions": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "format": {
-                "type": "JSON_LITERAL",
-                "value": "yyyy-MM-dd"
-            },
-            "helperContent": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "hideAdjacentDates": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "hideFooter": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "hideRequiredIndicator": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "initialTime": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "invalid": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "label": {
-                "type": "TRANSLATION_LITERAL",
-                "value": {
-                    "code": null,
-                    "comment": "",
-                    "message": "Select date"
-                }
-            },
-            "messages": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "name": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "opened": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "optional": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "panelFitProps": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "readonly": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "required": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "showDefaultFooterActions": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "size": {
-                "type": "JSON_LITERAL",
-                "value": "md"
-            },
-            "type": {
-                "type": "JSON_LITERAL",
-                "value": "date"
-            },
-            "value": null,
-            "weekdayHeadings": {
-                "type": "JSON_LITERAL",
-                "value": "narrow"
-            },
-            "weekendDays": {
-                "type": "JSON_LITERAL",
-                "value": "[6,0]"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "definition": {
-            "id": "67d8bc45906c355a3100c0782f45487b",
-            "type": "MACROPONENT"
-        },
-        "elementId": "button_bare_2",
-        "elementLabel": "Button bare 2",
-        "eventMappings": [
-            {
-                "eventMappingId": "cmbbsqiijhzaabbhhhhddjhhuccdvcauuhh",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_button.NOW_BUTTON_BARE#CLICKED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_button.NOW_BUTTON_BARE#CLICKED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "clientScript": {
-                            "payload": {
-                                "type": "JSON_LITERAL",
-                                "value": {}
-                            },
-                            "sysId": "6ab95d81830112101551e330ceaad363"
-                        },
-                        "conditional": null,
-                        "declarativeAction": null,
-                        "event": null,
-                        "operation": null,
-                        "targetId": "cmbbsqiijhzaabbhhiiddjhhukohhddfphe",
-                        "type": "CLIENT_SCRIPT"
-                    }
-                ]
-            }
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "propertyValues": {
-            "configAria": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "disabled": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "hideBlockPadding": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "highContrast": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "iconEnd": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "iconStart": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "label": {
-                "type": "TRANSLATION_LITERAL",
-                "value": {
-                    "code": null,
-                    "comment": "",
-                    "message": "Button"
-                }
-            },
-            "showInlinePadding": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "size": {
-                "type": "JSON_LITERAL",
-                "value": "md"
-            },
-            "variant": {
-                "type": "JSON_LITERAL",
-                "value": "primary"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "definition": {
-            "id": "bb0f92e8d7eff1590624bfe69d316f23",
-            "type": "MACROPONENT"
-        },
-        "elementId": "input_1",
-        "elementLabel": "Input 1",
-        "eventMappings": [
-            
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "propertyValues": {
-            "align": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "autofocus": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "configAria": {
-                "type": "JSON_LITERAL",
-                "value": {
-                    "input": {}
-                }
-            },
-            "disabled": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "fieldLayout": {
-                "type": "JSON_LITERAL",
-                "value": {
-                    "layout": "vertical"
-                }
-            },
-            "helperContent": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "hideRequiredIndicator": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "invalid": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "label": {
-                "type": "TRANSLATION_LITERAL",
-                "value": {
-                    "code": null,
-                    "comment": "",
-                    "message": "Label"
-                }
-            },
-            "max": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "maxlength": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "messages": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "min": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "minlength": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "multiple": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "name": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "optional": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "pattern": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "placeholder": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "readonly": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "required": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "size": {
-                "type": "JSON_LITERAL",
-                "value": "md"
-            },
-            "step": {
-                "type": "JSON_LITERAL",
-                "value": "any"
-            },
-            "type": {
-                "type": "JSON_LITERAL",
-                "value": "text"
-            },
-            "value": {
-                "binding": {
-                    "address": [
-                        "date"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
             }
         },
         "slot": null,
@@ -1934,24 +1548,17 @@
             {
                 "element_id": "list_1",
                 "styles": {}
-            },
-            {
-                "element_id": "date_time_2",
-                "styles": {}
-            },
-            {
-                "element_id": "button_bare_2",
-                "styles": {}
-            },
-            {
-                "element_id": "input_1",
-                "styles": {}
             }
         ],
         "root": null,
         "rules": null,
         "styles": {
-            "flex-direction": "column"
+            "flex-direction": "column",
+            "padding": "var(--now-scalable-space--lg)",
+            "padding-bottom": "var(--now-scalable-space--lg)",
+            "padding-left": "var(--now-scalable-space--lg)",
+            "padding-right": "var(--now-scalable-space--lg)",
+            "padding-top": "var(--now-scalable-space--lg)"
         },
         "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
         "type": "flex"
@@ -1990,9 +1597,6 @@
     }
 ]</props>
         <required_translations>[ {
-  "message" : "Button",
-  "comment" : ""
-}, {
   "message" : "Label",
   "comment" : ""
 }, {
@@ -2029,14 +1633,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-29 13:56:31</sys_created_on>
         <sys_id>727c83b383b012101551e330ceaad387</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>65</sys_mod_count>
         <sys_name>Meeting Room List Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_727c83b383b012101551e330ceaad387</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:14:18</sys_updated_on>
+        <sys_updated_on>2024-10-08 03:30:30</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=727c83b383b012101551e330ceaad387"/>
 </record_update>
