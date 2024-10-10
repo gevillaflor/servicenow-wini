@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="af37ffea83091ed0eecd51c6feaad328" extends="sys_import_set_row" label="Vehicles Data Mapping" max_length="40" name="x_1540355_reserv_0_ihub_import_0af6ff2a83091ed0eecd51c6feaad3a2" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Seat Capacity" label="Seat Capacity" max_length="40" name="u_seat_capacity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Car Model" label="Car Model" max_length="40" name="u_car_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Driver's Contact" label="Driver's Contact" max_length="40" name="u_driver_s_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Plate No." label="Plate No." max_length="40" name="u_plate_no_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Driver" label="Driver" max_length="40" name="u_driver" type="string"/>
+    </element>
+</database>

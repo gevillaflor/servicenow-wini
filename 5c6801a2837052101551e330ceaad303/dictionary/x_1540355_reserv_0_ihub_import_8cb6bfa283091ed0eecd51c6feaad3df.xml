@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="deb63fe683091ed0eecd51c6feaad32c" extends="sys_import_set_row" label="Accomodation Data Mapping" max_length="40" name="x_1540355_reserv_0_ihub_import_8cb6bfa283091ed0eecd51c6feaad3df" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hotel Address" label="Hotel Address" max_length="40" name="u_hotel_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hotel Name" label="Hotel Name" max_length="40" name="u_hotel_name" type="string"/>
+    </element>
+</database>

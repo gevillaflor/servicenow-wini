@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="INSERT_OR_UPDATE">
+        <description>Data mapping instance for table Meeting Room</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type/>
+        <internal_name/>
+        <name>Meeting Room Data Mapping</name>
+        <record_id>7128372283491ed0eecd51c6feaad365</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 06:10:37</sys_created_on>
+        <sys_id>f928372283491ed0eecd51c6feaad363</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Meeting Room Data Mapping</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_f928372283491ed0eecd51c6feaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 06:10:37</sys_updated_on>
+    </sn_ihub_integration_instance>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1e48772683491ed0eecd51c6feaad31d" extends="sys_import_set_row" label="Meeting Room Data Mapping" max_length="40" name="x_1540355_reserv_0_ihub_import_f928372283491ed0eecd51c6feaad363" type="collection">
+        <element attributes="import_attribute_name=Floor No." label="Floor No." max_length="40" name="u_floor_no_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Building" label="Building" max_length="40" name="u_building" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Room Name" label="Room Name" max_length="40" name="u_room_name" type="string"/>
+        <element attributes="import_attribute_name=Capacity" label="Capacity" max_length="40" name="u_capacity" type="integer"/>
+    </element>
+</database>
