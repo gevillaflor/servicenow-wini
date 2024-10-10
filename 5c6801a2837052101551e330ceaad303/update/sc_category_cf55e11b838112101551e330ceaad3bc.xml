@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 03:25:07</sys_created_on>
+        <sys_id>cf55e11b838112101551e330ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accommodations</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_category_cf55e11b838112101551e330ceaad3bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 03:25:07</sys_updated_on>
+        <title>Accommodations</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf55e11b838112101551e330ceaad3bc"/>
+</record_update>

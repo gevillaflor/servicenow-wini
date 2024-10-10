@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1540355_reserv_0_reservation</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 07:37:30</sys_created_on>
+        <sys_id>6b5f41ea837052101551e330ceaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540355_reserv_0_reservation</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_security_acl_6b5f41ea837052101551e330ceaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 07:37:30</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sys_security_acl_6b5f41ea837052101551e330ceaad33c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1540355_reserv_0_reservation</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 07:37:30</sys_created_on>
+        <sys_id>6b5f41ea837052101551e330ceaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540355_reserv_0_reservation</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_security_acl_6b5f41ea837052101551e330ceaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 07:37:30</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>1988650296</payload_hash>
+        <record_name>x_1540355_reserv_0_reservation</record_name>
+        <reverted_from/>
+        <source>3840139e830912101551e330ceaad37f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 08:38:23</sys_created_on>
+        <sys_id>ac609b9e830912101551e330ceaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19266212e2a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 08:38:23</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>68609b9e31091210b5d8eb1e548bb9e0</update_guid>
+        <update_guid_history>68609b9e31091210b5d8eb1e548bb9e0:0,b4b5be9aba8512102edd0cb876dbf44b:0,ef5f41ea587052105aade11c88417588:580379708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 03:32:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>68538af57179438aacc4c0e87d061964</sys_id>
+        <sys_metadata>6b5f41ea837052101551e330ceaad33c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540355_reserv_0_reservation</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent display_value="">125fcdaa837052101551e330ceaad3a2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6b5f41ea837052101551e330ceaad33c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6b5f41ea837052101551e330ceaad33c">ac609b9e830912101551e330ceaad3e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 03:32:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

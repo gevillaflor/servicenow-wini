@@ -799,7 +799,7 @@
                                 "elementLabel": "Button 9",
                                 "eventMappings": [
                                     {
-                                        "eventMappingId": "cmbbpzxveffaaiiqoddjhhvxfnfwzqj",
+                                        "eventMappingId": "cmccccsjbbbdaacchhaddjhhufznvtbbxii",
                                         "isConfiguration": false,
                                         "offRowStorageId": null,
                                         "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -817,25 +817,26 @@
                                                 "conditional": null,
                                                 "declarativeAction": null,
                                                 "event": {
-                                                    "apiName": "x_1540355_reserv_0.MODAL_SELECTED_RELAY_43a57b8784381210e07881d06813071a",
+                                                    "apiName": "x_1540355_reserv_0.NAV_ITEM_SELECTED_RELAY_43a57b8784381210e07881d06813071a",
                                                     "payload": {
                                                         "type": "JSON_LITERAL",
                                                         "value": {
-                                                            "bare": true,
-                                                            "displayOptions": null,
-                                                            "headerLabel": null,
-                                                            "modalId": "[component-id$='custom_7']",
-                                                            "showModal": true,
-                                                            "viewportElementId": null,
-                                                            "viewportFields": null,
-                                                            "viewportParams": null,
-                                                            "viewportRoute": null
+                                                            "external": null,
+                                                            "fields": null,
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": "meeting-room-list-page",
+                                                            "targetRoute": null,
+                                                            "title": null
                                                         }
                                                     },
-                                                    "sysId": "f6a53b87da38121013fbe4461b1235dc"
+                                                    "sysId": "7ea53b87123812102684b286490a43df"
                                                 },
                                                 "operation": null,
-                                                "targetId": "cmbbpzxveffaaiiqpddjhhvjjggojyhiim",
+                                                "targetId": "cmccccsjbbbdaacchhbddjhhuheeakkypee",
                                                 "type": "EVENT"
                                             }
                                         ]
@@ -5512,14 +5513,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-09-27 09:01:06</sys_created_on>
         <sys_id>43a57b8784381210e07881d06813071a</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_43a57b8784381210e07881d06813071a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-08 04:17:16</sys_updated_on>
+        <sys_updated_on>2024-10-10 04:29:21</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=43a57b8784381210e07881d06813071a"/>
 </record_update>
