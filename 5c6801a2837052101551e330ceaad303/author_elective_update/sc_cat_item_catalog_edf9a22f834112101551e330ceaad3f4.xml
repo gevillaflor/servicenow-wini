@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 03:02:57</sys_created_on>
         <sys_id>e9f9a22f834112101551e330ceaad3f8</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>2df9a22f9e4112108c102783683c77f7:-345479744</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Imagination">4bdc2eef834112101551e330ceaad392</sys_audit_delete>
+        <sys_audit_delete display_value="">4bdc2eef834112101551e330ceaad392</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 03:15:37</sys_created_on>

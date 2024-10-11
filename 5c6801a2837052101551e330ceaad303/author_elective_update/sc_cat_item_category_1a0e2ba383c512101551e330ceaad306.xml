@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:00:22</sys_created_on>
         <sys_id>920e2ba383c512101551e330ceaad30b</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>d20e2ba3fdc51210a4e47d9e9fc2860a:586138268</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Summit Hall">8a5eafa383c512101551e330ceaad3b1</sys_audit_delete>
+        <sys_audit_delete display_value="">8a5eafa383c512101551e330ceaad3b1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:01:43</sys_created_on>

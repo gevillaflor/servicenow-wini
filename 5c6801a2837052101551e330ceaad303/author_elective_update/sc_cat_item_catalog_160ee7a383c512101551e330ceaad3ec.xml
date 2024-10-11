@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:00:22</sys_created_on>
         <sys_id>120ee7a383c512101551e330ceaad3f0</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>520ee7a38cc51210d4e79b09607a3def:1642450303</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Summit Hall">065eafa383c512101551e330ceaad398</sys_audit_delete>
+        <sys_audit_delete display_value="">065eafa383c512101551e330ceaad398</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:01:43</sys_created_on>

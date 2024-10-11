@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 02:20:44</sys_created_on>
         <sys_id>5b4026ef830112101551e330ceaad382</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>9b4026ef7a011210df60fcbc5ed37581:-1748702337</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Persistence">c3a02eef830112101551e330ceaad3c4</sys_audit_delete>
+        <sys_audit_delete display_value="">c3a02eef830112101551e330ceaad3c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 02:22:21</sys_created_on>

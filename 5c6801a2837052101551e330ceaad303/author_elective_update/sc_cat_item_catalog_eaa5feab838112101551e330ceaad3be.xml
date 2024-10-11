@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 03:54:05</sys_created_on>
         <sys_id>bea5feab838112101551e330ceaad3ce</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>fea5feab74811210de4399fbb51a7ecd:-1493566723</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Intuitive">67f5f6eb838112101551e330ceaad35f</sys_audit_delete>
+        <sys_audit_delete display_value="">67f5f6eb838112101551e330ceaad35f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 03:55:30</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>149aa5df67811210f7e879351e0940ff:-1326274422</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Happiness">c5baa9df838112101551e330ceaad362</sys_audit_delete>
+        <sys_audit_delete display_value="">c5baa9df838112101551e330ceaad362</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 03:48:04</sys_created_on>
