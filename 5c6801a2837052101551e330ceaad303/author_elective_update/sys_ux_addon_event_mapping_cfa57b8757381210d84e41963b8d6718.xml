@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Related items Mapping</name>
+        <parent_macroponent display_value="Catalog Item Page">0ba57b87573812107e01f93e5dd55519</parent_macroponent>
+        <source_component/>
+        <source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 03:04:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cfa57b8757381210d84e41963b8d6718</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related items Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_cfa57b8757381210d84e41963b8d6718</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 03:04:38</sys_updated_on>
+        <target_event display_value="">8fa57b87d7381210979ab9297a21bf19</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "table": {
+            "binding": {
+                "address": [
+                    "table"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sys_ux_addon_event_mapping_cfa57b8757381210d84e41963b8d6718</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>Related items Mapping</name><parent_macroponent display_value="Catalog Item Page">0ba57b87573812107e01f93e5dd55519</parent_macroponent><source_component/><source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da><source_element_id>data_row_1</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-11 03:04:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cfa57b8757381210d84e41963b8d6718</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Related items Mapping</sys_name><sys_overrides/><sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sys_ux_addon_event_mapping_cfa57b8757381210d84e41963b8d6718</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-11 03:04:38</sys_updated_on><target_event display_value="">8fa57b87d7381210979ab9297a21bf19</target_event><target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "table": {
+            "binding": {
+                "address": [
+                    "table"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>-1863117146</payload_hash>
+        <record_name>Related items Mapping</record_name>
+        <reverted_from/>
+        <source>c940515f830112101551e330ceaad315</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 08:16:42</sys_created_on>
+        <sys_id>61c17b6b83c512101551e330ceaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1927aa6c2d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 08:16:42</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>d25aea2f2241121034607d4d205562d8</update_guid>
+        <update_guid_history>d25aea2f2241121034607d4d205562d8:-1863117146,95b037e7efc51210ff4807df7691f1d6:0,d25aea2f2241121034607d4d205562d8:-1863117146,4e5aea2f87411210af0071e1c01c65c6:-414781679,567057de6d0912104c76cca9b7152dd7:0,d67057de5909121048bc60d0c39589d6:-1770127907</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 08:16:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>17b64f14db34470082fd96e06e9f2690</sys_id>
+        <sys_metadata>cfa57b8757381210d84e41963b8d6718</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related items Mapping</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_cfa57b8757381210d84e41963b8d6718</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_cfa57b8757381210d84e41963b8d6718">61c17b6b83c512101551e330ceaad347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 08:16:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

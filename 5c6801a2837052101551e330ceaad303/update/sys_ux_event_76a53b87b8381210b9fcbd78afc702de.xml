@@ -5,21 +5,103 @@
         <explicit_api_name/>
         <interfaces/>
         <label>Nav Item Selected Relay (Catalog Item Page Default)</label>
-        <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"If redirect is true, url will be redirected"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi instance field"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub navigation route "},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props>
-        <required_translations/>
+        <props>[
+    {
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "Route type",
+        "name": "route"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Route fields",
+        "name": "fields"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Optionals parameters",
+        "name": "params"
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "If redirect is true, url will be redirected",
+        "name": "redirect"
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Load in background",
+        "name": "passiveNavigation"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Title",
+        "name": "title"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Multi instance field",
+        "name": "multiInstField"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Sub navigation route ",
+        "name": "targetRoute"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "External URL object",
+        "name": "external"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "External URL object",
+  "comment" : ""
+}, {
+  "message" : "If redirect is true, url will be redirected",
+  "comment" : ""
+}, {
+  "message" : "Load in background",
+  "comment" : ""
+}, {
+  "message" : "Multi instance field",
+  "comment" : ""
+}, {
+  "message" : "Optionals parameters",
+  "comment" : ""
+}, {
+  "message" : "Route fields",
+  "comment" : ""
+}, {
+  "message" : "Route type",
+  "comment" : ""
+}, {
+  "message" : "Sub navigation route ",
+  "comment" : ""
+}, {
+  "message" : "Title",
+  "comment" : ""
+} ]</required_translations>
         <schema_version>1.0.0</schema_version>
         <sys_class_name>sys_ux_event</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-09-27 09:01:05</sys_created_on>
         <sys_id>76a53b87b8381210b9fcbd78afc702de</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Nav Item Selected Relay (Catalog Item Page Default)</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_event_76a53b87b8381210b9fcbd78afc702de</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-09-27 09:01:05</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 03:04:36</sys_updated_on>
     </sys_ux_event>
     <sys_translated_text action="delete_multiple" query="documentkey=76a53b87b8381210b9fcbd78afc702de"/>
 </record_update>

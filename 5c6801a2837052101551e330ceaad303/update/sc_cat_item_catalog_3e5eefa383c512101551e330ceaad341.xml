@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Meeting Room - Summit Hall">210c27ef838512101551e330ceaad358</sc_cat_item>
+        <sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 08:01:45</sys_created_on>
+        <sys_id>3e5eefa383c512101551e330ceaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Catalog.Meeting Room - Summit Hall</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3e5eefa383c512101551e330ceaad341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 08:01:45</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

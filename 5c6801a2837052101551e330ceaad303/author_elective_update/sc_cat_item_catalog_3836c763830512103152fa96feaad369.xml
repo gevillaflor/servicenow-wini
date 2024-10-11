@@ -41,7 +41,7 @@
         <update_guid_history>f836c763ea05121033e0dfde1e8e0d78:2041727007</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Accomodation - Shangri-la Hotel Makati">a096cf63830512103152fa96feaad3f3</sys_audit_delete>
+        <sys_audit_delete display_value="">a096cf63830512103152fa96feaad3f3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 05:07:56</sys_created_on>

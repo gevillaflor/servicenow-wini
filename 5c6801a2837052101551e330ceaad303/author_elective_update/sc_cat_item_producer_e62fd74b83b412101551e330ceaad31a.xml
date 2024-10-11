@@ -173,7 +173,7 @@
         <update_guid_history>0834f307b238121075ec5aa4a049b364:1343442739,c510eb8bfdb41210cb9ee11994798979:2073811860,1810ab8b05b4121087f4da812f92ecd7:-161640426,4410ab8bc3b41210211980b10b8075cd:1652533943,8010ab8bd8b41210b82df9e8dcd187c3:-828258984,c810ab8bb8b412100c12c0e45d5d0db8:985915385,8810ab8bc3b4121058cc83e36567b8a9:-1494877542,1a7f9f4b83b4121040cf6dcb1186dce2:319296827,796f1f4b75b412103f2e837a80c4f2f3:1816812366,6a5fdb4bb8b41210fee599ee7871c3cb:1408729468,b62fd74b93b41210ba8aa0b1f6f62d47:-1131159163,f62fd74baeb412104c095540c50cce34:1639275767</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">c034f307833812101551e330ceaad368</sys_audit_delete>
+        <sys_audit_delete display_value="Reservation System">c034f307833812101551e330ceaad368</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-09-27 08:54:35</sys_created_on>
