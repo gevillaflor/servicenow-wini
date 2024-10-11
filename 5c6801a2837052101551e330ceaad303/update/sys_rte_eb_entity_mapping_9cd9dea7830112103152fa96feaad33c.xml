@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>IHUB_TEMP_TARGET_MAPPING</name>
+        <order>50</order>
+        <source_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_1540355_reserv_0_time_table">80d9dea7830112103152fa96feaad315</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 01:52:24</sys_created_on>
+        <sys_id>9cd9dea7830112103152fa96feaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TEMP_TARGET_MAPPING</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Time Table Data Mapping_etl_ihub">81c95627830112103152fa96feaad337</sys_rte_eb_definition>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_9cd9dea7830112103152fa96feaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 01:52:24</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Target_x_1540355_reserv_0_time_table">d5c99ea7830112103152fa96feaad303</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8ffed5ae83b052101551e330ceaad3e8" label="Vehicles" max_length="40" name="x_1540355_reserv_0_vehicles" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Contact" max_length="40" name="driver_s_contact" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Seat Capacity" max_length="40" name="seat_capacity" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Plate No." max_length="40" name="plate_no" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact" max_length="40" name="driver_s_contact" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Driver" max_length="40" name="driver" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Seat Capacity" max_length="40" name="seat_capacity" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Car Model" max_length="40" name="car_model" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
     </element>
 </database>

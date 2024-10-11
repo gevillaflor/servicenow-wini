@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bcd9dea7830112103152fa96feaad39b" extends="sys_import_set_row" label="Time Table Data Mapping" max_length="40" name="x_1540355_reserv_0_ihub_import_e4c99aa7830112103152fa96feaad327" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type of Reservation" label="Type of Reservation" max_length="40" name="u_type_of_reservation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time" label="Time" max_length="40" name="u_time" type="string"/>
+    </element>
+</database>

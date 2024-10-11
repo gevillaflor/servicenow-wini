@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7b2e651783c112101551e330ceaad36e" label="Time Table" max_length="40" name="x_1540355_reserv_0_time_table" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Time" max_length="40" name="time" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time" max_length="40" name="time" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Type of Reservation" max_length="40" name="type_of_reservation" type="string"/>
     </element>
 </database>

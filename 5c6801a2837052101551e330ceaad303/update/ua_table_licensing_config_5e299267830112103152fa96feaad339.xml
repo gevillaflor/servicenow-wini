@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 04:03:16</sys_created_on>
-        <sys_id>fb2e651783c112101551e330ceaad3be</sys_id>
+        <sys_id>5e299267830112103152fa96feaad339</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1540355_reserv_0_time_table</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-        <sys_update_name>ua_table_licensing_config_fb2e651783c112101551e330ceaad3be</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_5e299267830112103152fa96feaad339</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-10 04:03:16</sys_updated_on>
     </ua_table_licensing_config>

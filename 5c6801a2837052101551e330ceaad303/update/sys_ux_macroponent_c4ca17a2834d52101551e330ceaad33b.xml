@@ -13,7 +13,88 @@
         "elementId": "list___simple_1",
         "elementLabel": "List - Simple 1",
         "eventMappings": [
-            
+            {
+                "eventMappingId": "cmcceeaxjtqaahhniiddjhhugiihhzwgpz",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1540355_reserv_0.NAV_ITEM_SELECTED_RELAY_c4ca17a2834d52101551e330ceaad33b",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "fields": {
+                                        "container": {
+                                            "sysId": {
+                                                "binding": {
+                                                    "address": [
+                                                        "sys_id"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "navigationOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "catalog"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "83478ba3830512103152fa96feaad364"
+                        },
+                        "operation": null,
+                        "targetId": "cmcceeaxjtqaahhnjjddjhhunbbutfcaaf",
+                        "type": "EVENT"
+                    }
+                ]
+            }
         ],
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -27,11 +108,11 @@
             },
             "columns": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "name,short_description"
             },
             "fixedQuery": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "category=cf55e11b838112101551e330ceaad3bc"
             },
             "groupByField": {
                 "type": "JSON_LITERAL",
@@ -164,7 +245,7 @@
             },
             "table": {
                 "type": "JSON_LITERAL",
-                "value": "x_1540355_reserv_0_accomodation"
+                "value": "sc_cat_item"
             },
             "wordWrap": {
                 "type": "JSON_LITERAL",
@@ -180,7 +261,7 @@
     
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>83478ba3830512103152fa96feaad364</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -231,14 +312,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 04:02:10</sys_created_on>
         <sys_id>c4ca17a2834d52101551e330ceaad33b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Accommodation List Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_c4ca17a2834d52101551e330ceaad33b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-08 04:06:42</sys_updated_on>
+        <sys_updated_on>2024-10-11 05:45:03</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=c4ca17a2834d52101551e330ceaad33b"/>
 </record_update>

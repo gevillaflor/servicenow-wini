@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Accomodation - Shangri-la Hotel Makati">2305cbef83c112103152fa96feaad343</sc_cat_item>
+        <sc_category display_value="Accommodations">cf55e11b838112101551e330ceaad3bc</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 05:02:54</sys_created_on>
+        <sys_id>ba65c323830512103152fa96feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accommodations.Accomodation - Shangri-la Hotel Makati</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_cat_item_category_ba65c323830512103152fa96feaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 05:02:54</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>50fd377aebef06d0e483f459bad0cda2</instance_id>
+        <instance_name>dev278689</instance_name>
+        <name>sc_cat_item_category_ba65c323830512103152fa96feaad3d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Accomodation - Shangri-la Hotel Makati">2305cbef83c112103152fa96feaad343</sc_cat_item><sc_category display_value="Accommodations">cf55e11b838112101551e330ceaad3bc</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-11 05:02:54</sys_created_on><sys_id>ba65c323830512103152fa96feaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accommodations.Accomodation - Shangri-la Hotel Makati</sys_name><sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sc_cat_item_category_ba65c323830512103152fa96feaad3d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-11 05:02:54</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-882249406</payload_hash>
+        <record_name>Accommodations.Accomodation - Shangri-la Hotel Makati</record_name>
+        <reverted_from/>
+        <source>dda4d907838512103152fa96feaad302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 05:02:54</sys_created_on>
+        <sys_id>f265c323830512103152fa96feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19279f5561a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 05:02:54</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f265c323b00512108df2dab4dbb7f7d4</update_guid>
+        <update_guid_history>f265c323b00512108df2dab4dbb7f7d4:-882249406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Accommodations.Accomodation - Shangri-la Hotel Makati">deb58b23830512103152fa96feaad3fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 05:04:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>4901603b353c4f16a6d95d91718727f1</sys_id>
+        <sys_metadata>ba65c323830512103152fa96feaad3d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accommodations.Accomodation - Shangri-la Hotel Makati</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_ba65c323830512103152fa96feaad3d0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_ba65c323830512103152fa96feaad3d0">f265c323830512103152fa96feaad3d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 05:04:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
