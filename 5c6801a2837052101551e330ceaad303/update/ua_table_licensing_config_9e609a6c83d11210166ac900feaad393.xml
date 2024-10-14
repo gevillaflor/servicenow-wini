@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_1540355_reserv_0_vehicles</name>
+        <name>x_1540355_reserv_0_ihub_import_e4c99aa7830112103152fa96feaad327</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-25 08:45:43</sys_created_on>
-        <sys_id>52a822d9830112100b92f6d6feaad36b</sys_id>
+        <sys_created_on>2024-10-11 01:52:26</sys_created_on>
+        <sys_id>9e609a6c83d11210166ac900feaad393</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1540355_reserv_0_vehicles</sys_name>
+        <sys_name>x_1540355_reserv_0_ihub_import_e4c99aa7830112103152fa96feaad327</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-        <sys_update_name>ua_table_licensing_config_52a822d9830112100b92f6d6feaad36b</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_9e609a6c83d11210166ac900feaad393</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-25 08:45:43</sys_updated_on>
+        <sys_updated_on>2024-10-11 01:52:26</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

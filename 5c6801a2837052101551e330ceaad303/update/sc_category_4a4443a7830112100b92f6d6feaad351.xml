@@ -16,7 +16,7 @@
         <order>0</order>
         <parent/>
         <roles/>
-        <sc_catalog display_value="Reservation Catalog">00244fa3830112100b92f6d6feaad372</sc_catalog>
+        <sc_catalog display_value="">00244fa3830112100b92f6d6feaad372</sc_catalog>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 04:58:20</sys_created_on>
