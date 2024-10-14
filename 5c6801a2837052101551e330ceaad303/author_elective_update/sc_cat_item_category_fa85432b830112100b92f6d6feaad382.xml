@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>3e59ae59830112100b92f6d6feaad3a2</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 05:03:26</sys_created_on>
         <sys_id>8785432b830112100b92f6d6feaad387</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>c785432bf60112100c4afd7a528b6e86:-209273336</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Vehicles.Vehicle - Toyota Grandia">aa060f2b830112100b92f6d6feaad3a4</sys_audit_delete>
+        <sys_audit_delete display_value="">aa060f2b830112100b92f6d6feaad3a4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 05:05:37</sys_created_on>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">620fb7e6f8b2021008dd9cfea425acb5</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 07:32:58</sys_created_on>
+        <sys_id>19c763af834dd254eecd51c6feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 07:32:58</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

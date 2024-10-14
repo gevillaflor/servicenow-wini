@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="DELETE">
+        <child_id_field/>
+        <name>IHUB_TARGET_TEMP_x_1540355_reserv_0_time_table</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>Temp_x_1540355_reserv_0_time_table</path>
+        <run_business_rules>false</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 08:01:48</sys_created_on>
+        <sys_id>79c4e69783891e14eecd51c6feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_1540355_reserv_0_time_table</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Time Table Data Mapping_etl_ihub">adc4aad383891e14eecd51c6feaad384</sys_rte_eb_definition>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_79c4e69783891e14eecd51c6feaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 08:01:48</sys_updated_on>
+        <table/>
+    </sys_rte_eb_etl_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>16e9e2c41bdeb1d465324089bd4bcb17</instance_id>
+        <instance_name>dev198172</instance_name>
+        <name>sys_rte_eb_etl_entity_79c4e69783891e14eecd51c6feaad35a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity"><sys_rte_eb_etl_entity action="INSERT_OR_UPDATE"><child_id_field/><name>IHUB_TARGET_TEMP_x_1540355_reserv_0_time_table</name><parent_entity/><parent_id_field/><path>Temp_x_1540355_reserv_0_time_table</path><run_business_rules>false</run_business_rules><synchronize_inserts>false</synchronize_inserts><sys_class_name>sys_rte_eb_etl_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-10 08:01:48</sys_created_on><sys_id>79c4e69783891e14eecd51c6feaad35a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IHUB_TARGET_TEMP_x_1540355_reserv_0_time_table</sys_name><sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_rte_eb_definition display_value="Time Table Data Mapping_etl_ihub">adc4aad383891e14eecd51c6feaad384</sys_rte_eb_definition><sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sys_rte_eb_etl_entity_79c4e69783891e14eecd51c6feaad35a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-10 08:01:48</sys_updated_on><table/></sys_rte_eb_etl_entity></record_update>]]></payload>
+        <payload_hash>-595776369</payload_hash>
+        <record_name>IHUB_TARGET_TEMP_x_1540355_reserv_0_time_table</record_name>
+        <reverted_from/>
+        <source>aaed0b268389dad0eecd51c6feaad333</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 08:01:48</sys_created_on>
+        <sys_id>39c4e69783891e14eecd51c6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1927572c27b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 08:01:48</sys_updated_on>
+        <type>ETL Entity</type>
+        <update_guid>f9c4e6973a891e148f8ebdbea04a945c</update_guid>
+        <update_guid_history>f9c4e6973a891e148f8ebdbea04a945c:-595776369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 08:01:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_entity">sys_rte_eb_etl_entity</sys_db_object>
+        <sys_id>1aaac1c3109e46408ccec9cea0880490</sys_id>
+        <sys_metadata>79c4e69783891e14eecd51c6feaad35a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_1540355_reserv_0_time_table</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_entity_79c4e69783891e14eecd51c6feaad35a</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_entity_79c4e69783891e14eecd51c6feaad35a">39c4e69783891e14eecd51c6feaad35d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 08:01:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

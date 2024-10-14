@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>3e59ae59830112100b92f6d6feaad3a2</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:25:29</sys_created_on>
         <sys_id>aac37b67830512100b92f6d6feaad392</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>eac37b6735051210267575ebd20c3591:-86548243</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Vehicle - Nissan Urvan">8624b3a7830512100b92f6d6feaad347</sys_audit_delete>
+        <sys_audit_delete display_value="">8624b3a7830512100b92f6d6feaad347</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:27:05</sys_created_on>

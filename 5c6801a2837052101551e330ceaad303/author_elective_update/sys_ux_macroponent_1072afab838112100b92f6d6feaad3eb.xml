@@ -616,7 +616,7 @@
         <reverted_from/>
         <source>3e59ae59830112100b92f6d6feaad3a2</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:09:43</sys_created_on>
         <sys_id>f8726b6f838112100b92f6d6feaad362</sys_id>
