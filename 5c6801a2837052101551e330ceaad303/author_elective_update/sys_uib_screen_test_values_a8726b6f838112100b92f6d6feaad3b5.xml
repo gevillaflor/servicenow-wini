@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "8de39db64094121087de8045c806ff6c",
+        "inputTable": "task",
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": ""
+    }
+}</macroponent_config>
+        <screen display_value="Vehicle List Page">60726b6f838112100b92f6d6feaad3b1</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 07:09:43</sys_created_on>
+        <sys_id>a8726b6f838112100b92f6d6feaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_a8726b6f838112100b92f6d6feaad3b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 07:09:43</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>b7193899ff8b4a1cc812f8e4fc4fd9c2</instance_id>
+        <instance_name>dev278301</instance_name>
+        <name>sys_uib_screen_test_values_a8726b6f838112100b92f6d6feaad3b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "8de39db64094121087de8045c806ff6c",
+        "inputTable": "task",
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": ""
+    }
+}</macroponent_config><screen display_value="Vehicle List Page">60726b6f838112100b92f6d6feaad3b1</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-11 07:09:43</sys_created_on><sys_id>a8726b6f838112100b92f6d6feaad3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sys_uib_screen_test_values_a8726b6f838112100b92f6d6feaad3b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-11 07:09:43</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-319216119</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3e59ae59830112100b92f6d6feaad3a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 07:09:43</sys_created_on>
+        <sys_id>ac726b6f838112100b92f6d6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1927a696fd00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 07:09:43</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>60726b6f41811210eb4284131593c3b7</update_guid>
+        <update_guid_history>60726b6f41811210eb4284131593c3b7:-319216119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 07:11:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>2223640e0d554d8ca2e890bf2c140a04</sys_id>
+        <sys_metadata>a8726b6f838112100b92f6d6feaad3b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_a8726b6f838112100b92f6d6feaad3b5</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_a8726b6f838112100b92f6d6feaad3b5">ac726b6f838112100b92f6d6feaad3b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 07:11:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
