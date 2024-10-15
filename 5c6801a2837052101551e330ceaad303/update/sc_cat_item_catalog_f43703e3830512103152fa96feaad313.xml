@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Accomodation - Shangri-la Hotel Makati">2305cbef83c112103152fa96feaad343</sc_cat_item>
-        <sc_catalog display_value="">11d465d7838112101551e330ceaad346</sc_catalog>
+        <sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 05:10:41</sys_created_on>

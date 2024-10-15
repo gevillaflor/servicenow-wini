@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ab07dc70838112101551e330ceaad312" label="Reservation" max_length="40" name="x_1540355_reserv_0_reservation_2" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Reservation Date" max_length="40" name="reservation_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Plate No" max_length="40" name="plate_no" type="string"/>
-        <element attributes="encode_utf8=false" label="Vehicle Number" max_length="32" name="vehicle_number" reference="x_1540355_reserv_0_vehicles" type="reference"/>
-        <element label="Reservation Time" max_length="40" name="reservation_time" type="glide_time"/>
         <element label="Accommodation Number" max_length="32" name="accommodation_number" reference="x_1540355_reserv_0_accomodation" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Restaurant Number" max_length="32" name="restaurant_number" reference="x_1540355_reserv_0_restaurant" type="reference"/>
         <element label="Request For" max_length="32" name="request_for" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" label="Meeting Number" max_length="32" name="meeting_number" reference="x_1540355_reserv_0_meeting_room" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Plate No" max_length="40" name="plate_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Car Model" max_length="40" name="car_model" type="string"/>
-        <element label="Driver’s Contact" max_length="40" name="driver_s_contact" type="phone_number_e164"/>
-        <element label="Restaurant Number" max_length="40" name="restaurant_number" type="string"/>
-        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Driver" max_length="40" name="driver" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Transaction ID" max_length="40" name="transaction_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Type of Reservation" max_length="40" name="type_of_reservation" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Vehicles" sequence="3" value="vehicle"/>
-                <element inactive_on_update="false" label="Meeting Room" sequence="1" value="mtgrm"/>
                 <element inactive_on_update="false" label="Restaurant" sequence="2" value="resto"/>
+                <element inactive_on_update="false" label="Meeting Room" sequence="1" value="mtgrm"/>
                 <element inactive_on_update="false" label="Accommodation" sequence="0" value="accomm"/>
+                <element inactive_on_update="false" label="Vehicles" sequence="3" value="vehicle"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Vehicle Number" max_length="32" name="vehicle_number" reference="x_1540355_reserv_0_vehicles" type="reference"/>
+        <element label="Driver’s Contact" max_length="40" name="driver_s_contact" type="phone_number_e164"/>
+        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>
                 <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
                 <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
                 <element inactive_on_update="false" label="Pending" sequence="3" value="pending"/>
+                <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>
             </choice>
         </element>
+        <element label="Reservation Time" max_length="40" name="reservation_time" type="string"/>
+        <element attributes="encode_utf8=false" label="Meeting Number" max_length="32" name="meeting_number" reference="x_1540355_reserv_0_meeting_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Driver" max_length="40" name="driver" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reservation Date" max_length="40" name="reservation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
-            <element name="request_for"/>
+            <element name="accommodation_number"/>
         </index>
         <index name="index2">
             <element name="meeting_number"/>
         </index>
         <index name="index3">
-            <element name="vehicle_number"/>
+            <element name="request_for"/>
         </index>
         <index name="index4">
             <element name="restaurant_number"/>
         </index>
         <index name="index5">
-            <element name="accommodation_number"/>
+            <element name="vehicle_number"/>
         </index>
     </element>
 </database>
