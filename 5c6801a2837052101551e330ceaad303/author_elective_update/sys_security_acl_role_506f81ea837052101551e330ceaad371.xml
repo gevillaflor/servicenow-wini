@@ -58,7 +58,7 @@
         <update_guid_history>26609f9ed50912108c9f56c5734bd587:0,506f81ea0570521055047df71cd59473:901674877</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1540355_reserv_0_reservation.x_1540355_reserv_0.user">be17699b838112101551e330ceaad3ce</sys_audit_delete>
+        <sys_audit_delete display_value="">be17699b838112101551e330ceaad3ce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 03:32:21</sys_created_on>

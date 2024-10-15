@@ -41,7 +41,7 @@
         <update_guid_history>846aa1df788112100bc4c0b1e3ebe817:2026718915</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Happiness">dc9aa5df838112101551e330ceaad3e4</sys_audit_delete>
+        <sys_audit_delete display_value="">dc9aa5df838112101551e330ceaad3e4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 03:47:28</sys_created_on>
