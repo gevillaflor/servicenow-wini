@@ -41,7 +41,7 @@
         <update_guid_history>ca05cba7830112109145f387eeac92d8:-72488431,7e70fd64ca111210c28494a0ccf20dc4:-322916859,ca05cba7830112109145f387eeac92d8:-72488431</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Vehicle - Mitsubishi L300">53c6c624839112100b92f6d6feaad3fa</sys_audit_delete>
+        <sys_audit_delete display_value="">53c6c624839112100b92f6d6feaad3fa</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 03:03:15</sys_created_on>

@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>3e59ae59830112100b92f6d6feaad3a2</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 06:10:11</sys_created_on>
         <sys_id>e59132e8835512100b92f6d6feaad3a1</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>299132e8b8551210f94dd5258f2083a0:-448729988</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Vehicles.Vehicle - Mitsubishi L300">ebb136e8835512100b92f6d6feaad37f</sys_audit_delete>
+        <sys_audit_delete display_value="">ebb136e8835512100b92f6d6feaad37f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 06:10:52</sys_created_on>

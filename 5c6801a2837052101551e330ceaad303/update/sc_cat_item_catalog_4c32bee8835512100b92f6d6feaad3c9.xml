@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Vehicle - Mitsubishi L300">2636aae8831512100b92f6d6feaad3a0</sc_cat_item>
-        <sc_catalog display_value="Reservation Catalog">00244fa3830112100b92f6d6feaad372</sc_catalog>
+        <sc_catalog display_value="">00244fa3830112100b92f6d6feaad372</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 06:12:49</sys_created_on>

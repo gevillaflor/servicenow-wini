@@ -41,7 +41,7 @@
         <update_guid_history>30c4cba703011210c506e6e563c5421f:-1471990739,837031a4c81112100e24397a6a669b00:2145713953,30c4cba703011210c506e6e563c5421f:-1471990739</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Vehicle - Hyundai H100">f7d6c624839112100b92f6d6feaad3dd</sys_audit_delete>
+        <sys_audit_delete display_value="">f7d6c624839112100b92f6d6feaad3dd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 03:03:33</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>81e443e7530112105ef8383f00c33eb0:-431691468,ff7071a4a41112101bbf57d0d0cbf8d8:828381736,81e443e7530112105ef8383f00c33eb0:-431691468</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Vehicle - Toyota Grandia">8572fd68831112100b92f6d6feaad365</sys_audit_delete>
+        <sys_audit_delete display_value="">8572fd68831112100b92f6d6feaad365</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 01:34:20</sys_created_on>
