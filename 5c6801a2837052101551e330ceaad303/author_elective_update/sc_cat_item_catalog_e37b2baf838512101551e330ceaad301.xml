@@ -41,7 +41,7 @@
         <update_guid_history>237b2baf6d851210036b7f7a944fa204:885872286</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">118b6baf838512101551e330ceaad33b</sys_audit_delete>
+        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Productivity">118b6baf838512101551e330ceaad33b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:49:22</sys_created_on>

@@ -66,7 +66,7 @@
         <update_guid_history>896f95ee1cb05210161bc46ff68d5ca6:1989121203</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">158f99ee83b052101551e330ceaad360</sys_audit_delete>
+        <sys_audit_delete display_value="Reserv 0 1727254047665">158f99ee83b052101551e330ceaad360</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-25 08:48:03</sys_created_on>

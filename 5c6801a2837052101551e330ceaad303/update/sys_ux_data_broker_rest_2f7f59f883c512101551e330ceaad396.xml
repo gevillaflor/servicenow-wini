@@ -2,7 +2,6 @@
     <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
         <api_name>x_1540355_reserv_0.test data broker</api_name>
         <api_url/>
-        <batch_exclude>false</batch_exclude>
         <description/>
         <http_method>GET</http_method>
         <mutates_server_data>false</mutates_server_data>

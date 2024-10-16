@@ -27,7 +27,7 @@
             },
             "columns": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "rese_number,rese_type_of_reservation,rese_description,rese_reservation_date,rese_reservation_time,rese_sys_created_on,rese_sys_created_by"
             },
             "fixedQuery": {
                 "transform": {
@@ -201,12 +201,10 @@
     
 ]</data>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <form_factors/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -249,7 +247,6 @@
         <root_component_config/>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_persistence_config/>
         <state_properties>[
     {
         "initialValue": {
@@ -271,14 +268,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 05:17:52</sys_created_on>
         <sys_id>1b95a2e883d112101551e330ceaad34b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Reservation List Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_1b95a2e883d112101551e330ceaad34b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 08:47:06</sys_updated_on>
+        <sys_updated_on>2024-10-16 08:07:03</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1b95a2e883d112101551e330ceaad34b"/>
 </record_update>

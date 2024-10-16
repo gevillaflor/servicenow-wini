@@ -45,7 +45,7 @@
         <reverted_from/>
         <source>a9756049971912104e68321ad053af9b</source>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-15 09:15:09</sys_created_on>
         <sys_id>01856449971912104e68321ad053af77</sys_id>
@@ -58,7 +58,7 @@
         <update_guid_history>0d856449df191210255ee567eedb7d76:0,4d2bc005e39512102ef9279c82d83b49:1905978193</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Vehicle - Hyundai H100">7c70249983511210f19096d6feaad391</sys_audit_delete>
+        <sys_audit_delete display_value="">7c70249983511210f19096d6feaad391</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 03:31:30</sys_created_on>

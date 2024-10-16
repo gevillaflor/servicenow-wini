@@ -45,7 +45,7 @@
         <reverted_from/>
         <source>680b44c1979512104e68321ad053af32</source>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-15 07:19:55</sys_created_on>
         <sys_id>c92bc005979512104e68321ad053af8b</sys_id>
@@ -58,7 +58,7 @@
         <update_guid_history>892bc0051095121083c6f533a4993a8b:-120196038</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Vehicles.Vehicle - Nissan Urvan">18c02c9983511210f19096d6feaad334</sys_audit_delete>
+        <sys_audit_delete display_value="">18c02c9983511210f19096d6feaad334</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 03:32:50</sys_created_on>

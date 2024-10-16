@@ -1697,12 +1697,10 @@
     }
 ]</data>
         <description>Organizes a user's assigned records. List categories provide specific groups to help users sort and find specific records easily. You can tailor the list to show specific items depending on the user's role. You can create filtered lists with select list columns and assign the list to specific teams to help them focus their efforts. This template includes the list menu, which appears in the left pane to provide additional navigation capabilities for default lists and lists created by the user. The list page template is intended for use in large displays as a fullscreen experience.</description>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events>5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37,93e48589a9ee4a69f8d3f5d45ffeb05d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <form_factors/>
         <handled_events>f7d18e2cb7735010cd8af8e32e11a90b,8c1321d50f1310107d20409dc4767e52,2640a5150f1310107d20409dc4767e8a</handled_events>
         <interactions/>
         <interfaces/>
@@ -1955,7 +1953,6 @@
 }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_persistence_config/>
         <state_properties>[
     {
         "description": "",

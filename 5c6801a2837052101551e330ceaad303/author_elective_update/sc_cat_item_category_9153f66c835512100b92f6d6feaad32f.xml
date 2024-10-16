@@ -58,7 +58,7 @@
         <update_guid_history>012bc005189512100e60caa1d3b85686:1833512588</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Vehicles.Vehicle - Hyundai H100">7a70649983511210f19096d6feaad3b4</sys_audit_delete>
+        <sys_audit_delete display_value="">7a70649983511210f19096d6feaad3b4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 03:31:38</sys_created_on>
