@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Vehicles">4a4443a7830112100b92f6d6feaad351</category>
+        <category display_value="Vehicles">da75e5d7838112101551e330ceaad3f7</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -70,7 +70,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs>00244fa3830112100b92f6d6feaad372</sc_catalogs>
+        <sc_catalogs>11d465d7838112101551e330ceaad346</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:13:37</sys_created_on>
         <sys_id>ec113b63830512100b92f6d6feaad3a9</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Vehicle - Nissan Urvan</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sc_cat_item_producer_ec113b63830512100b92f6d6feaad3a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 02:21:11</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:32:49</sys_updated_on>
         <table_name>x_1540355_reserv_0_reservation_2</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>28</version>
+        <version>35</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

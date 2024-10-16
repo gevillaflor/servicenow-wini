@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="Reservation System">aaa53b87833812101551e330ceaad337</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 08:19:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>68e8544997d512104e68321ad053afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_page_property_68e8544997d512104e68321ad053afec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 08:19:57</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1540355_reserv_0.aaa53b87833812101551e330ceaad337.root.chrome_toolbar</unique_name>
+        <value>[]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=68e8544997d512104e68321ad053afec"/>
+</record_update>

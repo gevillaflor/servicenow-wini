@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Vehicle - Toyota Grandia">2455cbe7830112100b92f6d6feaad36e</sc_cat_item>
+        <sc_category display_value="Vehicles">4a4443a7830112100b92f6d6feaad351</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 07:58:02</sys_created_on>
+        <sys_id>66d68f6b830112100b92f6d6feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicles.Vehicle - Toyota Grandia</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_cat_item_category_66d68f6b830112100b92f6d6feaad30d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 07:58:02</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>95c6de9cdb763910ae4c9027c5961965</instance_id>
+        <instance_name>dev224259</instance_name>
+        <name>sc_cat_item_category_66d68f6b830112100b92f6d6feaad30d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Vehicle - Toyota Grandia">2455cbe7830112100b92f6d6feaad36e</sc_cat_item>
+        <sc_category display_value="Vehicles">4a4443a7830112100b92f6d6feaad351</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 07:58:02</sys_created_on>
+        <sys_id>66d68f6b830112100b92f6d6feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicles.Vehicle - Toyota Grandia</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_cat_item_category_66d68f6b830112100b92f6d6feaad30d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 07:58:02</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>1888595222</payload_hash>
+        <record_name>Vehicles.Vehicle - Toyota Grandia</record_name>
+        <reverted_from/>
+        <source>680b44c1979512104e68321ad053af32</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 07:19:55</sys_created_on>
+        <sys_id>012bc005979512104e68321ad053af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928f0c38130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:19:55</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>cd2bc00594951210ccfc43f0a8ba2c77</update_guid>
+        <update_guid_history>cd2bc00594951210ccfc43f0a8ba2c77:1888595222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vehicles.Vehicle - Toyota Grandia">8ef4e409971912104e68321ad053af57</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 09:12:45</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>16f5401816f44834860dfe7a8034a624</sys_id>
+        <sys_metadata>66d68f6b830112100b92f6d6feaad30d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicles.Vehicle - Toyota Grandia</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_66d68f6b830112100b92f6d6feaad30d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_66d68f6b830112100b92f6d6feaad30d">012bc005979512104e68321ad053af78</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 09:12:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
