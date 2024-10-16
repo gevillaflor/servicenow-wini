@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>reservation_workflow</internal_name>
-        <label_cache>[{"name":"0471bea8-acb8-4b0a-a047-032ac75dc59e.approval_state","label":"10 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"ac0154e4-ae96-4245-a095-02710ee96c8a":["condition"],"2154aa7e-63e7-4179-b34d-8ee88570e89a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce7c48c4-c94f-48a0-a18f-1deb70907ded.Record.email","label":"12 - Look Up Record➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"331647c0-2a05-4e21-bb93-22fb705c2f59":["ah_to"]}},{"name":"396e0109-355f-4a1d-9df3-197e0d973e29.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":[null]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"396e0109-355f-4a1d-9df3-197e0d973e29.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":[null]},"attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Reservation Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"number","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":["ah_subject"],"331647c0-2a05-4e21-bb93-22fb705c2f59":["ah_subject"],"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_subject"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_subject"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_subject"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_subject"],"396e0109-355f-4a1d-9df3-197e0d973e29":["ah_subject"],"738215cd-aeb1-4ed0-abe3-87afa3658865":["ah_subject",null],"488e7735-7a51-41ee-b30d-fbad70ca06ff":["ah_subject",null],"df30d206-bdc9-42e1-bf57-291ad8bc324c":["ah_subject",null],"befeb42e-1d93-4c1f-a517-0be7988ede59":["ah_subject"],"eedc85cd-2741-4eb6-bdb2-2be9483787d3":["ah_subject"],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":["ah_subject"]}},{"name":"{{static.5a8f0b99838d5e50eecd51c6feaad3e1}}","label":"GroupFacilities","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c5b169f2-f11e-46be-9e4e-1c78d957ca88":["approval_conditions"]}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager","label":"1 - Look Up Record➛User Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0":["approval_conditions"],"23a3fc3a-467d-4792-baf0-07d393ea7ddf":["approval_conditions"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Reservation Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"sys_created_by","usedInstances":{"248d6256-d97e-44cf-8856-1e1f358bd12d":["conditions"],"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":[null],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null],"331647c0-2a05-4e21-bb93-22fb705c2f59":[null],"396e0109-355f-4a1d-9df3-197e0d973e29":[null],"738215cd-aeb1-4ed0-abe3-87afa3658865":[null],"488e7735-7a51-41ee-b30d-fbad70ca06ff":[null],"df30d206-bdc9-42e1-bf57-291ad8bc324c":[null]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["approval_conditions"]}},{"name":"{{static.70c8c79d83895e50eecd51c6feaad38a}}","label":"GroupEvent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["approval_conditions"],"b4fe2265-67d7-468d-a906-50187467ce39":["approval_conditions"]}},{"name":"Created_1.current.transaction_id","label":"Trigger - Record Created➛Reservation_2 Record➛Transaction ID","reference":"","reference_display":"Transaction ID","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"transaction_id","usedInstances":{"eb39ab33-b232-4f14-bae7-ef65117e5d9b":["record"],"2d478309-bb54-4b33-ad27-3a20fee07b9d":["record"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reservation Record","reference":"x_1540355_reserv_0_reservation_2","reference_display":"Reservation","type":"reference","base_type":"reference","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["record"],"15378c73-ea09-4300-9ad5-a4fbef68a134":["record"],"96d3468d-15c3-412a-9161-5a8a7fb7c686":["record"],"b4fe2265-67d7-468d-a906-50187467ce39":["record"],"c5b169f2-f11e-46be-9e4e-1c78d957ca88":["record"],"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0":["record"],"0471bea8-acb8-4b0a-a047-032ac75dc59e":["record"],"396e0109-355f-4a1d-9df3-197e0d973e29":["record"],"738215cd-aeb1-4ed0-abe3-87afa3658865":["record"],"25c60e61-8f3e-4470-869b-eb89bac69fcd":["record"],"282659c4-e111-4e29-94a5-b6144c46b6a0":["record"],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null],"23a3fc3a-467d-4792-baf0-07d393ea7ddf":["record"],"331647c0-2a05-4e21-bb93-22fb705c2f59":[null],"44d28c3e-cc7c-42f6-8de5-85ed8da0faf5":["record"],"488e7735-7a51-41ee-b30d-fbad70ca06ff":[null]},"attributes":{}},{"name":"Created_1.current.plate_no","label":"Trigger - Record Created➛Reservation_2 Record➛Plate No","reference":"","reference_display":"Plate No","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"plate_no","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["record"],"395cd2a6-aa7a-48f8-ac20-81a612704a4c":["record"]}},{"name":"Created_1.current.type_of_reservation","label":"Trigger - Record Created➛Reservation Record➛Type of Reservation","reference":"","reference_display":"Type of Reservation","type":"choice","base_type":"choice","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"type_of_reservation","choices":[{"image":"","used":false,"label":"Accommodation","reference":false,"rawLabel":"Accommodation","selected":false,"missing":false,"value":"accomm","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"image":"","used":false,"label":"Meeting Room","reference":false,"rawLabel":"Meeting Room","selected":false,"missing":false,"value":"mtgrm","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"image":"","used":false,"label":"Restaurant","reference":false,"rawLabel":"Restaurant","selected":false,"missing":false,"value":"resto","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"image":"","used":false,"label":"Vehicles","reference":false,"rawLabel":"Vehicles","selected":false,"missing":false,"value":"vehicle","parameters":{"name":"x_1540355_reserv_0_reservation_2"}}],"usedInstances":{"4c04080c-c066-4729-a9a3-52ee7172d4c9":["condition"],"ad32ef9e-b759-423d-bebd-dd6d76c76b6b":["condition"],"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":["ah_subject"],"331647c0-2a05-4e21-bb93-22fb705c2f59":["ah_subject",null],"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_subject"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_subject"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_subject"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_subject"],"396e0109-355f-4a1d-9df3-197e0d973e29":["ah_subject",null],"738215cd-aeb1-4ed0-abe3-87afa3658865":["ah_subject",null],"488e7735-7a51-41ee-b30d-fbad70ca06ff":["ah_subject",null],"df30d206-bdc9-42e1-bf57-291ad8bc324c":["ah_subject",null],"befeb42e-1d93-4c1f-a517-0be7988ede59":["ah_subject"],"eedc85cd-2741-4eb6-bdb2-2be9483787d3":["ah_subject"],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":["ah_subject"]}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager.email","label":"1 - Look Up Record➛User Record➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":["ah_to"],"488e7735-7a51-41ee-b30d-fbad70ca06ff":["ah_to"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_to"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_to"],"befeb42e-1d93-4c1f-a517-0be7988ede59":["ah_to"]}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record","label":"1 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.email","label":"1 - Look Up Record➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"738215cd-aeb1-4ed0-abe3-87afa3658865":["ah_to"],"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_to"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_to"],"df30d206-bdc9-42e1-bf57-291ad8bc324c":["ah_to"],"eedc85cd-2741-4eb6-bdb2-2be9483787d3":["ah_to"]}},{"name":"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0.__action_status__","label":"3 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{"738215cd-aeb1-4ed0-abe3-87afa3658865":[null],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null]},"attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"738215cd-aeb1-4ed0-abe3-87afa3658865":[null],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null],"9eb41b31-c755-45b9-86a8-17845f15dcd0":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bcf90b42-aa73-4873-b2f9-8b66437ca1d4.Record.email","label":"8 - Look Up Record➛Group Record➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":["ah_to"]}},{"name":"d44a8ed2-5cf2-42e9-95de-29daab3905c6.Record.email","label":"19 - Look Up Record➛Group Record➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email","usedInstances":{"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":["ah_to"]}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.department","label":"1 - Look Up Record➛User Record➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department","usedInstances":{"ce7c48c4-c94f-48a0-a18f-1deb70907ded":["conditions"]}},{"name":"ce7c48c4-c94f-48a0-a18f-1deb70907ded.Record","label":"12 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","usedInstances":{"44d28c3e-cc7c-42f6-8de5-85ed8da0faf5":["approval_conditions"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Reservation Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"status","choices":[{"image":"","used":false,"label":"Approved","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"image":"","used":false,"label":"Available","reference":false,"rawLabel":"Available","selected":false,"missing":false,"value":"available","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"image":"","used":false,"label":"Denied","reference":false,"rawLabel":"Denied","selected":false,"missing":false,"value":"denied","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"image":"","used":false,"label":"Pending","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"pending","parameters":{"name":"x_1540355_reserv_0_reservation_2"}}],"usedInstances":{"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_subject"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_subject"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_subject"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_subject"]}},{"name":"Created_1.current.capacity","label":"Trigger - Record Created➛Reservation Record➛Capacity","reference":"","reference_display":"Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"capacity","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}},{"name":"Created_1.current.reservation_date","label":"Trigger - Record Created➛Reservation Record➛Reservation Date","reference":"","reference_display":"Reservation Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"reservation_date","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}},{"name":"Created_1.current.reservation_time","label":"Trigger - Record Created➛Reservation Record➛Reservation Time","reference":"","reference_display":"Reservation Time","type":"glide_time","base_type":"glide_time","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"reservation_time","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}}]</label_cache>
+        <label_cache>[{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.last_name","label":"1 - Look Up Record➛User Record➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","usedInstances":{"c9cb0ea4-2b3e-41f4-99b1-79914622f283":["requestor_lastname"],"74422269-ffce-478d-93b1-3fd1a05582da":["requestor_lastname"],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["requestor_lastname"],"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.first_name","label":"1 - Look Up Record➛User Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"c9cb0ea4-2b3e-41f4-99b1-79914622f283":["requestor_firstname"],"74422269-ffce-478d-93b1-3fd1a05582da":["requestor_firstname"],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["requestor_firstname"],"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}},{"name":"Created_1.current.reservation_time","label":"Trigger - Record Created➛Reservation Record➛Reservation Time","reference":"","reference_display":"Reservation Time","type":"glide_time","base_type":"glide_time","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"reservation_time","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}},{"name":"Created_1.current.reservation_date","label":"Trigger - Record Created➛Reservation Record➛Reservation Date","reference":"","reference_display":"Reservation Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"reservation_date","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}},{"name":"Created_1.current.capacity","label":"Trigger - Record Created➛Reservation Record➛Capacity","reference":"","reference_display":"Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"capacity","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":[null]}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Reservation Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"status","choices":[{"used":false,"image":"","label":"Approved","rawLabel":"Approved","selected":false,"reference":false,"missing":false,"value":"approved","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"used":false,"image":"","label":"Available","rawLabel":"Available","selected":false,"reference":false,"missing":false,"value":"available","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"used":false,"image":"","label":"Denied","rawLabel":"Denied","selected":false,"reference":false,"missing":false,"value":"denied","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"used":false,"image":"","label":"Pending","rawLabel":"Pending","selected":false,"reference":false,"missing":false,"value":"pending","parameters":{"name":"x_1540355_reserv_0_reservation_2"}}],"usedInstances":{"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_subject"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_subject"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_subject"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_subject"]}},{"name":"ce7c48c4-c94f-48a0-a18f-1deb70907ded.Record","label":"12 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","usedInstances":{"44d28c3e-cc7c-42f6-8de5-85ed8da0faf5":["approval_conditions"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.department","label":"1 - Look Up Record➛User Record➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department","usedInstances":{"ce7c48c4-c94f-48a0-a18f-1deb70907ded":["conditions"]}},{"name":"d44a8ed2-5cf2-42e9-95de-29daab3905c6.Record.email","label":"20 - Look Up Record➛Group Record➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email","usedInstances":{"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":["ah_to"]}},{"name":"bcf90b42-aa73-4873-b2f9-8b66437ca1d4.Record.email","label":"8 - Look Up Record➛Group Record➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":["ah_to"]}},{"name":"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"738215cd-aeb1-4ed0-abe3-87afa3658865":[null],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null],"9eb41b31-c755-45b9-86a8-17845f15dcd0":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0.__action_status__","label":"3 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{"738215cd-aeb1-4ed0-abe3-87afa3658865":[null],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null]},"attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.email","label":"1 - Look Up Record➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"738215cd-aeb1-4ed0-abe3-87afa3658865":["ah_to"],"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_to"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_to"],"df30d206-bdc9-42e1-bf57-291ad8bc324c":["ah_to"],"eedc85cd-2741-4eb6-bdb2-2be9483787d3":["ah_to"],"ed24f392-d6c4-41cb-949f-3d14742e27e7":["ah_to"],"c9cb0ea4-2b3e-41f4-99b1-79914622f283":["requestor_email"],"74422269-ffce-478d-93b1-3fd1a05582da":["requestor_email"],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["requestor_email"]}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record","label":"1 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager.email","label":"1 - Look Up Record➛User Record➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"396e0109-355f-4a1d-9df3-197e0d973e29":["ah_to"],"488e7735-7a51-41ee-b30d-fbad70ca06ff":["ah_to"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_to"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_to"],"befeb42e-1d93-4c1f-a517-0be7988ede59":["ah_to"],"28b81043-adf1-41b2-9010-638eb47ae2ee":["ah_to"],"c9cb0ea4-2b3e-41f4-99b1-79914622f283":["direct_manager_email"],"74422269-ffce-478d-93b1-3fd1a05582da":["direct_manager_email"],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["direct_manager_email"]}},{"name":"Created_1.current.type_of_reservation","label":"Trigger - Record Created➛Reservation Record➛Type of Reservation","reference":"","reference_display":"Type of Reservation","type":"choice","base_type":"choice","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"type_of_reservation","choices":[{"used":false,"image":"","label":"Accommodation","rawLabel":"Accommodation","selected":false,"reference":false,"missing":false,"value":"accomm","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"used":false,"image":"","label":"Meeting Room","rawLabel":"Meeting Room","selected":false,"reference":false,"missing":false,"value":"mtgrm","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"used":false,"image":"","label":"Restaurant","rawLabel":"Restaurant","selected":false,"reference":false,"missing":false,"value":"resto","parameters":{"name":"x_1540355_reserv_0_reservation_2"}},{"used":false,"image":"","label":"Vehicles","rawLabel":"Vehicles","selected":false,"reference":false,"missing":false,"value":"vehicle","parameters":{"name":"x_1540355_reserv_0_reservation_2"}}],"usedInstances":{"4c04080c-c066-4729-a9a3-52ee7172d4c9":["condition"],"ad32ef9e-b759-423d-bebd-dd6d76c76b6b":["condition"],"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":["ah_subject"],"331647c0-2a05-4e21-bb93-22fb705c2f59":["ah_subject",null],"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_subject"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_subject"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_subject"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_subject"],"396e0109-355f-4a1d-9df3-197e0d973e29":["ah_subject",null],"738215cd-aeb1-4ed0-abe3-87afa3658865":["ah_subject",null],"488e7735-7a51-41ee-b30d-fbad70ca06ff":["ah_subject",null],"df30d206-bdc9-42e1-bf57-291ad8bc324c":["ah_subject",null],"befeb42e-1d93-4c1f-a517-0be7988ede59":["ah_subject"],"eedc85cd-2741-4eb6-bdb2-2be9483787d3":["ah_subject"],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":["ah_subject"],"28b81043-adf1-41b2-9010-638eb47ae2ee":["ah_subject"],"ed24f392-d6c4-41cb-949f-3d14742e27e7":["ah_subject"],"c9cb0ea4-2b3e-41f4-99b1-79914622f283":["type_of_reservation"],"74422269-ffce-478d-93b1-3fd1a05582da":["type_of_reservation"],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["type_of_reservation"]}},{"name":"Created_1.current.plate_no","label":"Trigger - Record Created➛Reservation_2 Record➛Plate No","reference":"","reference_display":"Plate No","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"plate_no","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["record"],"395cd2a6-aa7a-48f8-ac20-81a612704a4c":["record"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reservation Record","reference":"x_1540355_reserv_0_reservation_2","reference_display":"Reservation","type":"reference","base_type":"reference","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["record"],"15378c73-ea09-4300-9ad5-a4fbef68a134":["record"],"96d3468d-15c3-412a-9161-5a8a7fb7c686":["record"],"b4fe2265-67d7-468d-a906-50187467ce39":["record"],"c5b169f2-f11e-46be-9e4e-1c78d957ca88":["record"],"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0":["record"],"0471bea8-acb8-4b0a-a047-032ac75dc59e":["record"],"396e0109-355f-4a1d-9df3-197e0d973e29":["record"],"738215cd-aeb1-4ed0-abe3-87afa3658865":["record"],"25c60e61-8f3e-4470-869b-eb89bac69fcd":["record"],"282659c4-e111-4e29-94a5-b6144c46b6a0":["record"],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null],"23a3fc3a-467d-4792-baf0-07d393ea7ddf":["record"],"331647c0-2a05-4e21-bb93-22fb705c2f59":[null],"44d28c3e-cc7c-42f6-8de5-85ed8da0faf5":["record"],"488e7735-7a51-41ee-b30d-fbad70ca06ff":[null]},"attributes":{}},{"name":"Created_1.current.transaction_id","label":"Trigger - Record Created➛Reservation_2 Record➛Transaction ID","reference":"","reference_display":"Transaction ID","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"transaction_id","usedInstances":{"eb39ab33-b232-4f14-bae7-ef65117e5d9b":["record"],"2d478309-bb54-4b33-ad27-3a20fee07b9d":["record"]}},{"name":"{{static.70c8c79d83895e50eecd51c6feaad38a}}","label":"GroupEvent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["approval_conditions"],"b4fe2265-67d7-468d-a906-50187467ce39":["approval_conditions"]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"2d478309-bb54-4b33-ad27-3a20fee07b9d":["approval_conditions"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Reservation Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"sys_created_by","usedInstances":{"248d6256-d97e-44cf-8856-1e1f358bd12d":["conditions"],"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":[null],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":[null],"331647c0-2a05-4e21-bb93-22fb705c2f59":[null],"396e0109-355f-4a1d-9df3-197e0d973e29":[null],"738215cd-aeb1-4ed0-abe3-87afa3658865":[null],"488e7735-7a51-41ee-b30d-fbad70ca06ff":[null],"df30d206-bdc9-42e1-bf57-291ad8bc324c":[null]}},{"name":"248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager","label":"1 - Look Up Record➛User Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0":["approval_conditions"],"23a3fc3a-467d-4792-baf0-07d393ea7ddf":["approval_conditions"]}},{"name":"{{static.5a8f0b99838d5e50eecd51c6feaad3e1}}","label":"GroupFacilities","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c5b169f2-f11e-46be-9e4e-1c78d957ca88":["approval_conditions"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Reservation Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1540355_reserv_0_reservation_2","column_name":"number","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":["ah_subject"],"331647c0-2a05-4e21-bb93-22fb705c2f59":["ah_subject"],"fac82b62-35a4-4888-9d9b-fa9c0925ee91":["ah_subject"],"5ac47b48-c30e-4c46-9370-9fc996b8b683":["ah_subject"],"26ab085c-1544-46c8-ae7c-cfab161f03fa":["ah_subject"],"c0a95707-b64e-4351-ab70-7b9f59e7ea14":["ah_subject"],"396e0109-355f-4a1d-9df3-197e0d973e29":["ah_subject"],"738215cd-aeb1-4ed0-abe3-87afa3658865":["ah_subject",null],"488e7735-7a51-41ee-b30d-fbad70ca06ff":["ah_subject",null],"df30d206-bdc9-42e1-bf57-291ad8bc324c":["ah_subject",null],"befeb42e-1d93-4c1f-a517-0be7988ede59":["ah_subject"],"eedc85cd-2741-4eb6-bdb2-2be9483787d3":["ah_subject"],"1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a":["ah_subject"],"28b81043-adf1-41b2-9010-638eb47ae2ee":["ah_subject"],"ed24f392-d6c4-41cb-949f-3d14742e27e7":["ah_subject"],"c9cb0ea4-2b3e-41f4-99b1-79914622f283":["number"],"74422269-ffce-478d-93b1-3fd1a05582da":["number"],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["number"]}},{"name":"396e0109-355f-4a1d-9df3-197e0d973e29.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":[null]},"attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"396e0109-355f-4a1d-9df3-197e0d973e29.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","usedInstances":{"9e7c3628-05fe-45a6-83d6-b5605cac7d4c":[null]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce7c48c4-c94f-48a0-a18f-1deb70907ded.Record.email","label":"12 - Look Up Record➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"331647c0-2a05-4e21-bb93-22fb705c2f59":["ah_to"]}},{"name":"0471bea8-acb8-4b0a-a047-032ac75dc59e.approval_state","label":"10 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"ac0154e4-ae96-4245-a095-02710ee96c8a":["condition"],"2154aa7e-63e7-4179-b34d-8ee88570e89a":["condition"],"74422269-ffce-478d-93b1-3fd1a05582da":["status"],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["status"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d28c3e-cc7c-42f6-8de5-85ed8da0faf5.approval_state","label":"14 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"befeb42e-1d93-4c1f-a517-0be7988ede59":["ah_subject",null],"eedc85cd-2741-4eb6-bdb2-2be9483787d3":["ah_subject",null],"c9cb0ea4-2b3e-41f4-99b1-79914622f283":["status"],"74422269-ffce-478d-93b1-3fd1a05582da":["status"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"282659c4-e111-4e29-94a5-b6144c46b6a0.approval_state","label":"22 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"488e7735-7a51-41ee-b30d-fbad70ca06ff":["ah_subject",null],"df30d206-bdc9-42e1-bf57-291ad8bc324c":["ah_subject",null],"33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7":["status"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>f3cc4e1f834512101551e330ceaad3e5</master_snapshot>
         <name>Reservation Workflow</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec1f5972837012101551e330ceaad373</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Reservation Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_hub_flow_ec1f5972837012101551e330ceaad373</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:29:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=ec1f5972837012101551e330ceaad373"/>
@@ -101,10 +101,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 05:36:10</sys_created_on>
         <sys_id>02e9475983c95e50eecd51c6feaad362</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -324,96 +324,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cee9475983c95e50eecd51c6feaad34e"/>
     <sys_hub_flow_output action="delete_multiple" query="model=ec1f5972837012101551e330ceaad373"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec1f5972837012101551e330ceaad373"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=ec1f5972837012101551e330ceaad373^sys_idNOT IN1e68a80583595a10166ac900feaad39a,620aee93830d1e14eecd51c6feaad35c,6858980d83915a10166ac900feaad320,739dc31d834d5e50eecd51c6feaad3d3,7c94a36b830dd254eecd51c6feaad350,7c94a36b830dd254eecd51c6feaad3c1,85241f68835d5210166ac900feaad30c,92d5df68839d5210166ac900feaad3d5,96d5df68839d5210166ac900feaad3a5,a20aee93830d1e14eecd51c6feaad32e,a60aee93830d1e14eecd51c6feaad337,c194e36b830dd254eecd51c6feaad304,cd94a36b830dd254eecd51c6feaad3d6,da68a80583595a10166ac900feaad3a3,e20aee93830d1e14eecd51c6feaad340,e383dfe0835d5210166ac900feaad3bf,e85b5b6f8309d254eecd51c6feaad39f"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
-        <comment>notify direct manager</comment>
-        <display_text/>
-        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
-        <generation_source/>
-        <order>15</order>
-        <parent_ui_id>4c04080c-c066-4729-a9a3-52ee7172d4c9</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>1e68a80583595a10166ac900feaad39a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <ui_id>befeb42e-1d93-4c1f-a517-0be7988ede59</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=1e68a80583595a10166ac900feaad39a"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>1e68a80583595a10166ac900feaad39a</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>9e68a80583595a10166ac900feaad39d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=1e68a80583595a10166ac900feaad39a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>1e68a80583595a10166ac900feaad39a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>5a68a80583595a10166ac900feaad39d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;[&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:41812691-9234-4c8a-84c8-b51b3b6d2af3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1487ac3f-0483-4d12-8aaa-fa9b0b9a0156}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1487ac3f-0483-4d12-8aaa-fa9b0b9a0156" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:db4db0a8-1c63-48e6-abe6-e5005d2d61b7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4cd27866-de23-47ac-95ad-a455c0c16e67}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4cd27866-de23-47ac-95ad-a455c0c16e67" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; requested by &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0363d3fd-139f-4309-89c0-ac2728ba2742}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0db34079-bd92-499f-91ad-cf6ab5a7b0d2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0db34079-bd92-499f-91ad-cf6ab5a7b0d2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, has been approved.&amp;nbsp;&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>1e68a80583595a10166ac900feaad39a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>1e68a80583595a10166ac900feaad39d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>[{{Created_1.current.number}}] Approved Request for {{Created_1.current.type_of_reservation}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>1e68a80583595a10166ac900feaad39a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>9268a80583595a10166ac900feaad39d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager.email}} </value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=1e68a80583595a10166ac900feaad39a^sys_idNOT IN5a68a80583595a10166ac900feaad39c"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>ah_subject</input_name>
-        <instance>1e68a80583595a10166ac900feaad39a</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"ah_subject":{"scriptActive":false}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>5a68a80583595a10166ac900feaad39c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1e68a80583595a10166ac900feaad39a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ec1f5972837012101551e330ceaad373^sys_idNOT IN620aee93830d1e14eecd51c6feaad35c,739dc31d834d5e50eecd51c6feaad3d3,7c94a36b830dd254eecd51c6feaad350,7c94a36b830dd254eecd51c6feaad3c1,85241f68835d5210166ac900feaad30c,96d5df68839d5210166ac900feaad3a5,a20aee93830d1e14eecd51c6feaad32e,a60aee93830d1e14eecd51c6feaad337,c194e36b830dd254eecd51c6feaad304,cd94a36b830dd254eecd51c6feaad3d6,e20aee93830d1e14eecd51c6feaad340,e383dfe0835d5210166ac900feaad3bf,e85b5b6f8309d254eecd51c6feaad39f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -430,10 +341,10 @@
         <sys_created_by>val.oborne</sys_created_by>
         <sys_created_on>2024-10-10 08:24:47</sys_created_on>
         <sys_id>620aee93830d1e14eecd51c6feaad35c</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>0471bea8-acb8-4b0a-a047-032ac75dc59e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=620aee93830d1e14eecd51c6feaad35c"/>
@@ -545,99 +456,6 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
-        <comment>notify requestor</comment>
-        <display_text/>
-        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
-        <generation_source/>
-        <order>23</order>
-        <parent_ui_id>ad32ef9e-b759-423d-bebd-dd6d76c76b6b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 08:17:31</sys_created_on>
-        <sys_id>6858980d83915a10166ac900feaad320</sys_id>
-        <sys_mod_count>24</sys_mod_count>
-        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <ui_id>df30d206-bdc9-42e1-bf57-291ad8bc324c</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=6858980d83915a10166ac900feaad320"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>6858980d83915a10166ac900feaad320</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 08:17:31</sys_created_on>
-        <sys_id>ec58980d83915a10166ac900feaad323</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 08:17:31</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=6858980d83915a10166ac900feaad320"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>6858980d83915a10166ac900feaad320</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 08:17:31</sys_created_on>
-        <sys_id>a858980d83915a10166ac900feaad323</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:23:48</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hi &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9d9b0918-f944-4944-871c-1e7c2c162529}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:9d9b0918-f944-4944-871c-1e7c2c162529}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_9d9b0918-f944-4944-871c-1e7c2c162529" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Your request [&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:ee81cabf-a820-48c2-939b-e57d7c775f8c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ee81cabf-a820-48c2-939b-e57d7c775f8c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ee81cabf-a820-48c2-939b-e57d7c775f8c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;] for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:3c7f89cb-5759-4c77-abb7-c36d807b0bb2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3c7f89cb-5759-4c77-abb7-c36d807b0bb2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3c7f89cb-5759-4c77-abb7-c36d807b0bb2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been approved.&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Thank you.&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>6858980d83915a10166ac900feaad320</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 08:17:31</sys_created_on>
-        <sys_id>6c58980d83915a10166ac900feaad323</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:23:48</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>[{{Created_1.current.number}}] Approved Request for {{Created_1.current.type_of_reservation}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>6858980d83915a10166ac900feaad320</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 08:17:31</sys_created_on>
-        <sys_id>e058980d83915a10166ac900feaad323</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 08:17:31</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.email}} </value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=6858980d83915a10166ac900feaad320^sys_idNOT INa458980d83915a10166ac900feaad322"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>ah_subject</input_name>
-        <instance>6858980d83915a10166ac900feaad320</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"ah_subject":{"scriptActive":false}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 08:17:31</sys_created_on>
-        <sys_id>a458980d83915a10166ac900feaad322</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 08:17:31</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6858980d83915a10166ac900feaad320"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <attributes/>
@@ -651,10 +469,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 05:52:24</sys_created_on>
         <sys_id>739dc31d834d5e50eecd51c6feaad3d3</sys_id>
-        <sys_mod_count>92</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>248d6256-d97e-44cf-8856-1e1f358bd12d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=739dc31d834d5e50eecd51c6feaad3d3"/>
@@ -740,10 +558,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:19:01</sys_created_on>
         <sys_id>7c94a36b830dd254eecd51c6feaad350</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>bcf90b42-aa73-4873-b2f9-8b66437ca1d4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c94a36b830dd254eecd51c6feaad350"/>
@@ -801,16 +619,16 @@
         <display_text/>
         <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
         <generation_source/>
-        <order>19</order>
+        <order>20</order>
         <parent_ui_id>ad32ef9e-b759-423d-bebd-dd6d76c76b6b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:19:01</sys_created_on>
         <sys_id>7c94a36b830dd254eecd51c6feaad3c1</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>d44a8ed2-5cf2-42e9-95de-29daab3905c6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c94a36b830dd254eecd51c6feaad3c1"/>
@@ -875,10 +693,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 08:41:08</sys_created_on>
         <sys_id>85241f68835d5210166ac900feaad30c</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>331647c0-2a05-4e21-bb93-22fb705c2f59</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85241f68835d5210166ac900feaad30c"/>
@@ -903,11 +721,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 08:41:08</sys_created_on>
         <sys_id>49241f68835d5210166ac900feaad30e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:18:07</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p&gt;A new reservation request has been made by&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_24989b17-5331-4e7b-b454-57ae4941080d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;with the following details:&lt;/p&gt;
+        <value>&lt;p&gt;A new reservation request has been made by&lt;strong style="color: rgb(var(--now-color_text--primary, 22, 27, 28));"&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bc83e17e-8d24-4f77-b5f6-c8aa0be01347" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_cda48a07-0fe5-4a8e-910a-c5197f6490f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;with the following details:&lt;/p&gt;
 &lt;p&gt;Request:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0d527bda-b6bc-4973-9088-500ce6c830c9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Capacity:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Capacity"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Capacity&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f823ba71-5ec0-4ece-93e0-6e1075f9d16f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Reservation Date:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Reservation Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Reservation Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f9012afd-0790-49c0-bb05-c4220a26d75f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -942,95 +760,6 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
-        <comment>notify direct manager</comment>
-        <display_text/>
-        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
-        <generation_source/>
-        <order>22</order>
-        <parent_ui_id>ad32ef9e-b759-423d-bebd-dd6d76c76b6b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:48:36</sys_created_on>
-        <sys_id>92d5df68839d5210166ac900feaad3d5</sys_id>
-        <sys_mod_count>38</sys_mod_count>
-        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <ui_id>488e7735-7a51-41ee-b30d-fbad70ca06ff</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=92d5df68839d5210166ac900feaad3d5"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>92d5df68839d5210166ac900feaad3d5</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:48:36</sys_created_on>
-        <sys_id>5ed5df68839d5210166ac900feaad3d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:48:36</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=92d5df68839d5210166ac900feaad3d5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>92d5df68839d5210166ac900feaad3d5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:48:36</sys_created_on>
-        <sys_id>1ad5df68839d5210166ac900feaad3d7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:21:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;[&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1487ac3f-0483-4d12-8aaa-fa9b0b9a0156}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1487ac3f-0483-4d12-8aaa-fa9b0b9a0156}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1487ac3f-0483-4d12-8aaa-fa9b0b9a0156" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4cd27866-de23-47ac-95ad-a455c0c16e67}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4cd27866-de23-47ac-95ad-a455c0c16e67}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4cd27866-de23-47ac-95ad-a455c0c16e67" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; requested by &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0db34079-bd92-499f-91ad-cf6ab5a7b0d2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0db34079-bd92-499f-91ad-cf6ab5a7b0d2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0db34079-bd92-499f-91ad-cf6ab5a7b0d2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, has been approved.&amp;nbsp;&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>92d5df68839d5210166ac900feaad3d5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:48:36</sys_created_on>
-        <sys_id>dad5df68839d5210166ac900feaad3d7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:21:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>[{{Created_1.current.number}}] Approved Request for {{Created_1.current.type_of_reservation}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>92d5df68839d5210166ac900feaad3d5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:48:36</sys_created_on>
-        <sys_id>56d5df68839d5210166ac900feaad3d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:48:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager.email}} </value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=92d5df68839d5210166ac900feaad3d5^sys_idNOT IN1ed5df68839d5210166ac900feaad3d6"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>ah_subject</input_name>
-        <instance>92d5df68839d5210166ac900feaad3d5</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"ah_subject":{"scriptActive":false}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:48:36</sys_created_on>
-        <sys_id>1ed5df68839d5210166ac900feaad3d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:48:36</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=92d5df68839d5210166ac900feaad3d5"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <attributes/>
@@ -1044,10 +773,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 08:48:36</sys_created_on>
         <sys_id>96d5df68839d5210166ac900feaad3a5</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>44d28c3e-cc7c-42f6-8de5-85ed8da0faf5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=96d5df68839d5210166ac900feaad3a5"/>
@@ -1172,10 +901,10 @@
         <sys_created_by>val.oborne</sys_created_by>
         <sys_created_on>2024-10-10 08:24:47</sys_created_on>
         <sys_id>a20aee93830d1e14eecd51c6feaad32e</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>396e0109-355f-4a1d-9df3-197e0d973e29</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a20aee93830d1e14eecd51c6feaad32e"/>
@@ -1214,11 +943,11 @@
         <sys_created_by>val.oborne</sys_created_by>
         <sys_created_on>2024-10-10 08:24:47</sys_created_on>
         <sys_id>ae0aee93830d1e14eecd51c6feaad330</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 08:51:36</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:31:13</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p&gt;A new reservation request has been made by&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_24989b17-5331-4e7b-b454-57ae4941080d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with the following details:&lt;/p&gt;
+        <value>&lt;p&gt;A new reservation request has been made by&lt;strong&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bc83e17e-8d24-4f77-b5f6-c8aa0be01347" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_cda48a07-0fe5-4a8e-910a-c5197f6490f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; with the following details:&lt;/p&gt;
 &lt;p&gt;Request:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0d527bda-b6bc-4973-9088-500ce6c830c9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Capacity:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Capacity"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Capacity&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f823ba71-5ec0-4ece-93e0-6e1075f9d16f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Reservation Date:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Reservation Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Reservation Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f9012afd-0790-49c0-bb05-c4220a26d75f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -1290,10 +1019,10 @@
         <sys_created_by>val.oborne</sys_created_by>
         <sys_created_on>2024-10-10 08:24:47</sys_created_on>
         <sys_id>a60aee93830d1e14eecd51c6feaad337</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>cc58ad9f-5cf9-4da8-a084-b51c6a4d97e0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a60aee93830d1e14eecd51c6feaad337"/>
@@ -1412,16 +1141,16 @@
         <display_text/>
         <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
         <generation_source/>
-        <order>21</order>
+        <order>22</order>
         <parent_ui_id>ad32ef9e-b759-423d-bebd-dd6d76c76b6b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:19:01</sys_created_on>
         <sys_id>c194e36b830dd254eecd51c6feaad304</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>282659c4-e111-4e29-94a5-b6144c46b6a0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c194e36b830dd254eecd51c6feaad304"/>
@@ -1540,16 +1269,16 @@
         <display_text/>
         <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
         <generation_source/>
-        <order>20</order>
+        <order>21</order>
         <parent_ui_id>ad32ef9e-b759-423d-bebd-dd6d76c76b6b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:19:01</sys_created_on>
         <sys_id>cd94a36b830dd254eecd51c6feaad3d6</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>1e7068aa-b430-4dfa-85fa-8b9cc2e0bc6a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd94a36b830dd254eecd51c6feaad3d6"/>
@@ -1574,11 +1303,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:19:01</sys_created_on>
         <sys_id>8d94a36b830dd254eecd51c6feaad3d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p&gt;A new reservation request has been made by&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_24989b17-5331-4e7b-b454-57ae4941080d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;with the following details:&lt;/p&gt;
+        <value>&lt;p&gt;A new reservation request has been made by&amp;nbsp;&lt;strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bc83e17e-8d24-4f77-b5f6-c8aa0be01347" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_cda48a07-0fe5-4a8e-910a-c5197f6490f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;with the following details:&lt;/p&gt;
 &lt;p&gt;Request:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0d527bda-b6bc-4973-9088-500ce6c830c9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Capacity:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Capacity"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Capacity&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f823ba71-5ec0-4ece-93e0-6e1075f9d16f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Reservation Date:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Reservation Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Reservation Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f9012afd-0790-49c0-bb05-c4220a26d75f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -1616,99 +1345,6 @@
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
-        <comment>notify requestor</comment>
-        <display_text/>
-        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
-        <generation_source/>
-        <order>16</order>
-        <parent_ui_id>4c04080c-c066-4729-a9a3-52ee7172d4c9</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>da68a80583595a10166ac900feaad3a3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <ui_id>eedc85cd-2741-4eb6-bdb2-2be9483787d3</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=da68a80583595a10166ac900feaad3a3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>da68a80583595a10166ac900feaad3a3</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>6268a80583595a10166ac900feaad3a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=da68a80583595a10166ac900feaad3a3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>da68a80583595a10166ac900feaad3a3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>2e68a80583595a10166ac900feaad3a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hi &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0248614e-5f21-4452-98e7-412c13e2769b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:9d9b0918-f944-4944-871c-1e7c2c162529}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_9d9b0918-f944-4944-871c-1e7c2c162529" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Your request [&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1041acb8-493e-4938-930d-db56789c20fc}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ee81cabf-a820-48c2-939b-e57d7c775f8c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ee81cabf-a820-48c2-939b-e57d7c775f8c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;] for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:66e6d43c-51d4-49ec-ba93-4834004dad2a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3c7f89cb-5759-4c77-abb7-c36d807b0bb2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3c7f89cb-5759-4c77-abb7-c36d807b0bb2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been approved.&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Thank you.&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>da68a80583595a10166ac900feaad3a3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>ee68a80583595a10166ac900feaad3a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>[{{Created_1.current.number}}] Approved Request for {{Created_1.current.type_of_reservation}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>da68a80583595a10166ac900feaad3a3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>6a68a80583595a10166ac900feaad3a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.email}} </value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=da68a80583595a10166ac900feaad3a3^sys_idNOT IN1668a80583595a10166ac900feaad3a5"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>ah_subject</input_name>
-        <instance>da68a80583595a10166ac900feaad3a3</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"ah_subject":{"scriptActive":false}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-15 09:27:49</sys_created_on>
-        <sys_id>1668a80583595a10166ac900feaad3a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=da68a80583595a10166ac900feaad3a3"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment>to Requestor</comment>
         <display_text/>
         <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
@@ -1719,10 +1355,10 @@
         <sys_created_by>val.oborne</sys_created_by>
         <sys_created_on>2024-10-10 08:24:47</sys_created_on>
         <sys_id>e20aee93830d1e14eecd51c6feaad340</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>738215cd-aeb1-4ed0-abe3-87afa3658865</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e20aee93830d1e14eecd51c6feaad340"/>
@@ -1761,17 +1397,18 @@
         <sys_created_by>val.oborne</sys_created_by>
         <sys_created_on>2024-10-10 08:24:47</sys_created_on>
         <sys_id>620aee93830d1e14eecd51c6feaad342</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:18:07</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:ad16878f-9427-4fb2-8bd1-0b41c44be54a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ad16878f-9427-4fb2-8bd1-0b41c44be54a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ad16878f-9427-4fb2-8bd1-0b41c44be54a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bc83e17e-8d24-4f77-b5f6-c8aa0be01347" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_cda48a07-0fe5-4a8e-910a-c5197f6490f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/strong&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your request [&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:ca26f026-8da2-4be0-bc96-bb85a39479f9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ca26f026-8da2-4be0-bc96-bb85a39479f9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ca26f026-8da2-4be0-bc96-bb85a39479f9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;] for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:c5aa4c2f-9f00-41f7-b22b-919e9fed9963}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c5aa4c2f-9f00-41f7-b22b-919e9fed9963}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c5aa4c2f-9f00-41f7-b22b-919e9fed9963" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;has been rejected by your Direct Manager.&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Please contact your Direct Manager for more details.&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Thank you.&lt;/p&gt;</value>
+&lt;p data-tinymcerootblock=""&gt;Thank you.&lt;/p&gt;
+&lt;p&gt;,&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -1839,10 +1476,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 08:38:35</sys_created_on>
         <sys_id>e383dfe0835d5210166ac900feaad3bf</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>ce7c48c4-c94f-48a0-a18f-1deb70907ded</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e383dfe0835d5210166ac900feaad3bf"/>
@@ -1929,10 +1566,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 06:38:35</sys_created_on>
         <sys_id>e85b5b6f8309d254eecd51c6feaad39f</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>9e7c3628-05fe-45a6-83d6-b5605cac7d4c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e85b5b6f8309d254eecd51c6feaad39f"/>
@@ -1957,11 +1594,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 06:38:35</sys_created_on>
         <sys_id>ec5b5b6f8309d254eecd51c6feaad3a1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:10:19</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p&gt;A new reservation request has been made by&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:24989b17-5331-4e7b-b454-57ae4941080d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Created by"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created by&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_24989b17-5331-4e7b-b454-57ae4941080d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;with the following details:&lt;/p&gt;
+        <value>&lt;p&gt;A new reservation request has been made by&lt;strong style="color: rgb(var(--now-color_text--primary, 22, 27, 28));"&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:bc83e17e-8d24-4f77-b5f6-c8aa0be01347}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bc83e17e-8d24-4f77-b5f6-c8aa0be01347" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cda48a07-0fe5-4a8e-910a-c5197f6490f3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Look Up Record &amp;gt; User Record &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;1 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_cda48a07-0fe5-4a8e-910a-c5197f6490f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;with the following details:&lt;/p&gt;
 &lt;p&gt;Request:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0d527bda-b6bc-4973-9088-500ce6c830c9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Type of Reservation"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type of Reservation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0d527bda-b6bc-4973-9088-500ce6c830c9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Capacity:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f823ba71-5ec0-4ece-93e0-6e1075f9d16f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Capacity"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Capacity&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f823ba71-5ec0-4ece-93e0-6e1075f9d16f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Reservation Date:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f9012afd-0790-49c0-bb05-c4220a26d75f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Reservation Record &amp;gt; Reservation Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Reservation Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f9012afd-0790-49c0-bb05-c4220a26d75f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -1993,8 +1630,668 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e85b5b6f8309d254eecd51c6feaad39f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e85b5b6f8309d254eecd51c6feaad39f"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ec1f5972837012101551e330ceaad373"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=ec1f5972837012101551e330ceaad373^sys_idNOT IN052f4b59838d5e50eecd51c6feaad364,23311f20831d5210166ac900feaad3de,2b83dfe0835d5210166ac900feaad39c,6fc0d31d838d5e50eecd51c6feaad3ec,852f4b59838d5e50eecd51c6feaad356,e3311f20831d5210166ac900feaad3e5,e3c0d31d838d5e50eecd51c6feaad3e1"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ec1f5972837012101551e330ceaad373^sys_idNOT IN638d505983915210166ac900feaad34f,81ae94d183d15210166ac900feaad3d4,c9aed4d183d15210166ac900feaad344"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <order>15</order>
+        <parent_ui_id>2154aa7e-63e7-4179-b34d-8ee88570e89a</parent_ui_id>
+        <subflow display_value="Reservation Request Final Approval Notification">726c901183915210166ac900feaad38c</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>638d505983915210166ac900feaad34f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
+        <ui_id>c9cb0ea4-2b3e-41f4-99b1-79914622f283</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=638d505983915210166ac900feaad34f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>638d505983915210166ac900feaad34f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>238d505983915210166ac900feaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">638d505983915210166ac900feaad35d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=638d505983915210166ac900feaad34f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>direct_manager_email</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>eb8d505983915210166ac900feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>638d505983915210166ac900feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_email</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>278d505983915210166ac900feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_firstname</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>2b8d505983915210166ac900feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_lastname</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>638d505983915210166ac900feaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.last_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>278d505983915210166ac900feaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{44d28c3e-cc7c-42f6-8de5-85ed8da0faf5.approval_state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type_of_reservation</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>af8d505983915210166ac900feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{Created_1.current.type_of_reservation}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>638d505983915210166ac900feaad34f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>af8d505983915210166ac900feaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_638d505983915210166ac900feaad34f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_638d505983915210166ac900feaad34f^id=638d505983915210166ac900feaad34f"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=638d505983915210166ac900feaad34f^sys_idNOT IN638d505983915210166ac900feaad35d"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">638d505983915210166ac900feaad34f</model>
+        <model_id>638d505983915210166ac900feaad34f</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_638d505983915210166ac900feaad34f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:18:51</sys_created_on>
+        <sys_id>638d505983915210166ac900feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:18:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=638d505983915210166ac900feaad34f"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <order>17</order>
+        <parent_ui_id>4c04080c-c066-4729-a9a3-52ee7172d4c9</parent_ui_id>
+        <subflow display_value="Reservation Request Final Approval Notification">726c901183915210166ac900feaad38c</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>81ae94d183d15210166ac900feaad3d4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
+        <ui_id>74422269-ffce-478d-93b1-3fd1a05582da</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=81ae94d183d15210166ac900feaad3d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>81ae94d183d15210166ac900feaad3d4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>8daed4d183d15210166ac900feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">8dae94d183d15210166ac900feaad3d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=81ae94d183d15210166ac900feaad3d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>direct_manager_email</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>c9aed4d183d15210166ac900feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>81aed4d183d15210166ac900feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_email</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>45aed4d183d15210166ac900feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_firstname</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>09aed4d183d15210166ac900feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_lastname</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>41aed4d183d15210166ac900feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.last_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>05aed4d183d15210166ac900feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{0471bea8-acb8-4b0a-a047-032ac75dc59e.approval_state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type_of_reservation</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>8daed4d183d15210166ac900feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{Created_1.current.type_of_reservation}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>81ae94d183d15210166ac900feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>0daed4d183d15210166ac900feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_81ae94d183d15210166ac900feaad3d4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_81ae94d183d15210166ac900feaad3d4^id=81ae94d183d15210166ac900feaad3d4"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=81ae94d183d15210166ac900feaad3d4^sys_idNOT IN8dae94d183d15210166ac900feaad3d4"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">81ae94d183d15210166ac900feaad3d4</model>
+        <model_id>81ae94d183d15210166ac900feaad3d4</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_81ae94d183d15210166ac900feaad3d4</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>8dae94d183d15210166ac900feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=81ae94d183d15210166ac900feaad3d4"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <order>23</order>
+        <parent_ui_id>ad32ef9e-b759-423d-bebd-dd6d76c76b6b</parent_ui_id>
+        <subflow display_value="Reservation Request Final Approval Notification">726c901183915210166ac900feaad38c</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>c9aed4d183d15210166ac900feaad344</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
+        <ui_id>33e8fb3e-52e5-424f-8fe7-73c3bf0fc9f7</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c9aed4d183d15210166ac900feaad344"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>c9aed4d183d15210166ac900feaad344</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>99aed4d183d15210166ac900feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">85aed4d183d15210166ac900feaad345</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c9aed4d183d15210166ac900feaad344"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>direct_manager_email</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>d5aed4d183d15210166ac900feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.manager.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>5daed4d183d15210166ac900feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_email</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>11aed4d183d15210166ac900feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_firstname</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>15aed4d183d15210166ac900feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestor_lastname</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>5daed4d183d15210166ac900feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.last_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>11aed4d183d15210166ac900feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{282659c4-e111-4e29-94a5-b6144c46b6a0.approval_state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type_of_reservation</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>99aed4d183d15210166ac900feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_726c901183915210166ac900feaad38c</table>
+        <value>{{Created_1.current.type_of_reservation}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>c9aed4d183d15210166ac900feaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:37</sys_created_on>
+        <sys_id>19aed4d183d15210166ac900feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:37</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_c9aed4d183d15210166ac900feaad344</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_c9aed4d183d15210166ac900feaad344^id=c9aed4d183d15210166ac900feaad344"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=c9aed4d183d15210166ac900feaad344^sys_idNOT IN85aed4d183d15210166ac900feaad345"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">c9aed4d183d15210166ac900feaad344</model>
+        <model_id>c9aed4d183d15210166ac900feaad344</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_c9aed4d183d15210166ac900feaad344</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:23:36</sys_created_on>
+        <sys_id>85aed4d183d15210166ac900feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:23:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c9aed4d183d15210166ac900feaad344"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ec1f5972837012101551e330ceaad373^sys_idNOT IN052f4b59838d5e50eecd51c6feaad364,23311f20831d5210166ac900feaad3de,2b83dfe0835d5210166ac900feaad39c,6fc0d31d838d5e50eecd51c6feaad3ec,852f4b59838d5e50eecd51c6feaad356,d83f6b0983511210166ac900feaad319,e3311f20831d5210166ac900feaad3e5,e3c0d31d838d5e50eecd51c6feaad3e1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">23315f20831d5210166ac900feaad305</block>
@@ -2011,7 +2308,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>18</order>
+        <order>19</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2019,10 +2316,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 05:59:02</sys_created_on>
         <sys_id>052f4b59838d5e50eecd51c6feaad364</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>ad32ef9e-b759-423d-bebd-dd6d76c76b6b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2093,10 +2390,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 08:28:29</sys_created_on>
         <sys_id>23311f20831d5210166ac900feaad3de</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>9eb41b31-c755-45b9-86a8-17845f15dcd0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2167,10 +2464,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 08:38:35</sys_created_on>
         <sys_id>2b83dfe0835d5210166ac900feaad39c</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>2154aa7e-63e7-4179-b34d-8ee88570e89a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2240,10 +2537,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 06:06:18</sys_created_on>
         <sys_id>6fc0d31d838d5e50eecd51c6feaad3ec</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>bdd50b02-d5a8-4c2f-a273-13e7cb60eb34</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2275,10 +2572,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 05:59:02</sys_created_on>
         <sys_id>852f4b59838d5e50eecd51c6feaad356</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>4c04080c-c066-4729-a9a3-52ee7172d4c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2327,6 +2624,40 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=852f4b59838d5e50eecd51c6feaad356"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
+        <block display_value="">dc3f6b0983511210166ac900feaad318</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reservation Workflow">ec1f5972837012101551e330ceaad373</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2154aa7e-63e7-4179-b34d-8ee88570e89a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:17</sys_created_on>
+        <sys_id>d83f6b0983511210166ac900feaad319</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
+        <ui_id>7f84c45f-0ffb-418f-8e33-2496c4b1676f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d83f6b0983511210166ac900feaad319"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d83f6b0983511210166ac900feaad319"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d83f6b0983511210166ac900feaad319"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">eb311f20831d5210166ac900feaad3e4</block>
         <comment/>
         <connected_to/>
@@ -2348,10 +2679,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 08:28:29</sys_created_on>
         <sys_id>e3311f20831d5210166ac900feaad3e5</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:48</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:02</sys_updated_on>
         <ui_id>3b797c7d-cd76-406f-9921-7e6bb269ce0d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2374,7 +2705,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>17</order>
+        <order>18</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>4c04080c-c066-4729-a9a3-52ee7172d4c9</parent_ui_id>
@@ -2382,10 +2713,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 06:06:18</sys_created_on>
         <sys_id>e3c0d31d838d5e50eecd51c6feaad3e1</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 09:27:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 03:33:03</sys_updated_on>
         <ui_id>575f3bc5-f915-4e91-bf75-0e5c941e847d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2393,7 +2724,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=e3c0d31d838d5e50eecd51c6feaad3e1"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e3c0d31d838d5e50eecd51c6feaad3e1"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e3c0d31d838d5e50eecd51c6feaad3e1"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ec1f5972837012101551e330ceaad373^sys_idNOT IN0594e36b830dd254eecd51c6feaad33f,0820e84d83555a10166ac900feaad37c,0820e84d83555a10166ac900feaad37d,245b5b6f8309d254eecd51c6feaad3bd,2668a80583595a10166ac900feaad3d3,31f624c983195a10166ac900feaad306,3377a00183595a10166ac900feaad35b,3a82240583955a10166ac900feaad331,4194e36b830dd254eecd51c6feaad33f,4420e84d83555a10166ac900feaad37d,4d241f68835d5210166ac900feaad358,605b5b6f8309d254eecd51c6feaad3bd,6268a80583595a10166ac900feaad3d3,685b5b6f8309d254eecd51c6feaad3bc,6e68a80583595a10166ac900feaad3d3,7df624c983195a10166ac900feaad305,8020e84d83555a10166ac900feaad37d,85241f68835d5210166ac900feaad358,8c20e84d83555a10166ac900feaad37d,8d94e36b830dd254eecd51c6feaad33e,aa68a80583595a10166ac900feaad3d3,ae68a80583595a10166ac900feaad3d2,b282240583955a10166ac900feaad332,b777a00183595a10166ac900feaad35b,b9f624c983195a10166ac900feaad305,ba0aee93830d1e14eecd51c6feaad38f,c594e36b830dd254eecd51c6feaad33e,c820e84d83555a10166ac900feaad37d,cc20e84d83555a10166ac900feaad37c,ded513a8839d5210166ac900feaad336,e668a80583595a10166ac900feaad3d3,f1f624c983195a10166ac900feaad306,f20aee93830d1e14eecd51c6feaad38f,f377a00183595a10166ac900feaad35b,fe82240583955a10166ac900feaad331"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ec1f5972837012101551e330ceaad373^sys_idNOT IN0594e36b830dd254eecd51c6feaad33f,0820e84d83555a10166ac900feaad37c,0820e84d83555a10166ac900feaad37d,103f6b0983511210166ac900feaad357,143f6b0983511210166ac900feaad356,1c3f6b0983511210166ac900feaad357,245b5b6f8309d254eecd51c6feaad3bd,2668a80583595a10166ac900feaad3d3,2c717f8583911210166ac900feaad388,31f624c983195a10166ac900feaad306,3377a00183595a10166ac900feaad35b,3a82240583955a10166ac900feaad331,4194e36b830dd254eecd51c6feaad33f,4420e84d83555a10166ac900feaad37d,4d241f68835d5210166ac900feaad358,503f6b0983511210166ac900feaad356,543f6b0983511210166ac900feaad358,583f6b0983511210166ac900feaad355,583f6b0983511210166ac900feaad357,5c3f6b0983511210166ac900feaad356,605b5b6f8309d254eecd51c6feaad3bd,6268a80583595a10166ac900feaad3d3,64717f8583911210166ac900feaad388,685b5b6f8309d254eecd51c6feaad3bc,6e68a80583595a10166ac900feaad3d3,7460641583155210166ac900feaad364,7df624c983195a10166ac900feaad305,8020e84d83555a10166ac900feaad37d,85241f68835d5210166ac900feaad358,8c20e84d83555a10166ac900feaad37d,8d94e36b830dd254eecd51c6feaad33e,903f6b0983511210166ac900feaad358,943f6b0983511210166ac900feaad357,983f6b0983511210166ac900feaad356,aa68a80583595a10166ac900feaad3d3,ae68a80583595a10166ac900feaad3d2,b282240583955a10166ac900feaad332,b777a00183595a10166ac900feaad35b,b9f624c983195a10166ac900feaad305,ba0aee93830d1e14eecd51c6feaad38f,bc60641583155210166ac900feaad363,c594e36b830dd254eecd51c6feaad33e,c820e84d83555a10166ac900feaad37d,cc20e84d83555a10166ac900feaad37c,d03f6b0983511210166ac900feaad357,d43f6b0983511210166ac900feaad356,dc3f6b0983511210166ac900feaad357,ded513a8839d5210166ac900feaad336,e668a80583595a10166ac900feaad3d3,f1f624c983195a10166ac900feaad306,f20aee93830d1e14eecd51c6feaad38f,f377a00183595a10166ac900feaad35b,fe82240583955a10166ac900feaad331"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
         <extra_info/>
@@ -2452,6 +2783,57 @@
         <prescription>{{Created_1.current.sys_created_by}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>103f6b0983511210166ac900feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6a19a475-85b9-4fda-b9c2-d325ecb6a8c9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>143f6b0983511210166ac900feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b916dcfb-8d25-477a-bb73-41625713e0f3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>1c3f6b0983511210166ac900feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ecb31f27-4644-4e51-941a-5814b234e97a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_created_by}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 06:38:35</sys_created_on>
         <sys_id>245b5b6f8309d254eecd51c6feaad3bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2478,6 +2860,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>db4db0a8-1c63-48e6-abe6-e5005d2d61b7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{282659c4-e111-4e29-94a5-b6144c46b6a0.approval_state}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 00:06:09</sys_created_on>
+        <sys_id>2c717f8583911210166ac900feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 00:06:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>eab20226-d268-45d8-bf69-2bd06476eb70</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
@@ -2585,6 +2984,91 @@
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created_1.current.sys_created_by}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>503f6b0983511210166ac900feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6c8e907f-bc87-4cf8-b984-fcb613df0c6a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{44d28c3e-cc7c-42f6-8de5-85ed8da0faf5.approval_state}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>543f6b0983511210166ac900feaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>10ddc77d-89bc-45af-b7be-6837e485892e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_created_by}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>583f6b0983511210166ac900feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4fca2601-4ce7-42b5-9e09-0fa627454c9e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.type_of_reservation}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>583f6b0983511210166ac900feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>485345d2-c43e-477d-8552-e47d41635252</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.type_of_reservation}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>5c3f6b0983511210166ac900feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9d536cbe-fa23-4c1a-a815-0748e3e38306</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{396e0109-355f-4a1d-9df3-197e0d973e29.email}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2619,6 +3103,23 @@
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{282659c4-e111-4e29-94a5-b6144c46b6a0.approval_state}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 00:06:08</sys_created_on>
+        <sys_id>64717f8583911210166ac900feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 00:06:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>08f908fa-3d4c-44f0-8c73-3366ad72e6bf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{396e0109-355f-4a1d-9df3-197e0d973e29.__action_status__}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2648,6 +3149,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>1041acb8-493e-4938-930d-db56789c20fc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:31:14</sys_created_on>
+        <sys_id>7460641583155210166ac900feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:31:14</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cda48a07-0fe5-4a8e-910a-c5197f6490f3</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
@@ -2733,6 +3251,57 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>99463a6b-7f97-4022-86da-8b2496917f72</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{44d28c3e-cc7c-42f6-8de5-85ed8da0faf5.approval_state}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>903f6b0983511210166ac900feaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6fde6644-fad4-46f1-90db-a1df74a22118</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.type_of_reservation}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>943f6b0983511210166ac900feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>066acad2-3b83-4a83-8bd0-8eb2cc663197</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.type_of_reservation}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>983f6b0983511210166ac900feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>76124387-4490-4824-8d61-6e7509fd4f18</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
@@ -2840,6 +3409,23 @@
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{248d6256-d97e-44cf-8856-1e1f358bd12d.Record.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 03:31:14</sys_created_on>
+        <sys_id>bc60641583155210166ac900feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 03:31:14</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bc83e17e-8d24-4f77-b5f6-c8aa0be01347</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created_1.current}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2886,6 +3472,57 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>24989b17-5331-4e7b-b454-57ae4941080d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_created_by}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>d03f6b0983511210166ac900feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3d019958-a581-4fd1-bb1f-ef25a677fd4a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>d43f6b0983511210166ac900feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a0607c24-fd1e-4e87-9ba1-2e95ddb8a9d0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 23:56:18</sys_created_on>
+        <sys_id>dc3f6b0983511210166ac900feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 23:56:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8dc410d1-850c-4b54-8137-d5c341a97bcb</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>ec1f5972837012101551e330ceaad373</attached_to>
@@ -3004,7 +3641,7 @@
         <sys_created_on>2024-10-04 05:36:10</sys_created_on>
         <sys_id>02e9475983c95e50eecd51c6feaad34d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
@@ -3027,7 +3664,7 @@
         <sys_created_on>2024-10-04 05:36:10</sys_created_on>
         <sys_id>cae9475983c95e50eecd51c6feaad351</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
