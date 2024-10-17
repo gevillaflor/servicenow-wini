@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="capacity" table="x_1540355_reserv_0_reservation_2">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_dictionary_x_1540355_reserv_0_reservation_2_capacity</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 03:17:48</sys_updated_on>
+        <sys_updated_on>2024-10-17 00:07:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

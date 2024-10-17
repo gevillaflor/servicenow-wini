@@ -314,121 +314,172 @@
                                         },
                                         {
                                             "definition": {
-                                                "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                                "id": "d356d14b6e293a3020a244b63d278d8f",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "heading_3",
-                                            "elementLabel": "Heading 3",
+                                            "elementId": "container_13",
+                                            "elementLabel": "Container 13",
                                             "eventMappings": [
                                                 
                                             ],
-                                            "isHero": false,
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
-                                                "value": ""
+                                                "value": null
                                             },
-                                            "isNonDestructive": false,
-                                            "overrides": null,
-                                            "propertyValues": {
-                                                "hasNoMargin": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "label": {
-                                                    "type": "TRANSLATION_LITERAL",
-                                                    "value": {
-                                                        "code": null,
-                                                        "comment": "",
-                                                        "message": "Get the help you need"
+                                            "overrides": {
+                                                "composition": [
+                                                    {
+                                                        "definition": {
+                                                            "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "button_16",
+                                                        "elementLabel": "Button 16",
+                                                        "eventMappings": [
+                                                            {
+                                                                "eventMappingId": "cmccboceeeelaaccbbbbddjhhwiiaaqggcwjff",
+                                                                "isConfiguration": false,
+                                                                "offRowStorageId": null,
+                                                                "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                "sourceEventCorrelationId": null,
+                                                                "sourceEventDefinition": {
+                                                                    "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                    "id": null,
+                                                                    "type": "UXEVENT"
+                                                                },
+                                                                "sourceEventSysId": null,
+                                                                "targets": [
+                                                                    {
+                                                                        "broker": null,
+                                                                        "clientScript": null,
+                                                                        "conditional": null,
+                                                                        "declarativeAction": null,
+                                                                        "event": {
+                                                                            "apiName": "x_1540355_reserv_0.NAV_ITEM_SELECTED_RELAY_43a57b8784381210e07881d06813071a",
+                                                                            "payload": {
+                                                                                "type": "JSON_LITERAL",
+                                                                                "value": {
+                                                                                    "external": null,
+                                                                                    "fields": null,
+                                                                                    "multiInstField": null,
+                                                                                    "navigationOptions": null,
+                                                                                    "params": null,
+                                                                                    "passiveNavigation": null,
+                                                                                    "redirect": null,
+                                                                                    "route": "reservation-list-page",
+                                                                                    "targetRoute": null,
+                                                                                    "title": null
+                                                                                }
+                                                                            },
+                                                                            "sysId": "7ea53b87123812102684b286490a43df"
+                                                                        },
+                                                                        "operation": null,
+                                                                        "targetId": "cmccboceeeemaaccbbccddjhhwslsdspdy",
+                                                                        "type": "EVENT"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "propertyValues": {
+                                                            "configAria": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": {}
+                                                            },
+                                                            "disabled": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "icon": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "calendar-check-fill"
+                                                            },
+                                                            "label": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "View My Reservations"
+                                                                }
+                                                            },
+                                                            "size": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "lg"
+                                                            },
+                                                            "tooltipContent": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "Enter a label"
+                                                                }
+                                                            },
+                                                            "variant": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "primary"
+                                                            }
+                                                        },
+                                                        "slot": null,
+                                                        "styles": null
                                                     }
-                                                },
-                                                "level": {
+                                                ],
+                                                "layout": {
+                                                    "default": {
+                                                        "children": null,
+                                                        "items": [
+                                                            {
+                                                                "element_id": "button_16",
+                                                                "styles": {
+                                                                    "align-self": "center"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "root": null,
+                                                        "rules": null,
+                                                        "styles": {
+                                                            "flex-direction": "column"
+                                                        },
+                                                        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                                        "type": "flex"
+                                                    },
+                                                    "version": "3.0.0"
+                                                }
+                                            },
+                                            "propertyValues": {
+                                                "ariaRegionHeadingLevel": {
                                                     "type": "JSON_LITERAL",
                                                     "value": "1"
                                                 },
-                                                "variant": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "header-primary"
-                                                },
-                                                "wontWrap": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                }
-                                            },
-                                            "slot": null,
-                                            "styles": null
-                                        },
-                                        {
-                                            "definition": {
-                                                "id": "ce26d6793802478648556dc1f88fe020",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "search_combobox_component_1",
-                                            "elementLabel": "Search Combobox Component 1",
-                                            "eventMappings": [
-                                                {
-                                                    "eventMappingId": "ckhffzbbhhylaaaaddcddhhhiihcwlfffffgg",
-                                                    "isConfiguration": false,
-                                                    "offRowStorageId": null,
-                                                    "sourceEventApiName": "sn_search_combobox.SN_SEARCH_COMBOBOX#SEARCH_EXECUTED",
-                                                    "sourceEventCorrelationId": null,
-                                                    "sourceEventDefinition": {
-                                                        "apiName": "sn_search_combobox.SN_SEARCH_COMBOBOX#SEARCH_EXECUTED",
-                                                        "id": null,
-                                                        "type": "UXEVENT"
-                                                    },
-                                                    "sourceEventSysId": null,
-                                                    "targets": [
-                                                        {
-                                                            "broker": null,
-                                                            "clientScript": {
-                                                                "sysId": "0fa57b8730381210ee4657280aa54b02"
-                                                            },
-                                                            "conditional": null,
-                                                            "declarativeAction": null,
-                                                            "event": null,
-                                                            "operation": null,
-                                                            "targetId": "ckhffzbbhhylaaaadddddhhhiiffypwhbeq",
-                                                            "type": "CLIENT_SCRIPT"
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "isHero": false,
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": ""
-                                            },
-                                            "isNonDestructive": false,
-                                            "overrides": null,
-                                            "propertyValues": {
-                                                "disableAutocomplete": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "placeholder": {
+                                                "ariaRegionName": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": "Search"
+                                                        "message": ""
                                                     }
                                                 },
-                                                "placement": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "body"
-                                                },
-                                                "searchContextConfigId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "00731b9d5b231010d9a5ce1a8581c7dd"
-                                                },
-                                                "searchTerm": {
+                                                "ariaRole": {
                                                     "type": "JSON_LITERAL",
                                                     "value": ""
                                                 },
-                                                "size": {
+                                                "hideEmptyStateUi": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "lg"
+                                                    "value": true
+                                                },
+                                                "includeAriaHeading": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "slotWrapperBehavior": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "fullheight"
+                                                },
+                                                "type": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "section"
                                                 }
                                             },
                                             "slot": null,
@@ -448,17 +499,9 @@
                                                     }
                                                 },
                                                 {
-                                                    "element_id": "heading_3",
-                                                    "rules": {},
+                                                    "element_id": "container_13",
                                                     "styles": {
-                                                        "margin-bottom": "var(--now-static-space--lg)"
-                                                    }
-                                                },
-                                                {
-                                                    "element_id": "search_combobox_component_1",
-                                                    "rules": {},
-                                                    "styles": {
-                                                        "width": "44rem"
+                                                        "width": "100%"
                                                     }
                                                 }
                                             ],
@@ -4955,12 +4998,10 @@
     }
 ]</data>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events>7ea53b87123812102684b286490a43df,f6a53b87da38121013fbe4461b1235dc,4652d7b783b012101551e330ceaad3f9</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <form_factors/>
         <handled_events>03a57b87383812108002fe70585a840b,6f6673982a451210889f1ca64cfaa817,3d957277f43012109b86c3c0b322b227,39957277dc3012105c870337e500bb28,47a57b871f381210a74479522aa48c19</handled_events>
         <interactions/>
         <interfaces/>
@@ -5337,9 +5378,6 @@
   "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Get the help you need",
-  "comment" : ""
-}, {
   "message" : "Got it",
   "comment" : ""
 }, {
@@ -5364,9 +5402,6 @@
   "message" : "Restaurant",
   "comment" : ""
 }, {
-  "message" : "Search",
-  "comment" : ""
-}, {
   "message" : "Select Time",
   "comment" : ""
 }, {
@@ -5374,6 +5409,9 @@
   "comment" : ""
 }, {
   "message" : "Vehicles",
+  "comment" : ""
+}, {
+  "message" : "View My Reservations",
   "comment" : ""
 }, {
   "message" : "You have approved the following task",
@@ -5392,7 +5430,6 @@
         <root_component_config>{}</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_persistence_config/>
         <state_properties>[
     {
         "description": "",
@@ -5517,14 +5554,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-09-27 09:01:06</sys_created_on>
         <sys_id>43a57b8784381210e07881d06813071a</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_43a57b8784381210e07881d06813071a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 03:00:41</sys_updated_on>
+        <sys_updated_on>2024-10-16 09:33:13</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=43a57b8784381210e07881d06813071a"/>
 </record_update>

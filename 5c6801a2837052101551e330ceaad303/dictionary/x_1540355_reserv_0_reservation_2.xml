@@ -18,7 +18,7 @@
         </element>
         <element attributes="encode_utf8=false" label="Vehicle Number" max_length="32" name="vehicle_number" reference="x_1540355_reserv_0_vehicles" type="reference"/>
         <element label="Driver’s Contact" max_length="40" name="driver_s_contact" type="phone_number_e164"/>
-        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Capacity" max_length="40" name="capacity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>

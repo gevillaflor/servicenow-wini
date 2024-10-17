@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Custom Portal App Config">aea53b87833812101551e330ceaad337</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysId,table</fields>
+        <icon/>
+        <name>Reservation Form Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>reservation-form-page</route_type>
+        <screen_type display_value="Reservation Form Page">dd46bdd9831912101551e330ceaad339</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 09:46:28</sys_created_on>
+        <sys_id>9d46bdd9831912101551e330ceaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Form Page</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_app_route_9d46bdd9831912101551e330ceaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 09:46:28</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d46bdd9831912101551e330ceaad33c"/>
+</record_update>
