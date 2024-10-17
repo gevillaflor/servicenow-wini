@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="current" label="Record" language="en" table="var__m_sys_hub_flow_input_f3cc4e1f834512101551e330ceaad3e5">
+    <sys_documentation element="u_type_of_reservation" label="Type of Reservation" language="en" table="x_1540355_reserv_0_ihub_import_ce172c9183955210166ac900feaad339">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>current</element>
+            <element>u_type_of_reservation</element>
             <help/>
             <hint/>
-            <label>Record</label>
+            <label>Type of Reservation</label>
             <language>en</language>
-            <name>var__m_sys_hub_flow_input_f3cc4e1f834512101551e330ceaad3e5</name>
-            <plural/>
+            <name>x_1540355_reserv_0_ihub_import_ce172c9183955210166ac900feaad339</name>
+            <plural>Type of Reservations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-10 06:17:05</sys_created_on>
+            <sys_created_on>2024-10-17 07:32:09</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Record</sys_name>
+            <sys_name>Type of Reservation</sys_name>
             <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
             <sys_policy/>
             <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f3cc4e1f834512101551e330ceaad3e5_current_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1540355_reserv_0_ihub_import_ce172c9183955210166ac900feaad339_u_type_of_reservation_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-10 06:17:05</sys_updated_on>
+            <sys_updated_on>2024-10-17 07:32:09</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

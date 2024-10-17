@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:33:26</sys_created_on>
         <sys_id>af85e1d183d512101551e330ceaad327</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>ef85e1d1abd512101d6dbb34c9378c26:646551325</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Harmony">ed95e1d183d512101551e330ceaad3d8</sys_audit_delete>
+        <sys_audit_delete display_value="">ed95e1d183d512101551e330ceaad3d8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:33:34</sys_created_on>

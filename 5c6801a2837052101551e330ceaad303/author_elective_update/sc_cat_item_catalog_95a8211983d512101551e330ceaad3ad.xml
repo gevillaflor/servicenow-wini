@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:46:56</sys_created_on>
         <sys_id>91a8211983d512101551e330ceaad3b1</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>d1a821190cd512105d925a565b93bcb0:1155086214</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Independence">a4c8e11983d512101551e330ceaad3cf</sys_audit_delete>
+        <sys_audit_delete display_value="">a4c8e11983d512101551e330ceaad3cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:47:25</sys_created_on>

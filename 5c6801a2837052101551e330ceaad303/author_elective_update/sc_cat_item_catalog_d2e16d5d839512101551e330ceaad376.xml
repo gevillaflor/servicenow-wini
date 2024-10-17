@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:17:30</sys_created_on>
         <sys_id>9ee16d5d839512101551e330ceaad379</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>dee16d5d0e951210ff0521814c865a78:1836130606</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Conviction">fda26d9d839512101551e330ceaad33c</sys_audit_delete>
+        <sys_audit_delete display_value="">fda26d9d839512101551e330ceaad33c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:20:45</sys_created_on>

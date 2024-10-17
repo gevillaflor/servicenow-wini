@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:51:43</sys_created_on>
         <sys_id>17b96d5983d512101551e330ceaad3b2</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>57b96d59a8d512100507c7d8e95ab3b1:1990686199</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Independence">7fe9a19983d512101551e330ceaad30a</sys_audit_delete>
+        <sys_audit_delete display_value="">7fe9a19983d512101551e330ceaad30a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:52:34</sys_created_on>
