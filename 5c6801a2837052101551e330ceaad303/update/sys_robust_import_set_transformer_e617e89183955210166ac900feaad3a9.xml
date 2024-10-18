@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for Time Table Data Mapping</description>
+        <name>Time Table Data Mapping_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine display_value="Time Table Data Mapping_etl_ihub">6e17e89183955210166ac900feaad3a6</robust_transform_engine>
+        <source_table>x_1540355_reserv_0_ihub_import_ce172c9183955210166ac900feaad339</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>bess.marso</sys_created_by>
+        <sys_created_on>2024-10-16 04:00:34</sys_created_on>
+        <sys_id>e617e89183955210166ac900feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Table Data Mapping_rte_ihub</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_e617e89183955210166ac900feaad3a9</sys_update_name>
+        <sys_updated_by>bess.marso</sys_updated_by>
+        <sys_updated_on>2024-10-16 04:00:34</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>

@@ -19,7 +19,6 @@
         <label_cache>[]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <master_snapshot_digest/>
         <name>TestFlow</name>
         <natlang/>
         <outputs/>
@@ -48,10 +47,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-07 08:28:39</sys_updated_on>
         <type>flow</type>
-        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f52e83da830912101551e330ceaad359"/>
     <sys_variable_value action="delete_multiple" query="document_key=f52e83da830912101551e330ceaad359"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f52e83da830912101551e330ceaad359"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f52e83da830912101551e330ceaad359"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f52e83da830912101551e330ceaad359^sys_idNOT IN752e83da830912101551e330ceaad375"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -69,10 +68,9 @@
     <sys_hub_flow_input action="delete_multiple" query="model=f52e83da830912101551e330ceaad359"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f52e83da830912101551e330ceaad359"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f52e83da830912101551e330ceaad359"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=f52e83da830912101551e330ceaad359"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=f52e83da830912101551e330ceaad359"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=f52e83da830912101551e330ceaad359"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f52e83da830912101551e330ceaad359"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f52e83da830912101551e330ceaad359"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f52e83da830912101551e330ceaad359"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=f52e83da830912101551e330ceaad359"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f52e83da830912101551e330ceaad359"/>
