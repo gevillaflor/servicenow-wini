@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fb7f19ee83b052101551e330ceaad3c7" label="Restaurant" max_length="40" name="x_1540355_reserv_0_restaurant" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Restaurant Address" max_length="40" name="restaurant_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Hotel Name" max_length="40" name="hotel_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>

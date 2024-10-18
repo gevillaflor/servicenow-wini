@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>1</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -37,24 +37,24 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>number_of_attendees</name>
+        <name>no_of_pax</name>
         <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Number of attendees</question_text>
+        <question_text>No of pax</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1385354_reserv_0_reservation</record_producer_table>
+        <record_producer_table>x_1540355_reserv_0_reservation_2</record_producer_table>
         <reference/>
         <reference_qual>undefined</reference_qual>
         <reference_qual_condition>undefined</reference_qual_condition>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 09:04:20</sys_created_on>
         <sys_id>d668d32447191210d56e3833e16d431a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Number of attendees</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>No of pax</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>item_option_new_d668d32447191210d56e3833e16d431a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 09:04:24</sys_updated_on>
+        <sys_updated_on>2024-10-17 05:27:37</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

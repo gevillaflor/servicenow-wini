@@ -17,6 +17,7 @@
         <internal_name>reservation_request_final_approval_notification</internal_name>
         <label_cache>[{"name":"subflow.requestor_email","label":"Input➛Requestor Email","reference":"","reference_display":"","type":"email","base_type":"email","column_name":"","usedInstances":{"99689da7-fcab-41a4-ba16-e6498b915bc9":["ah_to"]},"attributes":{"uiType":"email","uiTypeLabel":"Email","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"41e76aed-6ed3-4e9d-b850-61369a705da0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.number","label":"Input➛Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"dc789310-e0da-457f-b3ba-9da5ad8264b5":["ah_subject",null],"99689da7-fcab-41a4-ba16-e6498b915bc9":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"80e15559-5006-42a7-869d-d3d8a17266c8","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.direct_manager_email","label":"Input➛Direct Manager Email","reference":"","reference_display":"","type":"email","base_type":"email","column_name":"","usedInstances":{"dc789310-e0da-457f-b3ba-9da5ad8264b5":["ah_to"]},"attributes":{"uiType":"email","uiTypeLabel":"Email","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e7786eb5-b4dd-43ee-9d16-f871cc495fd9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.status","label":"Input➛Status","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"dc789310-e0da-457f-b3ba-9da5ad8264b5":["ah_subject",null],"99689da7-fcab-41a4-ba16-e6498b915bc9":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d9285526-c025-4d80-ace9-4a1df793f7e2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.type_of_reservation","label":"Input➛Type of Reservation","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"dc789310-e0da-457f-b3ba-9da5ad8264b5":["ah_subject",null],"99689da7-fcab-41a4-ba16-e6498b915bc9":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7a1256ea-e1c0-4dfd-865f-bba8c0a474aa","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.requestor_lastname","label":"Input➛Requestor Lastname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"dc789310-e0da-457f-b3ba-9da5ad8264b5":[null],"99689da7-fcab-41a4-ba16-e6498b915bc9":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e362a2b3-e4c8-4c51-9015-645f8a7f3ed3","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.requestor_firstname","label":"Input➛Requestor Firstname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"dc789310-e0da-457f-b3ba-9da5ad8264b5":[null],"99689da7-fcab-41a4-ba16-e6498b915bc9":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7585d999-699e-41e6-b5f0-61b5ce0151d8","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>726c901183915210166ac900feaad38c</master_snapshot>
+        <master_snapshot_digest/>
         <name>Reservation Request Final Approval Notification</name>
         <natlang/>
         <outputs/>
@@ -43,12 +44,12 @@
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_hub_flow_8a8f734d83951210166ac900feaad313</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 03:52:10</sys_updated_on>
+        <sys_updated_on>2024-10-17 03:37:05</sys_updated_on>
         <type>subflow</type>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8a8f734d83951210166ac900feaad313"/>
     <sys_variable_value action="delete_multiple" query="document_key=8a8f734d83951210166ac900feaad313"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=8a8f734d83951210166ac900feaad313"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=8a8f734d83951210166ac900feaad313"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=8a8f734d83951210166ac900feaad313^sys_idNOT IN8a8f734d83951210166ac900feaad314"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -654,6 +655,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dc14841983591210166ac900feaad3aa"/>
     <sys_hub_flow_output action="delete_multiple" query="model=8a8f734d83951210166ac900feaad313"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8a8f734d83951210166ac900feaad313"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8a8f734d83951210166ac900feaad313"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=8a8f734d83951210166ac900feaad313^sys_idNOT IN6814c09983591210166ac900feaad3a5,78cb14dd83515210166ac900feaad36a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -811,8 +813,8 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=78cb14dd83515210166ac900feaad36a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=78cb14dd83515210166ac900feaad36a"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8a8f734d83951210166ac900feaad313"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=8a8f734d83951210166ac900feaad313"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8a8f734d83951210166ac900feaad313"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=8a8f734d83951210166ac900feaad313^sys_idNOT IN05cb14dd83515210166ac900feaad370,2c14c09983591210166ac900feaad3ab,41cb14dd83515210166ac900feaad370,6814c09983591210166ac900feaad3ab,8dcb14dd83515210166ac900feaad36f,a414c09983591210166ac900feaad3ab,c5cb14dd83515210166ac900feaad36f,c5cb14dd83515210166ac900feaad370,ec14c09983591210166ac900feaad3aa,ec14c09983591210166ac900feaad3ab"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>8a8f734d83951210166ac900feaad313</attached_to>
@@ -1191,10 +1193,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-16 03:13:54</sys_updated_on>
         <type>subflow</type>
+        <version/>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=726c901183915210166ac900feaad38c"/>
     <sys_variable_value action="delete_multiple" query="document_key=726c901183915210166ac900feaad38c"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=726c901183915210166ac900feaad38c"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=726c901183915210166ac900feaad38c"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=726c901183915210166ac900feaad38c^sys_idNOT IN3e6c901183915210166ac900feaad38c"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1800,6 +1802,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c76c901183915210166ac900feaad3c6"/>
     <sys_hub_flow_output action="delete_multiple" query="model=726c901183915210166ac900feaad38c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=726c901183915210166ac900feaad38c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=726c901183915210166ac900feaad38c"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=726c901183915210166ac900feaad38c^sys_idNOT IN8f6c901183915210166ac900feaad3e1,cb6c901183915210166ac900feaad3e9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1957,8 +1960,8 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cb6c901183915210166ac900feaad3e9"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cb6c901183915210166ac900feaad3e9"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=726c901183915210166ac900feaad38c"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=726c901183915210166ac900feaad38c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=726c901183915210166ac900feaad38c"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=726c901183915210166ac900feaad38c^sys_idNOT IN436c901183915210166ac900feaad3ec,436c901183915210166ac900feaad3ed,476c901183915210166ac900feaad3ec,4b6c901183915210166ac900feaad3ec,4f6c901183915210166ac900feaad3ec,c36c901183915210166ac900feaad3ec,c36c901183915210166ac900feaad3ed,c76c901183915210166ac900feaad3ec,cb6c901183915210166ac900feaad3ec,cf6c901183915210166ac900feaad3ec"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>726c901183915210166ac900feaad38c</attached_to>

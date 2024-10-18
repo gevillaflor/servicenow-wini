@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>1</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -37,17 +37,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>attendees</name>
+        <name>no_of_pax</name>
         <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Number of attendees</question_text>
+        <question_text>No of pax</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 02:23:11</sys_created_on>
         <sys_id>96a0662747011210d56e3833e16d43e0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Number of attendees</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>No of pax</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>item_option_new_96a0662747011210d56e3833e16d43e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-11 02:43:24</sys_updated_on>
+        <sys_updated_on>2024-10-17 06:24:19</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

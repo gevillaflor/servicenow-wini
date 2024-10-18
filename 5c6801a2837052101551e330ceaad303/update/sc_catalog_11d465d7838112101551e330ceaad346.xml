@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Type of Reservation</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 03:22:41</sys_created_on>
+        <sys_id>11d465d7838112101551e330ceaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Catalog</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_catalog_11d465d7838112101551e330ceaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 03:22:41</sys_updated_on>
+        <title>Reservation Catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=11d465d7838112101551e330ceaad346"/>
+</record_update>
