@@ -41,7 +41,7 @@
         <update_guid_history>3da26d9d15951210f36a665457d2346e:-75493421</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">7fc261dd839512101551e330ceaad379</sys_audit_delete>
+        <sys_audit_delete display_value="Meeting Room.Meeting Room - Conviction">7fc261dd839512101551e330ceaad379</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:21:26</sys_created_on>

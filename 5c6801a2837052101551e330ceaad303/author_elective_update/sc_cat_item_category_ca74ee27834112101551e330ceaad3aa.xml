@@ -41,7 +41,7 @@
         <update_guid_history>8674ee27944112106e988cb12b7134ae:1204840169</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">21d6aee7834112101551e330ceaad33d</sys_audit_delete>
+        <sys_audit_delete display_value="Meeting Room.Meeting Room - Imagination">21d6aee7834112101551e330ceaad33d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 02:49:17</sys_created_on>
