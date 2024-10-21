@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:55:47</sys_created_on>
         <sys_id>91f5963e83d112101551e330ceaad36b</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>d1f5963e12d11210aa618bc316a22d6a:-204887997</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Optimism">3c361e3e83d112101551e330ceaad306</sys_audit_delete>
+        <sys_audit_delete display_value="">3c361e3e83d112101551e330ceaad306</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:56:50</sys_created_on>

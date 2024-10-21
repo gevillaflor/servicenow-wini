@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:25:45</sys_created_on>
         <sys_id>d91f8ab283d112101551e330ceaad324</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>1d1f8ab295d11210246a5b4a04d8d823:-1963582563</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Inspire">386f82f283d112101551e330ceaad309</sys_audit_delete>
+        <sys_audit_delete display_value="">386f82f283d112101551e330ceaad309</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:27:05</sys_created_on>

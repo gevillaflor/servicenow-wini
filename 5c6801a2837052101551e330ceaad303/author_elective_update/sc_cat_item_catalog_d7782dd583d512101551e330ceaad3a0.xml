@@ -41,7 +41,7 @@
         <update_guid_history>17782dd559d51210708a12e367edeba3:1155086214</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Independence">15a8211983d512101551e330ceaad399</sys_audit_delete>
+        <sys_audit_delete display_value="">15a8211983d512101551e330ceaad399</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:46:56</sys_created_on>

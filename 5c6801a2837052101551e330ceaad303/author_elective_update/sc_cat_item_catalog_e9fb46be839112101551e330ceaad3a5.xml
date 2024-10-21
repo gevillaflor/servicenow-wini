@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>c940515f830112101551e330ceaad315</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:12:07</sys_created_on>
         <sys_id>a5fb46be839112101551e330ceaad3a9</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>e5fb46bed89112104c59d6e8dc8ec4a8:-1695989268</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Executive">c91c0abe839112101551e330ceaad394</sys_audit_delete>
+        <sys_audit_delete display_value="">c91c0abe839112101551e330ceaad394</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:12:37</sys_created_on>

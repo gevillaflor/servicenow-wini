@@ -41,7 +41,7 @@
         <update_guid_history>473e962fd101121042a6a885d68bf3c9:-1996304920</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Persistence">bc5e1a2f830112101551e330ceaad3b6</sys_audit_delete>
+        <sys_audit_delete display_value="">bc5e1a2f830112101551e330ceaad3b6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 02:12:05</sys_created_on>
