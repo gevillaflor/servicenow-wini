@@ -41,7 +41,7 @@
         <update_guid_history>07d5a9d1efd51210aaa64d4e5d63b9bb:646551325</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Harmony">f006add183d512101551e330ceaad3a0</sys_audit_delete>
+        <sys_audit_delete display_value="">f006add183d512101551e330ceaad3a0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 08:35:26</sys_created_on>

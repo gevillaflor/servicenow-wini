@@ -41,7 +41,7 @@
         <update_guid_history>dbdc2eefc7411210b1bcbc84962f499d:-345479744</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Imagination">f4fcaeef834112101551e330ceaad3e3</sys_audit_delete>
+        <sys_audit_delete display_value="">f4fcaeef834112101551e330ceaad3e3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 03:16:00</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>950ee7a3b3c512105891936ee24aae31:1642450303</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Summit Hall">5a0ee7a383c512101551e330ceaad3e4</sys_audit_delete>
+        <sys_audit_delete display_value="">5a0ee7a383c512101551e330ceaad3e4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 08:00:21</sys_created_on>
