@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>capacity</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -38,17 +38,17 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>capacity</name>
+        <name>no_of_pax</name>
         <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Capacity</question_text>
-        <read_only>true</read_only>
+        <question_text>No of Pax</question_text>
+        <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 05:05:12</sys_created_on>
         <sys_id>aab5cb23830512103152fa96feaad358</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Capacity</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>No of Pax</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>item_option_new_aab5cb23830512103152fa96feaad358</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-11 05:05:16</sys_updated_on>
+        <sys_updated_on>2024-10-21 07:56:36</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -92,7 +92,7 @@
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex/>
+        <validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex>
         <variable_name/>
         <variable_set/>
         <variable_width/>
