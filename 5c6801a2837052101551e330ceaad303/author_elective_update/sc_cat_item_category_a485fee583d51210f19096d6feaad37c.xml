@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>5a6a56e183551210f19096d6feaad374</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 09:01:14</sys_created_on>
         <sys_id>3085fee583d51210f19096d6feaad381</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>7085fee5b0d51210370264946dc1bb80:-1405707600</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Agility">60c5762983d51210f19096d6feaad369</sys_audit_delete>
+        <sys_audit_delete display_value="">60c5762983d51210f19096d6feaad369</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 09:02:19</sys_created_on>

@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>5a6a56e183551210f19096d6feaad374</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 07:52:53</sys_created_on>
         <sys_id>d97f273583111210f19096d6feaad36c</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>1d7f2735b5111210076f234287fd366b:2128774456</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Creativity">7f8fe73583111210f19096d6feaad349</sys_audit_delete>
+        <sys_audit_delete display_value="">7f8fe73583111210f19096d6feaad349</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 07:53:20</sys_created_on>

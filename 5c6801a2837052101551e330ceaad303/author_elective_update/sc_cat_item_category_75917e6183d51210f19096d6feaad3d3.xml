@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>5a6a56e183551210f19096d6feaad374</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 08:44:07</sys_created_on>
         <sys_id>f1917e6183d51210f19096d6feaad3d8</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>f1917e6140d512100fbd378b221f53d7:-2137696945</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Meeting Room.Meeting Room - Assertive">7ad136a183d51210f19096d6feaad359</sys_audit_delete>
+        <sys_audit_delete display_value="">7ad136a183d51210f19096d6feaad359</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 08:45:16</sys_created_on>

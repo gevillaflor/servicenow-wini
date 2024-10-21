@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>5a6a56e183551210f19096d6feaad374</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:02:05</sys_created_on>
         <sys_id>62a9caf283511210f19096d6feaad370</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>a2a9caf2c25112107a1d2ba05f575f6f:2099178013</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Teleconference">05c98ef283511210f19096d6feaad362</sys_audit_delete>
+        <sys_audit_delete display_value="">05c98ef283511210f19096d6feaad362</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:02:31</sys_created_on>

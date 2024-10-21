@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>5a6a56e183551210f19096d6feaad374</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 07:56:06</sys_created_on>
         <sys_id>5c303b7583111210f19096d6feaad3b5</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>9c303b756b111210490cb9b98e6884b4:62121023</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Creativity">a8503f7583111210f19096d6feaad334</sys_audit_delete>
+        <sys_audit_delete display_value="">a8503f7583111210f19096d6feaad334</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 07:56:40</sys_created_on>

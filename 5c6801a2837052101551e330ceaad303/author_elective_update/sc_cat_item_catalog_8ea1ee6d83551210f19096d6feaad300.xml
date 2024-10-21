@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>5a6a56e183551210f19096d6feaad374</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 07:34:30</sys_created_on>
         <sys_id>4aa1ee6d83551210f19096d6feaad304</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>8aa1ee6d0b551210db3e8c8223fd6c03:1065324037</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Endurance ">21c1a2ad83551210f19096d6feaad39f</sys_audit_delete>
+        <sys_audit_delete display_value="">21c1a2ad83551210f19096d6feaad39f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 07:35:01</sys_created_on>

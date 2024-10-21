@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>5a6a56e183551210f19096d6feaad374</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 09:05:19</sys_created_on>
         <sys_id>2076b66983d51210f19096d6feaad3f2</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>6076b669c4d512107495d1a80bf118f1:1562870757</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Agility">ea96fa6983d51210f19096d6feaad327</sys_audit_delete>
+        <sys_audit_delete display_value="">ea96fa6983d51210f19096d6feaad327</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 09:06:00</sys_created_on>
