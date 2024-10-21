@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Meeting Room - Board Room">dbf0ee2d83551210f19096d6feaad335</sc_cat_item>
+        <sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 07:59:00</sys_created_on>
+        <sys_id>e2d0bbb583111210f19096d6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Catalog.Meeting Room - Board Room</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_e2d0bbb583111210f19096d6feaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 07:59:00</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>95c6de9cdb763910ae4c9027c5961965</instance_id>
+        <instance_name>dev224259</instance_name>
+        <name>sc_cat_item_catalog_e2d0bbb583111210f19096d6feaad392</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Meeting Room - Board Room">dbf0ee2d83551210f19096d6feaad335</sc_cat_item><sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-18 07:59:00</sys_created_on><sys_id>e2d0bbb583111210f19096d6feaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reservation Catalog.Meeting Room - Board Room</sys_name><sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sc_cat_item_catalog_e2d0bbb583111210f19096d6feaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-18 07:59:00</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1386066854</payload_hash>
+        <record_name>Reservation Catalog.Meeting Room - Board Room</record_name>
+        <reverted_from/>
+        <source>5a6a56e183551210f19096d6feaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 07:59:00</sys_created_on>
+        <sys_id>aed0bbb583111210f19096d6feaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929ea312710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 07:59:00</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>eed0bbb5941112109d5b556b6b2e9f94</update_guid>
+        <update_guid_history>eed0bbb5941112109d5b556b6b2e9f94:1386066854</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Board Room">a2817bf583111210f19096d6feaad354</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 08:02:00</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>08e000b16dfe493f82f6e7d0f6d119a9</sys_id>
+        <sys_metadata>e2d0bbb583111210f19096d6feaad392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Catalog.Meeting Room - Board Room</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent display_value="Meeting Room - Board Room">dbf0ee2d83551210f19096d6feaad335</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_e2d0bbb583111210f19096d6feaad392</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_e2d0bbb583111210f19096d6feaad392">aed0bbb583111210f19096d6feaad395</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 08:02:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
