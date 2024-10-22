@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 05:01:18</sys_created_on>
         <sys_id>2305cbef83c112103152fa96feaad343</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Accomodation - Shangri-la Hotel Makati</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sc_cat_item_producer_2305cbef83c112103152fa96feaad343</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-10-21 08:19:37</sys_updated_on>
+        <sys_updated_on>2024-10-22 07:24:28</sys_updated_on>
         <table_name>x_1540355_reserv_0_reservation_2</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>21</version>
+        <version>23</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
