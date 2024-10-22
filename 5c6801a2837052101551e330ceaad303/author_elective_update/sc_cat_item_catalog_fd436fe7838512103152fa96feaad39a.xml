@@ -41,7 +41,7 @@
         <update_guid_history>3d436fe7cf85121081c48bdb0f20869d:-524483599</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservation Catalog.Accomodation - Seda Hotel BGC">4007a72f838512103152fa96feaad303</sys_audit_delete>
+        <sys_audit_delete display_value="">4007a72f838512103152fa96feaad303</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:29:37</sys_created_on>

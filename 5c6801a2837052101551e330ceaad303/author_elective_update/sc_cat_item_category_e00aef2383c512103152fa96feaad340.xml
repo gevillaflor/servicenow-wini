@@ -41,7 +41,7 @@
         <update_guid_history>ac0aef2394c5121037de27b0dad3fb43:-648890915</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Accommodations.Accomodation - Seda Hotel Quezon City">ce2ae36383c512103152fa96feaad343</sys_audit_delete>
+        <sys_audit_delete display_value="">ce2ae36383c512103152fa96feaad343</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:43:24</sys_created_on>
