@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Accomodation - Shangri-la Hotel Makati">2305cbef83c112103152fa96feaad343</sc_cat_item>
+        <sc_cat_item display_value="Accommodation - Shangri-la Hotel Makati">2305cbef83c112103152fa96feaad343</sc_cat_item>
         <sc_category display_value="Accommodations">cf55e11b838112101551e330ceaad3bc</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

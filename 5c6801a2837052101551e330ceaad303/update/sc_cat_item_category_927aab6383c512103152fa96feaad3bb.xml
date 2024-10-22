@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Accomodation - Seda Hotel Quezon City">06f8e3ef838512103152fa96feaad308</sc_cat_item>
+        <sc_cat_item display_value="Accommodation - Seda Hotel Quezon City">06f8e3ef838512103152fa96feaad308</sc_cat_item>
         <sc_category display_value="Accommodations">cf55e11b838112101551e330ceaad3bc</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
