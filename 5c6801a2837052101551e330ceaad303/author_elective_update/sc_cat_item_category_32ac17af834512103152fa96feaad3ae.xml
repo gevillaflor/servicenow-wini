@@ -41,7 +41,7 @@
         <update_guid_history>7aac17af324512107b329f4f3ab8a6b1:-106606008</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">eaec9baf834512103152fa96feaad38a</sys_audit_delete>
+        <sys_audit_delete display_value="Accommodations.Accomodation - Ascott Hotel Makati">eaec9baf834512103152fa96feaad38a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 06:45:34</sys_created_on>

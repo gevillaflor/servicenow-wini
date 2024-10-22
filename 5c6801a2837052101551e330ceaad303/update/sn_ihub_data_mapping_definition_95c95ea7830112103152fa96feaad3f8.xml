@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
     <sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE">
         <integration_table>sys_data_source</integration_table>
-        <published_source_structure display_value="">51c95ea7830112103152fa96feaad3f7</published_source_structure>
+        <published_source_structure display_value="ih_import_FD5dc95ea709011210bd32fca14b36b0f6">51c95ea7830112103152fa96feaad3f7</published_source_structure>
         <record_id>6cc95ea7830112103152fa96feaad3d9</record_id>
-        <source_structure display_value="">51c95ea7830112103152fa96feaad3f7</source_structure>
+        <source_structure display_value="ih_import_FD5dc95ea709011210bd32fca14b36b0f6">51c95ea7830112103152fa96feaad3f7</source_structure>
         <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 01:52:11</sys_created_on>

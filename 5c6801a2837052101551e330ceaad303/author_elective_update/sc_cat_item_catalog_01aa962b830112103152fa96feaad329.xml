@@ -41,7 +41,7 @@
         <update_guid_history>0daa962bc00112109796406c49ed242b:645529134</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">87fa5e2b830112103152fa96feaad3cf</sys_audit_delete>
+        <sys_audit_delete display_value="Reservation Catalog.Accomodation - Shangrila Hotel">87fa5e2b830112103152fa96feaad3cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 01:57:30</sys_created_on>

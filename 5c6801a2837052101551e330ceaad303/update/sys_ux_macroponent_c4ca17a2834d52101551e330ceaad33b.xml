@@ -209,7 +209,7 @@
             },
             "limit": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": 6
             },
             "listTitle": {
                 "type": "TRANSLATION_LITERAL",
@@ -312,14 +312,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 04:02:10</sys_created_on>
         <sys_id>c4ca17a2834d52101551e330ceaad33b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Accommodation List Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_c4ca17a2834d52101551e330ceaad33b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-11 05:45:03</sys_updated_on>
+        <sys_updated_on>2024-10-22 01:23:32</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=c4ca17a2834d52101551e330ceaad33b"/>
 </record_update>

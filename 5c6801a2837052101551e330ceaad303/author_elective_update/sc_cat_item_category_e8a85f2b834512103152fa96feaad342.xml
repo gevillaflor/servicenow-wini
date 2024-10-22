@@ -41,7 +41,7 @@
         <update_guid_history>64a85f2bfa451210d409f0e7ba42d846:-1665818808</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">7b399b6b834512103152fa96feaad307</sys_audit_delete>
+        <sys_audit_delete display_value="Accommodations.Accomodation - Ascott Hotel BGC">7b399b6b834512103152fa96feaad307</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 06:29:31</sys_created_on>
