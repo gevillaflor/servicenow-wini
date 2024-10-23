@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Restaurant - Vikings Makati City">836bb5e7835912101551e330ceaad36a</sc_cat_item>
+        <sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:59:05</sys_created_on>
+        <sys_id>a24cb92b835912101551e330ceaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Catalog.Restaurant - Vikings Makati City</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a24cb92b835912101551e330ceaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:59:05</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sc_cat_item_catalog_a24cb92b835912101551e330ceaad338</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Restaurant - Vikings Makati City">836bb5e7835912101551e330ceaad36a</sc_cat_item><sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-23 09:59:05</sys_created_on><sys_id>a24cb92b835912101551e330ceaad338</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reservation Catalog.Restaurant - Vikings Makati City</sys_name><sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package><sys_policy/><sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope><sys_update_name>sc_cat_item_catalog_a24cb92b835912101551e330ceaad338</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-23 09:59:05</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>474653404</payload_hash>
+        <record_name>Reservation Catalog.Restaurant - Vikings Makati City</record_name>
+        <reverted_from/>
+        <source>c940515f830112101551e330ceaad315</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:59:05</sys_created_on>
+        <sys_id>6e4cb92b835912101551e330ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b8d0d0520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:59:05</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>ae4cb92b305912105d62a2ff20cd113a</update_guid>
+        <update_guid_history>ae4cb92b305912105d62a2ff20cd113a:474653404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reservation Catalog.Restaurant - Vikings Makati City">6adcb56b835912101551e330ceaad3d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 10:01:32</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5c791b78deb748a3ad87619ecb419b09</sys_id>
+        <sys_metadata>a24cb92b835912101551e330ceaad338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Catalog.Restaurant - Vikings Makati City</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent display_value="Restaurant - Vikings Makati City">836bb5e7835912101551e330ceaad36a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a24cb92b835912101551e330ceaad338</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a24cb92b835912101551e330ceaad338">6e4cb92b835912101551e330ceaad33b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:01:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

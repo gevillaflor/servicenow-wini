@@ -10,10 +10,10 @@
         <element attributes="edge_encryption_enabled=true" label="Transaction ID" max_length="40" name="transaction_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Type of Reservation" max_length="40" name="type_of_reservation" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Meeting Room" sequence="1" value="mtgrm"/>
                 <element inactive_on_update="false" label="Restaurant" sequence="2" value="resto"/>
                 <element inactive_on_update="false" label="Vehicles" sequence="3" value="vehicle"/>
                 <element inactive_on_update="false" label="Accommodation" sequence="0" value="accomm"/>
+                <element inactive_on_update="false" label="Meeting Room" sequence="1" value="mtgrm"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Vehicle Number" max_length="32" name="vehicle_number" reference="x_1540355_reserv_0_vehicles" type="reference"/>
@@ -21,10 +21,10 @@
         <element attributes="edge_encryption_enabled=true" label="No of Pax" max_length="40" name="capacity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
                 <element inactive_on_update="false" label="Pending" sequence="3" value="pending"/>
-                <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>
                 <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
+                <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>
             </choice>
         </element>
         <element label="Reservation Time" max_length="40" name="reservation_time" type="string"/>

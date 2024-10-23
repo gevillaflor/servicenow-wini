@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
-        <cat_item display_value="Restaurant - Vikings Manila Bay">e2c86ea447151210d56e3833e16d43b9</cat_item>
+        <cat_item display_value="Restaurant - Vikings Makati City">836bb5e7835912101551e330ceaad36a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>5b38822d47911210d56e3833e16d434f</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -21,43 +21,43 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>restaurant_number</field>
+        <field>capacity</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label>number</lookup_label>
+        <lookup_label/>
         <lookup_price/>
-        <lookup_table>x_1385354_reserv_0_restaurant</lookup_table>
+        <lookup_table/>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>number</lookup_value>
+        <lookup_value/>
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>restaurant_number</name>
-        <order>550</order>
+        <name>no_of_pax</name>
+        <order>400</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Restaurant Number</question_text>
-        <read_only>true</read_only>
+        <question_text>No of pax</question_text>
+        <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1540355_reserv_0_reservation_2</record_producer_table>
-        <reference>x_1540355_reserv_0_restaurant</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,24 +75,24 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-17 05:23:06</sys_created_on>
-        <sys_id>9a55352547511210d56e3833e16d4303</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Restaurant Number</sys_name>
+        <sys_created_on>2024-10-23 10:05:15</sys_created_on>
+        <sys_id>497d75ab835912101551e330ceaad3a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>No of pax</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
-        <sys_update_name>item_option_new_9a55352547511210d56e3833e16d4303</sys_update_name>
+        <sys_update_name>item_option_new_497d75ab835912101551e330ceaad3a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 07:10:56</sys_updated_on>
+        <sys_updated_on>2024-10-23 10:05:18</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex/>
+        <validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=9a55352547511210d56e3833e16d4303"/>
-    <fx_price action="delete_multiple" query="id=9a55352547511210d56e3833e16d4303"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=497d75ab835912101551e330ceaad3a8"/>
+    <fx_price action="delete_multiple" query="id=497d75ab835912101551e330ceaad3a8"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>9a55352547511210d56e3833e16d4303</id>
+        <id>497d75ab835912101551e330ceaad3a8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-17 05:23:06</sys_created_on>
-        <sys_id>159302a547911210d56e3833e16d43b2</sys_id>
+        <sys_created_on>2024-10-23 10:05:15</sys_created_on>
+        <sys_id>f4bdb9ab835912101551e330ceaad355</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 05:23:06</sys_updated_on>
+        <sys_updated_on>2024-10-23 10:05:15</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>9a55352547511210d56e3833e16d4303</id>
+        <id>497d75ab835912101551e330ceaad3a8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-17 05:23:06</sys_created_on>
-        <sys_id>9d9302a547911210d56e3833e16d43b0</sys_id>
+        <sys_created_on>2024-10-23 10:05:15</sys_created_on>
+        <sys_id>b8bdb9ab835912101551e330ceaad354</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 05:23:06</sys_updated_on>
+        <sys_updated_on>2024-10-23 10:05:15</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
