@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae5861eb839512103152fa96feaad33a" extends="sys_import_set_row" label="Restaurant Data Mapping" max_length="40" name="x_1540355_reserv_0_ihub_import_474825e7839512103152fa96feaad381" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hotel Name" label="Hotel Name" max_length="40" name="u_hotel_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Restaurant Address" label="Restaurant Address" max_length="40" name="u_restaurant_address" type="string"/>
+    </element>
+</database>
