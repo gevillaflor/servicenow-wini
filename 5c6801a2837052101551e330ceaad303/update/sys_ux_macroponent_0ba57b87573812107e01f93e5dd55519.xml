@@ -61,48 +61,7 @@
                                 "elementId": "breadcrumbs_1",
                                 "elementLabel": "Breadcrumbs 1",
                                 "eventMappings": [
-                                    {
-                                        "eventMappingId": "ckgjaaddddmeeaaaaaafddghhedccmlbbncm",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_breadcrumbs.NOW_BREADCRUMBS#ITEM_CLICKED",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_breadcrumbs.NOW_BREADCRUMBS#ITEM_CLICKED",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "x_1540355_reserv_0.NAV_ITEM_SELECTED_RELAY_0ba57b87573812107e01f93e5dd55519",
-                                                    "payload": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": {
-                                                            "external": null,
-                                                            "fields": null,
-                                                            "multiInstField": null,
-                                                            "params": null,
-                                                            "passiveNavigation": null,
-                                                            "redirect": null,
-                                                            "route": "landing",
-                                                            "targetRoute": null,
-                                                            "title": null
-                                                        }
-                                                    },
-                                                    "sysId": "76a53b87b8381210b9fcbd78afc702de"
-                                                },
-                                                "operation": null,
-                                                "targetId": "ckgjaaddddmeeaaaaaagddghheappajrhht",
-                                                "type": "EVENT"
-                                            }
-                                        ]
-                                    }
+                                    
                                 ],
                                 "extensionPoints": [
                                     
@@ -126,7 +85,7 @@
                                         "script": {
                                             "apiVersion": "2.0.0",
                                             "controllerElementId": null,
-                                            "inlineScript": null,
+                                            "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {TransformApiHelpers} params.helpers\n */\nfunction evaluateProperty({\n    api,\n    helpers\n}) {\n    var reserveType = api.data.look_up_record_2.result.name.displayValue.substring(0, 4);\n    var href = '#';\n    \n    switch (reserveType) {\n        case \"Meet\":\n            href = 'x/1540355/reservation-system/meeting-room-list-page';\n            break;\n        case \"Vehi\":\n            href = 'x/1540355/reservation-system/vehicle-list-page';\n            break;\n        case \"Acco\":\n            href = 'x/1540355/reservation-system/accommodation-list-page';\n            break;\n        case \"Rest\":\n            href = 'x/1540355/reservation-system/restaurant-list-page';\n            break;\n        default:\n            // code block\n    }\n    return [{\n            \"label\": helpers.translateSync(\"Home\"),\n            \"icon\": \"home-outline\",\n            \"hideLabel\": false,\n            \"href\": \"x/1540355/reservation-system/landing\"\n        },\n        {\n            \"label\": \"List\",\n            \"hideLabel\": false,\n            \"href\": href\n        },\n        {\n            \"label\": api.data.look_up_record_2.result.name.displayValue\n        }\n\n    ];\n}",
                                             "scriptSysId": "83a53b87ff3812108b53c00a1c30bdf0",
                                             "target": null
                                         },
@@ -1103,14 +1062,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-09-27 09:01:10</sys_created_on>
         <sys_id>0ba57b87573812107e01f93e5dd55519</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Catalog Item Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_0ba57b87573812107e01f93e5dd55519</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-11 03:04:37</sys_updated_on>
+        <sys_updated_on>2024-10-22 08:06:23</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=0ba57b87573812107e01f93e5dd55519"/>
 </record_update>

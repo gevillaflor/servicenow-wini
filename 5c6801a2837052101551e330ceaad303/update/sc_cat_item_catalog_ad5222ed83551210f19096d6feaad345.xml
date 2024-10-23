@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Meeting Room - Endurance ">bfa0e62d83551210f19096d6feaad3fc</sc_cat_item>
-        <sc_catalog display_value="">11d465d7838112101551e330ceaad346</sc_catalog>
+        <sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-17 07:37:28</sys_created_on>

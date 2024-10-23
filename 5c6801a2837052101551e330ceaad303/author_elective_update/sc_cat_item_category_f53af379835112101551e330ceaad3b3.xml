@@ -41,7 +41,7 @@
         <update_guid_history>b13af3794151121061b6d1efe5129fb7:-1775225036</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">d23a3779835112101551e330ceaad344</sys_audit_delete>
+        <sys_audit_delete display_value="Meeting Room.Meeting Room - Diligence">d23a3779835112101551e330ceaad344</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 08:39:56</sys_created_on>

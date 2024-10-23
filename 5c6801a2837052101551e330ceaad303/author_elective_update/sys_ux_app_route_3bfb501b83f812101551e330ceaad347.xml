@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Custom Portal App Config">aea53b87833812101551e330ceaad337</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysId,table,date,time</fields>
+        <icon/>
+        <name>Meeting Room Details</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>meeting-room-details</route_type>
+        <screen_type display_value="Meeting Room Details">77fb501b83f812101551e330ceaad344</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 11:48:30</sys_created_on>
+        <sys_id>3bfb501b83f812101551e330ceaad347</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Meeting Room Details</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_app_route_3bfb501b83f812101551e330ceaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 08:13:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=3bfb501b83f812101551e330ceaad347"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</application>
+        <file_path/>
+        <instance_id>4a401c0e1b1d8e1032182f8dee4bcbde</instance_id>
+        <instance_name>dev252214</instance_name>
+        <name>sys_ux_app_route_3bfb501b83f812101551e330ceaad347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Custom Portal App Config">aea53b87833812101551e330ceaad337</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysId,table,date,time</fields>
+        <icon/>
+        <name>Meeting Room Details</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>meeting-room-details</route_type>
+        <screen_type display_value="Meeting Room Details">77fb501b83f812101551e330ceaad344</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 11:48:30</sys_created_on>
+        <sys_id>3bfb501b83f812101551e330ceaad347</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Meeting Room Details</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_update_name>sys_ux_app_route_3bfb501b83f812101551e330ceaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 08:13:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=3bfb501b83f812101551e330ceaad347"/>
+</record_update>]]></payload>
+        <payload_hash>-460148203</payload_hash>
+        <record_name>Meeting Room Details</record_name>
+        <reverted_from/>
+        <source>3840139e830912101551e330ceaad37f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 08:38:49</sys_created_on>
+        <sys_id>be7097de830912101551e330ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192662192190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 08:38:49</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>7a7097dec2091210e15b9ed49ebdc151</update_guid>
+        <update_guid_history>7a7097dec2091210e15b9ed49ebdc151:0,8521d0ec43c512104d9ca2bdcb62f564:1135837402,7db8f1404dcd1210cbff2f18994ee47c:157217083,c0936853523c12101264886a52e57aac:-527959911,c8bf58dbaef81210ca600faaf96ee300:2106903102,33fb501be1f8121010aa8c4ed760bc49:-527959911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 02:28:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>00f4a62a2541490c800409c208431231</sys_id>
+        <sys_metadata>3bfb501b83f812101551e330ceaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meeting Room Details</sys_name>
+        <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
+        <sys_scope_delete display_value="">430590d92d204f129a8beb9076f05784</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_3bfb501b83f812101551e330ceaad347</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_3bfb501b83f812101551e330ceaad347">be7097de830912101551e330ceaad351</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 02:28:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

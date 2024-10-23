@@ -41,7 +41,7 @@
         <update_guid_history>92fec6b2fed11210ce9f2ab9d1f22448:-1080555556</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">c91f4ab283d112101551e330ceaad3f1</sys_audit_delete>
+        <sys_audit_delete display_value="Reservation Catalog.Meeting Room - Inspire">c91f4ab283d112101551e330ceaad3f1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 03:25:44</sys_created_on>

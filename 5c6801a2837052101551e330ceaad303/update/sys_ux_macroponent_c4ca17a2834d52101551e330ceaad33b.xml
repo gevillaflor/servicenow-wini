@@ -7,6 +7,77 @@
         <composition>[
     {
         "definition": {
+            "id": "9c2e48402c6c25d281faeb20637f6106",
+            "type": "MACROPONENT"
+        },
+        "elementId": "breadcrumbs_1",
+        "elementLabel": "Breadcrumbs 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "delimiter": {
+                "type": "JSON_LITERAL",
+                "value": "chevron"
+            },
+            "items": {
+                "container": [
+                    {
+                        "container": {
+                            "hideLabel": {
+                                "type": "JSON_LITERAL",
+                                "value": false
+                            },
+                            "href": {
+                                "type": "JSON_LITERAL",
+                                "value": "x/1540355/reservation-system/landing"
+                            },
+                            "icon": {
+                                "type": "JSON_LITERAL",
+                                "value": "home-outline"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Home"
+                                }
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Accommodation List Page"
+                                }
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    }
+                ],
+                "type": "LIST_CONTAINER"
+            },
+            "overflow": {
+                "type": "JSON_LITERAL",
+                "value": "collapse"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
             "id": "2b1c080881e05dc63b917044290b233f",
             "type": "MACROPONENT"
         },
@@ -192,7 +263,7 @@
             },
             "hideViewAll": {
                 "type": "JSON_LITERAL",
-                "value": false
+                "value": true
             },
             "highlightContent": {
                 "type": "JSON_LITERAL",
@@ -209,7 +280,7 @@
             },
             "limit": {
                 "type": "JSON_LITERAL",
-                "value": 6
+                "value": 100
             },
             "listTitle": {
                 "type": "TRANSLATION_LITERAL",
@@ -274,6 +345,10 @@
         "children": null,
         "items": [
             {
+                "element_id": "breadcrumbs_1",
+                "styles": {}
+            },
+            {
                 "element_id": "list___simple_1",
                 "styles": {}
             }
@@ -282,11 +357,11 @@
         "rules": null,
         "styles": {
             "flex-direction": "column",
-            "padding": "var(--now-scalable-space--xl)",
-            "padding-bottom": "var(--now-scalable-space--xl)",
-            "padding-left": "var(--now-scalable-space--xl)",
-            "padding-right": "var(--now-scalable-space--xl)",
-            "padding-top": "var(--now-scalable-space--xl)"
+            "padding": "var(--now-scalable-space--lg)",
+            "padding-bottom": "var(--now-scalable-space--lg)",
+            "padding-left": "var(--now-scalable-space--lg)",
+            "padding-right": "var(--now-scalable-space--lg)",
+            "padding-top": "var(--now-scalable-space--lg)"
         },
         "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
         "type": "flex"
@@ -300,7 +375,13 @@
     
 ]</props>
         <required_translations>[ {
+  "message" : "Accommodation List Page",
+  "comment" : ""
+}, {
   "message" : "All Active Tasks",
+  "comment" : ""
+}, {
+  "message" : "Home",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -312,14 +393,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-08 04:02:10</sys_created_on>
         <sys_id>c4ca17a2834d52101551e330ceaad33b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Accommodation List Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_c4ca17a2834d52101551e330ceaad33b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 01:23:32</sys_updated_on>
+        <sys_updated_on>2024-10-23 02:16:37</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=c4ca17a2834d52101551e330ceaad33b"/>
 </record_update>
