@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Restaurant - The Alley">a8156beb47451210d56e3833e16d43ce</sc_cat_item>
+        <sc_cat_item display_value="Restaurant - The Alley BGC Taguig City">a8156beb47451210d56e3833e16d43ce</sc_cat_item>
         <sc_catalog display_value="Reservation Catalog">11d465d7838112101551e330ceaad346</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>

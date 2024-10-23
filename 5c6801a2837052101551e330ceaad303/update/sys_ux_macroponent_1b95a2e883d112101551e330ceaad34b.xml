@@ -7,6 +7,77 @@
         <composition>[
     {
         "definition": {
+            "id": "9c2e48402c6c25d281faeb20637f6106",
+            "type": "MACROPONENT"
+        },
+        "elementId": "breadcrumbs_1",
+        "elementLabel": "Breadcrumbs 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "delimiter": {
+                "type": "JSON_LITERAL",
+                "value": "chevron"
+            },
+            "items": {
+                "container": [
+                    {
+                        "container": {
+                            "hideLabel": {
+                                "type": "JSON_LITERAL",
+                                "value": false
+                            },
+                            "href": {
+                                "type": "JSON_LITERAL",
+                                "value": "x/1540355/reservation-system/landing"
+                            },
+                            "icon": {
+                                "type": "JSON_LITERAL",
+                                "value": "home-outline"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Home"
+                                }
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Reservation List Page"
+                                }
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    }
+                ],
+                "type": "LIST_CONTAINER"
+            },
+            "overflow": {
+                "type": "JSON_LITERAL",
+                "value": "collapse"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
             "id": "2b1c080881e05dc63b917044290b233f",
             "type": "MACROPONENT"
         },
@@ -295,6 +366,10 @@
         "children": null,
         "items": [
             {
+                "element_id": "breadcrumbs_1",
+                "styles": {}
+            },
+            {
                 "element_id": "list___simple_1",
                 "styles": {}
             }
@@ -323,6 +398,12 @@
         <required_translations>[ {
   "message" : "All Active Tasks",
   "comment" : ""
+}, {
+  "message" : "Home",
+  "comment" : ""
+}, {
+  "message" : "Reservation List Page",
+  "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config/>
@@ -335,14 +416,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-14 05:17:52</sys_created_on>
         <sys_id>1b95a2e883d112101551e330ceaad34b</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Reservation List Page</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sys_ux_macroponent_1b95a2e883d112101551e330ceaad34b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 07:52:57</sys_updated_on>
+        <sys_updated_on>2024-10-23 09:45:35</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1b95a2e883d112101551e330ceaad34b"/>
 </record_update>
