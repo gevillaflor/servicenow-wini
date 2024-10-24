@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Restaurants">b9a5691b838112101551e330ceaad385</category>
+        <category/>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -70,7 +70,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs>11d465d7838112101551e330ceaad346</sc_catalogs>
+        <sc_catalogs/>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-23 08:39:27</sys_created_on>
         <sys_id>8c1a296f839512103152fa96feaad391</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Restaurant - The Alley Quezon City</sys_name>
         <sys_package display_value="Wintrobirds Reservation System" source="x_1540355_reserv_0">5c6801a2837052101551e330ceaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wintrobirds Reservation System">5c6801a2837052101551e330ceaad303</sys_scope>
         <sys_update_name>sc_cat_item_producer_8c1a296f839512103152fa96feaad391</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-10-23 08:48:33</sys_updated_on>
+        <sys_updated_on>2024-10-23 23:56:27</sys_updated_on>
         <table_name>x_1540355_reserv_0_reservation_2</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>19</version>
+        <version>24</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
